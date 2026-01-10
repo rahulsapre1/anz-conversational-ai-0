@@ -114,6 +114,8 @@ def render_dashboard():
     st.markdown("---")
     display_mode_breakdown(filters)
     st.markdown("---")
+    display_time_based_trends(filters)
+    st.markdown("---")
     display_resolution_metrics(filters)
     st.markdown("---")
     display_intent_frequency(filters)
@@ -455,6 +457,129 @@ def get_escalations_data(filters: Dict[str, Any]) -> pd.DataFrame:
     except Exception as e:
         logger.error("error_fetching_escalations", error=str(e), exc_info=True)
         return pd.DataFrame()
+
+
+def display_time_based_trends(filters: Dict[str, Any]):
+    """Display time-based trends (usage, escalations, containment) as required by PRD."""
+    st.header("📅 Time-Based Trends")
+
+    with st.spinner("Loading trend data..."):
+        interactions_df = get_interactions_data(filters)
+        escalations_df = get_escalations_data(filters)
+
+    if interactions_df.empty or "timestamp" not in interactions_df.columns:
+        st.info("📅 **No time-series data found**\n\nTime-based trends will appear once interactions are logged with timestamps.")
+        return
+
+    # Ensure datetime
+    interactions_df = interactions_df.copy()
+    interactions_df["date"] = interactions_df["timestamp"].dt.date
+
+    # Daily interaction volume
+    daily_interactions = (
+        interactions_df.groupby("date")
+        .size()
+        .reset_index(name="interactions")
+        .sort_values("date")
+    )
+
+    # Daily containment/escalation rates (based on interactions outcome)
+    if "outcome" in interactions_df.columns:
+        daily_outcomes = (
+            interactions_df.groupby(["date", "outcome"])
+            .size()
+            .unstack(fill_value=0)
+            .reset_index()
+        )
+        daily_outcomes["total"] = daily_outcomes.get("resolved", 0) + daily_outcomes.get("escalated", 0)
+        daily_outcomes["containment_rate"] = daily_outcomes.apply(
+            lambda r: (r.get("resolved", 0) / r["total"] * 100) if r["total"] > 0 else 0.0, axis=1
+        )
+        daily_outcomes["escalation_rate"] = daily_outcomes.apply(
+            lambda r: (r.get("escalated", 0) / r["total"] * 100) if r["total"] > 0 else 0.0, axis=1
+        )
+    else:
+        daily_outcomes = pd.DataFrame()
+
+    # Daily escalations (from escalations table) - optional but useful for monitoring
+    daily_escalations = pd.DataFrame()
+    if not escalations_df.empty and "created_at" in escalations_df.columns:
+        escalations_df = escalations_df.copy()
+        escalations_df["date"] = escalations_df["created_at"].dt.date
+        daily_escalations = (
+            escalations_df.groupby("date")
+            .size()
+            .reset_index(name="escalations")
+            .sort_values("date")
+        )
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        fig = px.line(
+            daily_interactions,
+            x="date",
+            y="interactions",
+            title="Interactions Over Time",
+            markers=True,
+            color_discrete_sequence=[ANZ_ACCENT_BLUE]
+        )
+        layout_config = get_dark_theme_layout("Interactions Over Time")
+        layout_config["xaxis"].update(dict(title="Date"))
+        layout_config["yaxis"].update(dict(title="Interactions"))
+        layout_config["showlegend"] = False
+        fig.update_layout(**layout_config)
+        st.plotly_chart(fig, width='stretch')
+
+    with col2:
+        if not daily_escalations.empty:
+            fig = px.line(
+                daily_escalations,
+                x="date",
+                y="escalations",
+                title="Escalations Over Time",
+                markers=True,
+                color_discrete_sequence=[ANZ_ERROR_RED]
+            )
+            layout_config = get_dark_theme_layout("Escalations Over Time")
+            layout_config["xaxis"].update(dict(title="Date"))
+            layout_config["yaxis"].update(dict(title="Escalations"))
+            layout_config["showlegend"] = False
+            fig.update_layout(**layout_config)
+            st.plotly_chart(fig, width='stretch')
+        else:
+            st.info("ℹ️ No escalation time-series data available yet.")
+
+    # Containment / escalation rate trend
+    if not daily_outcomes.empty:
+        st.subheader("Containment & Escalation Rate Trend")
+
+        rate_df = daily_outcomes[["date", "containment_rate", "escalation_rate"]].copy()
+        rate_df = rate_df.melt(id_vars=["date"], var_name="metric", value_name="rate")
+        rate_df["metric"] = rate_df["metric"].map({
+            "containment_rate": "Containment Rate",
+            "escalation_rate": "Escalation Rate"
+        }).fillna(rate_df["metric"])
+
+        fig = px.line(
+            rate_df,
+            x="date",
+            y="rate",
+            color="metric",
+            title="Resolution Rates Over Time",
+            markers=True,
+            color_discrete_map={
+                "Containment Rate": ANZ_SUCCESS_GREEN,
+                "Escalation Rate": ANZ_ERROR_RED
+            }
+        )
+        layout_config = get_dark_theme_layout("Resolution Rates Over Time")
+        layout_config["xaxis"].update(dict(title="Date"))
+        layout_config["yaxis"].update(dict(title="Rate (%)", range=[0, 100]))
+        fig.update_layout(**layout_config)
+        st.plotly_chart(fig, width='stretch')
+    else:
+        st.info("ℹ️ Outcome data not available for containment/escalation trends.")
 
 
 def display_overall_metrics(filters: Dict[str, Any]):
