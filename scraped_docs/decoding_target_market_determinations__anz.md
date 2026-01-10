@@ -1,0 +1,145 @@
+Title: Decoding Target Market Determinations | ANZ
+Source URL: https://www.anz.com.au/support/legal/rates-fees-terms/target-market-determinations/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# Target Market Determinations
+EndNoIndex ## What’s a Target Market Determination?
+A Target Market Determination (TMD) is a written document that describes who a product has been designed for and conditions on how the product can be distributed to customers.
+TMDs are required under the Treasury Laws Amendment (Design and Distribution Obligations and Product Intervention Powers) Act 2019.
+They are part of a broad framework designed to ensure we take a customer centric approach to the design and distribution of our products.
+Jump to
+DDO Reporting
+Target Market Determinations
+Frequently asked questions
+## Additional information for regulated persons
+Under DDO, a regulated person engaging in retail product distribution conduct must report to the issuer information relating to:
+- complaints received in relation to the product; and
+- significant dealings that are not consistent with the TMD.
+In addition, a TMD may specify that other information be reported to us by specified regulated persons.  Any specification of that kind does not limit the reporting obligations of regulated persons under the Corporations Act.
+See the relevant TMD for further information.
+### Personal and Business Products
+This information can be reported to ANZ via the relevant DDO Reporting form .
+For more information, refer to our DDO reporting Quick Reference Guide (PDF) .
+### Institutional Products
+This information can be reported to your Relationship Manager or Transaction Banking Account Manager.
+### ANZ Capital Notes
+This information can be reported to ANZ via the relevant DDO Reporting form .
+For more information, refer to our DDO reporting Quick Reference Guide (PDF) .
+## Target Market Determinations
+On this page you can find current TMDs for our products.
+View historical TMDs
+### Personal
+### Home Loans
+ANZ Fixed Rate (PDF)
+ANZ Standard Variable Rate (PDF)
+ANZ Simplicity PLUS (PDF)
+ANZ One (PDF)
+ANZ Plus Home Loan Variable (PDF)
+### Bank Accounts
+ANZ Access Advantage (PDF)
+ANZ Access Basic (PDF)
+ANZ Pensioner Advantage (PDF)
+ANZ Progress Saver (PDF)
+ANZ Online Saver (PDF)
+ANZ Term Deposit (PDF)
+ANZ Advance Notice Term Deposit (PDF)
+ANZ Term Deposits via Platforms (PDF)
+ANZ V2+ Broking (PDF)
+ANZ V2 PLUS (PDF)
+ANZ SMSF Cash Hub (PDF)
+ANZ Premium Cash Management Account (PDF)
+ANZ Cash Advantage (PDF)
+ANZ Smart Choice Cash Investment Option (PDF)
+ANZ Overdraw Feature (ANZ Private) (PDF)
+ANZ Plus Everyday and ANZ Plus Growth Saver (PDF)
+ANZ Plus Flex Saver (PDF)
+ANZ Plus Everyday (PDF)
+ANZ Plus Growth Saver (PDF)
+### Credit Cards
+ANZ Low Rate Credit Card (PDF)
+ANZ Low Fee Credit Cards (PDF) (ANZ First and ANZ Platinum)
+ANZ Rewards Credit Cards (PDF) (ANZ Rewards Platinum, ANZ Rewards Black)
+ANZ Frequent Flyer Credit Cards (PDF) (ANZ Frequent Flyer Platinum, ANZ Frequent Flyer Black)
+### Personal Loans
+ANZ Variable Rate Personal Loan (PDF)
+ANZ Fixed Rate Personal Loan (PDF)
+### Insurance
+ANZ Car Insurance (PDF)
+ANZ Home Insurance (PDF)
+ANZ Landlords Insurance (PDF)
+Zurich Ezicover Direct Life Insurance (PDF)
+Zurich Ezicover Income Protection Insurance (PDF)
+### Investing and Super
+ANZ Smart Choice Super and Pension (PDF) (This product is issued by OnePath Custodians)
+ANZ Smart Choice Super for employers and their employees (PDF) (This product is issued by OnePath Custodians)
+ANZ Enhanced Yield Fund (PDF) (This product is issued by OnePath Funds Management Limited)
+ANZ Fixed Income Fund (PDF) (This product is issued by OnePath Funds Management Limited)
+### Business
+### Business Accounts
+ANZ Business Essentials (PDF)
+ANZ Business Extra (PDF)
+ANZ Business Online Saver (PDF)
+ANZ Term Deposit (for business purposes) (PDF)
+ANZ Business Notice Term Deposit (PDF)
+ANZ Farm Management Deposit Account (PDF)
+ANZ Statutory Trust Account (PDF)
+ANZ Negotiator Investor (PDF)
+### Business Loans and Overdrafts
+ANZ Business Loan for Personal Investment (PDF)
+ANZ Business Offset (PDF)
+ANZ Indemnity Guarantee Facility Account (PDF)
+###
+### ANZ Capital Notes
+### ANZ Capital Notes
+See historical TMDs
+### Institutional
+### Institutional Markets
+ANZ FX Value Today (PDF)
+ANZ FX Value Tomorrow and Spot (PDF)
+ANZ FX Forward Exchange Contracts (PDF)
+ANZ Agricultural Commodity Swaps (PDF)
+ANZ Money Market Deposits (PDF)
+### Institutional Transaction Banking
+ANZ Corporate Transaction Account (PDF)
+ANZ Foreign Currency Account (PDF)
+ANZ Corporate Statutory Trust Account (PDF)
+ANZ Client Monies Account (PDF)
+If you would like to access the Target Market Determinations for ANZ Staff only products, please contact us at anzplusdeposits@anz.com .
+## Frequently asked questions
+### What are the Design and Distribution Obligations (DDO)?
+From 5 October 2021, DDO will require issuers and distributors to take a customer centric and targeted approach to the design and distribution of financial products. In doing so, DDO is intended to help customers acquire products that are consistent with their needs, objectives and financial situation.
+### What are the obligations for issuers?
+DDO requires issuers to:
+- create and maintain a publicly available TMD for products in scope of DDO;
+- take reasonable steps that will, or are reasonably likely to, result in distribution being consistent with the TMD;
+- review the TMD to ensure that it remains appropriate;
+- notify ASIC of any significant dealings that are not consistent with the TMD; and
+- keep records of decisions made in relation to the TMD and associated reviews (together with the reasons for those decisions).
+### What are the obligations for distributors?
+DDO requires distributors to:
+- not distribute a product unless a TMD is in place;
+- take reasonable steps that will, or are reasonably likely to, result in distribution being consistent with the TMD;
+- notify the issuer of significant dealings that are not consistent with the TMD; and
+- collect and keep complete and accurate records of certain information and provide that information to issuers.
+Please refer to the relevant TMD and our DDO Reporting Quick Reference Guide (PDF) for more information on how to report information to ANZ.
+### Who do these obligations apply to?
+Under DDO, these obligations apply to anyone who engages in “retail product distribution conduct”.
+“Retail product distribution conduct” is defined under the Corporations Act 2001 (Cth) to include:
+- dealing in a financial product;
+- giving a disclosure document in relation to offering a financial product;
+- providing a PDS; and
+- providing financial product advice.
+### What are distribution conditions?
+The TMDs set out distribution conditions that apply to the relevant products.  Distribution conditions are restrictions or conditions on distribution which, if followed, are intended to make it likely that the customer is in the target market for that product.
+## Important information
+A TMD is not a recommendation, opinion or advice that any person acquire the product or is within the target market for the product. A particular person’s objectives, financial situation and needs may differ from others in the class of persons who form the target market for the product. A TMD does not summarise the terms or risks of the product. A TMD is not an offer of, or invitation to apply for, the product to any person in Australia or in any other jurisdiction. It does not set out all obligations of regulated persons in relation to the product or the TMD. Persons considering applying for a product should first contact ANZ to obtain information about the product and the application process.
+Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/support/legal/rates-fees-terms/target-market-determinations/
+Scraped: 2026-01-09

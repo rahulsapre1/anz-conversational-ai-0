@@ -1,0 +1,44 @@
+Title: Keep your family and friends safe | ANZ
+Source URL: https://www.anz.com.au/security/protect-your-family/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+EndNoIndex Article related to: # Keep your family and friends safe
+Learn more on how to protect your loved ones from fraud and keep them secure online. Together, we can create a safer environment for everyone.
+# Keep your family and friends safe
+Nowadays, scammers use variety of techniques to target our families online.
+Learn essential tips to protect your loved ones from scams and fraud. From cyber safety for kids to preventing financial abuse of the elderly and safeguarding seniors, we’ll help you keep your family and friends secure.
+See latest scams, fraud and security alerts 
+## Topics
+- How we protect you
+- How to protect yourself
+- Keep family safe 
+- Keep your devices secure
+- Types of frauds and scams
+- Keep your family and friends safe Cyber safety for kids ANZ Security specialist Are you at a loss when it comes to cyber safety for kids? If they’re online, it’s our job to protect them, so check out our guide to children’s online safety. 2024-09-18 00:00
+- Keep your family and friends safe Elder financial abuse ANZ Security specialist It’s a difficult subject, but that’s why we need to talk about elder financial abuse, so you can spot the signs early on. 2024-09-18 00:00
+- Keep your family and friends safe Cyber security for seniors ANZ Security specialist Curious about online safety for seniors? Then you've come to the right place. Discover essential cyber security safety tips that could be helpful for seniors. 2024-09-18 00:00
+## Security resources
+#### ANZ
+Types of scams and what to watch out for 
+What is credit card fraud? Protect yourself 
+Banking securely guide (summary) (PDF 1MB) 
+Being safe online (easy read guide) (PDF 4MB) 
+#### Australian Cyber Security Centre
+' Have you been hacked?' quiz 
+Cyber security guides for your family 
+Sign up for cyber security email alerts 
+#### National Anti-Scam Centre
+The Little Black Book of Scams 
+Videos, factsheets and reports 
+#### Australian Banking Association
+Scams Fact Sheet in different languages 
+##
+## Get in contact with us
+Report a lost or stolen card Report fraud or scams
+## Important information
+The information set out above is general in nature and has been prepared without taking into account your objectives, financial situation or needs. Before acting on the information, you should consider whether the information is appropriate for you having regard to your objectives, financial situation and needs. By providing this information ANZ does not intend to provide any financial advice or other advice or recommendations. You should seek independent financial, legal, tax and other relevant advice having regard to your particular circumstances.
+
+---
+Original URL: https://www.anz.com.au/security/protect-your-family/
+Scraped: 2026-01-09

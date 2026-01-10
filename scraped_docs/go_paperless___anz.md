@@ -1,0 +1,94 @@
+Title: Go paperless  | ANZ
+Source URL: https://www.anz.com.au/support/online-banking/spending-savings/notification-preferences/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# Go paperless
+Switching to online statements disclaimer is as easy as changing your preference in the ANZ App or Internet Banking. Less clutter, more organised and zero postal delays – nice one.
+## Jump to
+Make the switch
+Handy things to keep in mind
+FAQs
+EndNoIndex ## Make the switch
+- In the ANZ App
+- In ANZ Internet Banking
+### Switch to Online preferences in the ANZ App
+Log in to the ANZ App
+Tap on the Profile icon at the bottom
+Tap Statements and Notices
+Choose the account you’d like to update
+Select Online if you no longer want to receive paper statements.
+You may be prompted to apply the change to all your eligible accounts. If you agree, tap Continue . Sorted - we’ll email you!
+### Switch to Online preferences in ANZ Internet Banking
+Log in to Internet Banking
+Select Settings from the navigation bar at the top
+Scroll down and select Change my statement preferences
+Select Online for accounts you no longer want to receive paper statements for.
+Read and accept the terms and conditions by checking the box
+Select Save
+## Handy things to keep in mind
+You’ve made a great decision to save paper, trees and time by choosing the ANZ online statement option – you’re all set.
+- You can access your statements in the ANZ App and Internet Banking
+- When your statements are published online, you may be notified, for example by text message, email, Internet Banking or the ANZ App when they are available
+- To ensure the email notifications aren’t rejected as spam emails, add statements@anzcommunications.anz.com to your contacts list
+- Check that your email address is up to date
+- Your new statement preferences will update in the ANZ App and Internet Banking within 24 hours
+- If your statement issue date is within a few days of changing your preference, your new preference may not take effect until your next statement issue date
+Tips:
+1. Need help with viewing and saving your statements or ordering replacements? Get your statements online .
+2. Want timely payment notifications to your mobile number or email address? Change & Manage your Notifications
+## FAQs
+### What types of ANZ accounts are eligible for online statements?
+Eligible accounts for online statements include most:
+- Personal everyday banking and savings accounts
+- Consumer Credit Cards
+- Home Loan and Personal loan accounts
+- Business everyday transaction and savings accounts
+### Am I eligible to view online statements?
+In the ANZ App and Internet Banking, you can view online statements for an account if you are:
+- The primary cardholder of a consumer credit card (excluding ANZ Business One credit cards)
+- The Principal, Directory or Signatory for an ANZ Business One credit card
+- The primary, sole, or nominated joint owner of an account
+- A signatory or an Authorised Enquirer or Director for an ANZ Business One credit card
+- A direct or an indirect trustee
+- A third party signatory/power of attorney of a business account (except ANZ Business Loan account) or a personal everyday banking or savings account
+For ANZ Internet Banking for Business, the user must be granted access on the account to be able to view online statements. Certain account authority levels may prevent you from being eligible to view online statements. For example (but not limited to):
+- If you are an additional cardholder for a consumer credit card
+- If you are an additional cardholder for commercial credit cards (and you’re not a signatory or an Authorised Enquirer or a Director)
+- If you are a Beneficiary or Guarantor to an Account
+### What happens if other parties are currently sent paper statements for one of my accounts?
+If you select Online statements for an account, this means that a person who previously received paper statements for that account:
+- Will not receive paper statements for that account if they have authorised access to that account in the ANZ App and/or Internet Banking; or
+- Will continue to receive paper statements for that account if they do not have authorised access to that account in the ANZ App and/or Internet Banking
+### Why am I receiving paper statements after choosing ‘Online’?
+You may still receive paper statements if:
+- Your credit card linked to your ANZ App or Internet Banking is lost or stolen
+- Account signatories change
+- An overdraft is added or removed from an existing deposit account
+- Another account holder changes delivery preferences
+- Some notices must be sent by mail
+- There’s an issue with your email
+In some cases, your preference may reset to paper.
+## Need more help?
+#### Message us
+For fast support, message us in the ANZ App. Available 24/7.
+- Message us in the app 
+#### Contact us
+Don’t have the ANZ app? Download it now or find other ways to contact us.
+- Contact us 
+#### Visit us
+Find your local branch and book an appointment to visit us.
+- Find a branch 
+## Important information
+The ANZ App is provided by Australia and New Zealand Banking Group Limited (ANZ) ABN 11 005 357 522. Super and Insurance (if available) are not provided by ANZ but entities which are not banks. ANZ does not guarantee them. This information is general in nature only and does not take into account your personal objectives, financial situation or needs. ANZ recommends that you read the ANZ App Terms and Conditions available here for iOS (PDF) and here for Android (PDF) and consider if this service is appropriate to you prior to making a decision to acquire or use the ANZ App.
+Historical statements will continue to build up for up to seven years. If you opened your eligible account before 9 December 2013 and you have previously elected to receive online statements, you will be able to view statements from the beginning of the statement period in which you registered. If you opened your eligible account before 9 December 2013 and if you had not previously registered to receive online statements, you may be able to view your statements from the first statement period commencing after 1 July 2013. If you opened your eligible account on 9 December 2013 or thereafter, you will be able to view historical statements from the day of opening your account.
+When you choose to receive statements “Online”, you are agreeing not to receive paper statements for that account. Please note, for users of ANZ Internet Banking for Business the option to switch off paper statements is not available.
+Return Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/support/online-banking/spending-savings/notification-preferences/
+Scraped: 2026-01-09

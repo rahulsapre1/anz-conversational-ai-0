@@ -1,0 +1,58 @@
+Title: Digital wallets: Safeguard your money from being ‘tapped’ away | ANZ
+Source URL: https://www.anz.com.au/security/protect-yourself/digital-wallets/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+EndNoIndex Article related to: How to protect yourself
+# Digital wallets: Safeguard your money from being ‘tapped’ away
+Learn how digital wallets work and how to help protect your personal and financial information from cybercriminals.
+ANZ Security Specialist
+2025-07-31 04:30
+#### Share
+Use contentFragment part from templates.html Override page properties Only display AhContent Only display AhContent Only display AhContent <dt class="cmp-contentfragment__element-title">Content</dt> Estimated reading time  5 min
+## Key points
+- With the right information, criminals can add your card/s to their own digital wallet to make contactless transactions without your authorisation
+- Stay alert - your personal and financial information can be stolen if you fall for a scam
+- Report unusual transactions on your account immediately
+Digital wallets make everyday payments fast and convenient - but they can also be a tool for cyber criminals.
+If they get access to your personal or financial information, they may be able to use your digital wallet to make unauthorised transactions.
+Learn how digital wallets work and how to protect yourself from digital payment fraud.
+## What is a digital wallet?
+A digital wallet is an app on your phone or wearable device (like a smartwatch or fitness tracker) that allows you to make contactless payments. Examples of digital wallets include Apple Pay, Google Pay, and Samsung Pay.
+You can use your digital wallet at stores worldwide, wherever contactless mobile payments are accepted.
+## Can cybercriminals access my digital wallet?
+Digital wallets are device-specific, making them harder for cybercriminals to access directly. However, with the right information - like credit or debit card details and one-time passcodes (OTP), cybercriminals can add your card to their own digital wallet or a third party’s.
+Scammers often impersonate trusted organisations (e.g. your bank) via email, SMS, or phone calls that (with you unknowingly helping) allow them to get this information from you.
+Once your card is added to the wallet of a third party, they can make unauthorised contactless payments globally. This is why it is important to protect your personal and financial information at all times.
+## How do cybercriminals get my information?
+Cybercriminals use various tactics to steal your data:
+- Phishing : Fake messages from trusted organisations (e.g. banks, government agencies) trick you into revealing personal details.
+- Malware : Malicious software on your device can capture sensitive financial data.
+## Ways to help you stay safe
+- Be cautious of unexpected emails, texts, or calls.
+- Avoid clicking on suspicious links or opening unknown attachments.
+- Never enter card details on unfamiliar or untrustworthy websites.
+- Do not share your passwords, PINs or OTPs with anyone – even if they claim to be from your bank.
+- Regularly monitor your transactions and report anything unusual.
+- If contacted about a locked or compromised bank or credit card account, call your bank using a trusted phone number.
+- Only download apps from official app stores and avoid third-party sources.
+## What to do if you think you’ve been scammed
+Please contact ANZ immediately if:
+- You think you've been scammed or suspect fraud on your account.
+- You've noticed unusual activity on your account.
+- You've shared private information like your PIN, passwords or banking details in response to a scam phone call, email or SMS.
+- Your phone or other payment device is lost or stolen.
+- You've logged in to your online banking after engaging with a suspicious message - by downloading an attachment, clicking on a link, or downloading remote access software.
+- If you shared credit card details, block or cancel those cards immediately. If your cards are with ANZ, you can do this through the app .
+## Who can you contact if you’ve been scammed?
+- Report the scam to the Police through the Australian Signals Directorate’s ReportCyber portal. This resource is there for reports of scams where money or personal information has been lost.
+- Help others by reporting to Scamwatch to help them prevent future losses, monitor trends and educate the population about emerging threats.
+- You can also contact IDCare , a not-for-profit organisation providing support to those experiencing identity and cyber security concerns.
+anzcomau:content-hubs/security/protect-yourself Digital wallets: Safeguard your money from being ‘tapped’ away ANZ Security Specialist 2025-07-31 /content/dam/anzcomau/images/security-hub/how-to-protect-yourself/woman-paying-digitally-banner-image.jpg Only display AhContent Only display AhContent Only display AhContent Only display AhContent Only display AhContent Use placeholder part from /apps/core/wcm/components/commons/v1/templates.html ## Important information
+Apple Pay is a trademark of Apple Inc., registered in the U.S. and other countries.
+Google Pay, is a trademark of Google LLC.
+Samsung Pay is a trademark of Samsung Electronics Co., Ltd.
+
+---
+Original URL: https://www.anz.com.au/security/protect-yourself/digital-wallets/
+Scraped: 2026-01-09

@@ -1,0 +1,136 @@
+Title: Mobile banking and phone security  | ANZ
+Source URL: https://www.anz.com.au/security/protect-devices/secure-smart-device-apps/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+Find ANZ
+Contact
+Article related to:
+Keep your devices secure
+Mobile banking and phone security
+Good mobile phone security helps prevent hackers from accessing your data. Exploring ways to secure your phone can contribute to safer use and help protect your data.
+ANZ
+Security specialist
+2024-09-18 00:00
+Share
+Estimated reading time
+ 6
+min
+Key points
+With billions of smartphones in use worldwide, scammers and cybercriminals have plenty of opportunities to try to exploit these devices for their own gain, such as stealing money or personal information.
+To enhance your phone's security, only download apps from a verified app store, avoid using public Wi-Fi for important tasks, and regularly back up your phone and data.
+If your phone becomes compromised, you may restore it to normal by doing a factory reset, running anti-virus software and uninstalling any apps you did not personally download.
+The days of using landlines to call our nearest and dearest are long gone. Now, we have mobile phones that fit in the palms of our hands, can answer any question we might have, are a platform for managing money on the go, and so much more.
+Regarding connecting with others, around 96% of Australians use a mobile phone for texting, and about 84% use an app for their calls and messages. In fact, using our smartphones and their apps is even becoming a popular choice for older Australians to connect and engage with the world around them.
+1
+“There are over 7 billion smartphones in use worldwide,”
+2
+says Erica Hardinge, ANZ Product Area Lead in Security Education and Resilience Enablement.
+With so many phones actively in use across the globe, scammers can cast their net far and wide to target as many people as possible in the hopes of catching an unsuspecting victim. Text messages, emails and phone calls are the three main ways a scammer will contact you, which makes mobile phone security essential for everyday Australians.
+3
+“Despite how amazing modern phones and apps are,” Erica says, “there are still some risks that we all need to be aware of if we want to stay safe when using our phones.”
+Why is mobile phone security important?
+In 2023, around $381 million was lost in scams where a phone call, social media, email, mobile app or text message contacted the victims.
+4
+“With the introduction of AI, the ways scammers contact us are becoming increasingly convincing,” explains Erica. “The message or call might be tailored to you and can mimic real conversations, making it even harder to determine what’s real and what’s fake.”
+Once a cybercriminal or scammer has access to your phone, it won’t take long for them to get what they need from you and move on, leaving you to deal with the aftermath. But by taking the appropriate steps to keep your phone secure, you can have peace of mind that cybercriminals must work harder to get your data and money.
+12 ways to help keep your phone secure
+Set a passcode, pattern, or biometric ID
+to lock your phone. If you then lose your phone or it’s stolen, you’ll know that there are protections in place to help keep criminals out of your phone. Choosing a unique passcode or pattern, not related to personal information like your birth year or initials, may help enhance security.
+Download apps only from an official app store
+, such as the Apple App Store, Galaxy Store, or Google Play Store. “Don’t ever download apps from an unknown source, like websites that are not officially associated with app stores, or by clicking on a link in an email or text message. This might cause malware to be installed on your device, which is software that can steal data, track activities, lead to financial losses or cause damage to the device,” says Erica. “When you want to download an app, always check the reviews, number of downloads, and how long it has been available – even if it’s free. And remember, if a product is free, you are the product, or there may be hidden in-app purchases to be wary of.”
+Pause and verify any requests that you receive for sensitive information.
+Just because a message appears to be from a trusted person or organisation, it doesn’t automatically make it legitimate. Confirm the request through a known and trusted contact before you do anything.
+Adjusting the default settings on your device and reviewing your app’s permissions
+might help manage the information your phone collects. “For example, you don’t need to have the location or microphone settings turned on for your torch app. Many apps collect and share your personal data and you may have the option to control this through your phone’s privacy settings,” Erica advises.
+Turn off your Bluetooth when you’re not using it
+. This might help prevent hackers from identifying what devices you connect to and stop them from infecting and gaining access to your phone. “The same is true for AirDrop if you’re an Apple user,” explains Erica. “When AirDrop is set to ‘accept files from everyone’, anyone nearby can send files to your device. This can put you at risk of receiving malicious content from strangers, so turning off AirDrop when you’re not using it and only allowing contacts to AirDrop to you may help keep your phone safe.”
+Don’t do essential or sensitive tasks on public Wi-Fi.
+“Hackers might be able to intercept your data on a public network,” cautions Erica. “For example, if you do your online banking with public Wi-Fi, hackers can use special tools to intercept the data you’re entering (your banking details, in this example) and take it for themselves. Avoid using public Wi-Fi if possible, particularly if you’re doing sensitive activities like banking or online shopping.”
+Set up a virtual private network (VPN)
+for your phone. A VPN creates a secure and encrypted network over the internet. This private network hides and scrambles your internet activity and can make it difficult for cybercriminals to intercept the data on your phone. For example, using a VPN when logging into your online banking can make it harder for hackers to read the information you’re entering. To use a VPN on your phone, you must go to your device’s app store (such as the Google Play Store), download your chosen VPN app, which may require a paid subscription, and log in. Once the app is set up, you’ll need to go into your settings and find the network or VPN configuration option, add a VPN and enter your details from your app.
+Update your phone’s operating systems regularly.
+Turn on automatic updates
+in your phone’s system settings to ensure your phone will stay protected against any known weaknesses in your phone.
+Turn on
+multi-factor authentication (MFA)
+for all your accounts
+. This means you’ll need more than just your password to access your account. For example, you might use a password and a unique code on an authenticator app to log into your social media account.
+“
+Back up your phone
+,” Erica advises. “This might help protect you from losing any precious information if your device is lost, stolen or infected by malware.”
+Use your phone’s remote tracking features
+, such as Apple’s ‘Find My’ feature or Google’s Find Your Phone, to help you find your phone or delete its contents if it’s lost or stolen.
+Encrypt your phone’s data
+. This stores your data in a form that can be read and accessed only when you unlock your phone. Apple and Samsung devices are encrypted when you set up your passcode, pattern, or face ID, but you can double-check in your phone’s system settings.
+How to tell if your phone has been compromised?
+You might notice unfamiliar signs,
+like an unusual app appearing without your knowledge or text messages that you didn’t send.
+Your phone is running slower than usual
+, which could suggest that malware is operating in the background and draining your battery.
+Apps don’t work correctly
+. They might open, load, close, or crash unexpectedly, thanks to whoever might be lurking on your phone.
+Notifications pop up more frequently
+on your screen, which might mean something suspicious is installed.
+Your phone bill is higher than usual
+. This might mean the hacker has accessed your phone remotely and used your phone data.
+Excessive pop-ups, notifications, and ads
+might indicate malware on your device or that someone has remote access to it.
+There’s a sudden spike in data usage
+you can’t explain. This might be caused by a hacker accessing your phone remotely.
+What can you do if your phone is compromised?
+Run a security scan on your phone, which you can usually do by going to the security settings. Another option is to install anti-virus software, such as Norton or McAfee, and run a scan. Anti-virus software may flag anything that’s a security concern.
+Uninstall and delete any apps and programs that you didn’t download. It might be a good idea to delete any text messages that have any suspicious links in the message.
+If you’ve got a safe backup of your phone’s data, you can do a factory reset, which is when you erase
+everything
+from your phone and restore it. You can do this in your system’s general settings.
+Change all your passwords to strong, unique ones. Better yet, change your passwords into
+passphrases
+for that extra bit of security.
+Review your bank statements for any unusual transactions. If you find anything suspicious, contact your bank immediately, and they will support you.
+anzcomau:content-hubs/security/keep-your-devices-secure
+Mobile banking and phone security
+ANZ
+Security specialist
+2024-09-18
+/content/dam/anzcomau/images/security-hub/keep-your-devices-secure/phone-security-banner-1200x800.jpg
+Learn how to protect your phone and yourself
+Knowing how to stay safe online is one of the best ways to protect your phone from hackers. We cover some essentials to ensure you can safely and confidently browse the internet, do some online banking, and so much more.
+Get the tips
+How to protect yourself
+How to stay safe online
+ANZ
+Security specialist
+Discover how to stay safer online so you can shop, bank, and browse as you please on any device. Simple cyber safety? That's what we like to see.
+2024-09-18 00:00
+How to protect yourself
+What is hacking online?
+ANZ
+Security specialist
+You’ve probably heard the word, but what is hacking? We explore how to help protect yourself from hackers and what to do if you’ve been hacked.
+2024-09-18 00:00
+Keep your devices secure
+Malware: What it is and how to protect yourself
+ANZ
+Security specialist
+Learn how to protect your devices from malware. Discover common malware types, warning signs of infection, and how to secure your personal and business data online.
+2024-09-17 04:30
+Important information
+The information set out above is general in nature and has been prepared without taking into account your objectives, financial situation or needs. Before acting on the information, you should consider whether the information is appropriate for you having regard to your objectives, financial situation and needs. By providing this information ANZ does not intend to provide any financial advice or other advice or recommendations. You should seek independent financial, legal, tax and other relevant advice having regard to your particular circumstances.
+References
+1. Australian Communications and Media Authority,
+Communications and media in Australia: How we communicate
+, 2023
+2. Statista,
+Smartphones – statistics and facts
+, 2024
+3. Scamwatch,
+Scam statistics (All types of scams, 2023)
+, 2024
+4. National Anti-Scam Centre,
+Targeting scams: Report of the National Anti-Scam Centre on scams activity 2023
+, 2024
+
+---
+Original URL: https://www.anz.com.au/security/protect-devices/secure-smart-device-apps/
+Scraped: 2026-01-09

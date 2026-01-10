@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+# Allow config.toml to be committed (it's not sensitive)
+# But exclude secrets.toml and other sensitive files
+.streamlit/secrets.toml
+.streamlit/credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

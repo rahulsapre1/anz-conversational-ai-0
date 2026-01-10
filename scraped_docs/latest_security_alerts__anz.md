@@ -1,0 +1,170 @@
+Title: Latest security alerts | ANZ
+Source URL: https://www.anz.com.au/security/latest-scams-australia/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# Latest scams, fraud and security alerts
+Stay informed on the latest scams, fraud, and security alerts. Learn about emerging cyber threats and important online risks as they arise. If you are a business, make sure to stay updated with the latest business security alerts that could impact you.
+Explore the latest alerts below, and make informed decisions to help keep your personal and banking details safe.
+EndNoIndex Businesses: See latest security alerts 
+## January2026
+Posted on 06 January 2026
+### ANZ Rewards SMS Scam
+Type:
+A scam has been identified where individuals are receiving SMS messages impersonating ANZ Rewards. These messages may claim that rewards points are about to expire and include a link to redeem them.
+Be cautious of SMS messages, emails or phone calls, claiming to be from ANZ. They may ask you to log in to your account through a link, provide sensitive banking details, download software, transfer money or open another account.
+Remember, we will never ask you to:
+- share sensitive banking details (like passwords, PINs, ANZ Shield codes, token codes, or one-time passcodes for payment).
+- click a link to log in to your account.
+- grant remote access to your computer, phone, tablet (or any other mobile device).
+- transfer money to another account.
+### How to help protect yourself?
+- Be cautious of unexpected emails or SMS messages, or phone calls, and do not click on any links, or open any attachments.
+- Contact your provider/bank immediately on a listed number if you receive a message from someone saying your account or reward points is at risk, under review, or locked or if you enter personal details into a link that you suspect is a scam.
+- Do not share personal or financial details, and never provide your passwords, account numbers, or one-time passcodes to anyone.
+- Always pause and reassess the situation. Scammers often create a sense of urgency, pressuring you to act quickly.
+For more information about bank impersonation scams, visit ANZ Security Hub – types of scams – bank impersonation scams
+### How to report this scam
+If you suspect fraud on your account or have shared financial information or transferred money as a result of this scam, please contact us straightaway. Our Customer Protection Team is available 24/7 to help you.
+You can also report scams to the Australian Government’s Scamwatch and the Australian Cyber Security Centre’s ReportCyber .
+### Scam examples
+## December2025
+Posted on 09 December 2025
+### Social media minimum age scams
+Type:
+From 10 December 2025, some social media platforms will be restricted, by law, to people aged 16 and over.
+These laws require affected platforms to take reasonable steps to prevent anyone under 16 from creating or holding accounts.
+These measures are designed to protect young people from the risks and pressures associated with social media use.
+The National Anti-Scam Centre has warned about four potential scams that opportunistic criminals may use to take advantage of these changes:
+- Platform impersonation scams Scammers may pretend to be social media platforms or age verification providers, and ask you to verify your age or risk losing your account.
+- Government impersonation scams Scammers may pretend to be from government or law enforcement, claiming you have breached the new laws and threaten fines unless you provide proof of age.
+- Fake ID scams Scammers may offer fake IDs or access to age-verified accounts for a fee, targeting young people under 16 and their families.
+- ‘Hi Mum’ scams Scammers might impersonate young people aged 16 or older, contacting their parents or guardians to claim they need help verifying their age to use a social media platform.
+### How to help protect yourself?
+- STOP . Don’t be rushed to share age verification details quickly. Don’t make any payments. No legitimate platforms are requesting payment associated with these laws.
+- CHECK . Make sure the person or organisation you’re dealing with is real. Find out how your social media platforms are communicating with users about the restrictions and how they are verifying users’ ages. You can visit eSafety's frequently asked questions page for more information.
+- PROTECT . If you’ve given any personal information, such as your age or proof of identity, or money to someone you suspect is a scammer act quickly. The What to do if you’ve been scammed page on scamwatch.gov.au has steps you can follow.
+### How to report this scam
+If you suspect fraud on your account or have shared financial information or transferred money as a result of this scam, please contact us straightaway. Our Customer Protection Team is available 24/7 to help you.
+You can also report scams to the Australian Government’s Scamwatch and the Australian Cyber Security Centre’s ReportCyber .
+## November2025
+Posted on 27 November 2025
+### Fake government emails
+Type:
+Scammers are sending extremely convincing fake emails pretending to be from Services Australia and Centrelink. These scams have already hit over 270,000 inboxes nationwide targeting a wide range of organisations including schools, hospitals, law firms, corporations, and even government agencies.
+The emails look real and often mention various Australian benefit systems like Superannuation or Family Tax Benefits. These emails are mostly written and sent using various techniques to avoid security or spam filters.
+They deceive people into clicking links and entering personal details, which can lead to identity theft, account compromise, or even ransomware attacks.
+### How to help protect yourself?
+- Be cautious of unexpected emails or SMS messages, or phone calls, and do not click on any links, or open any attachments.
+- Contact your provider/bank immediately on a listed number if you receive a message from someone saying your account or reward points is at risk, under review, or locked or if you enter personal details into a link that you suspect is a scam.
+- Do not share personal or financial details, and never provide your passwords, account numbers, or one-time passcodes to anyone.
+- Always pause and reassess the situation. Scammers often create a sense of urgency, pressuring you to act quickly.
+For more information about bank impersonation scams, visit ANZ Security Hub – types of scams – bank impersonation scams
+### How to report this scam
+If you suspect fraud on your account or have shared financial information or transferred money as a result of this scam, please contact us straightaway. Our Customer Protection Team is available 24/7 to help you.
+You can also report scams to the Australian Government’s Scamwatch and the Australian Cyber Security Centre’s ReportCyber .
+Posted on 13 November 2025
+### ANZ Rewards SMS Scam
+Type:
+A scam has been identified where individuals are receiving SMS messages impersonating ANZ Rewards. These messages may claim that rewards points are about to expire and include a link to redeem them.
+Be cautious of SMS messages, emails or phone calls, claiming to be from ANZ. They may ask you to log in to your account through a link, provide sensitive banking details, download software, transfer money or open another account.
+Remember, we will never ask you to:
+- share sensitive banking details (like passwords, PINs, ANZ Shield codes, token codes, or one-time passcodes for payment).
+- click a link to log in to your account.
+- grant remote access to your computer, phone, tablet (or any other mobile device).
+- transfer money to another account.
+### How to help protect yourself?
+- Be cautious of unexpected emails or SMS messages, or phone calls, and do not click on any links, or open any attachments.
+- Contact your provider/bank immediately on a listed number if you receive a message from someone saying your account or reward points is at risk, under review, or locked or if you enter personal details into a link that you suspect is a scam.
+- Do not share personal or financial details, and never provide your passwords, account numbers, or one-time passcodes to anyone.
+- Always pause and reassess the situation. Scammers often create a sense of urgency, pressuring you to act quickly.
+For more information about bank impersonation scams, visit ANZ Security Hub – types of scams – bank impersonation scams
+### How to report this scam
+If you suspect fraud on your account or have shared financial information or transferred money as a result of this scam, please contact us straightaway. Our Customer Protection Team is available 24/7 to help you.
+You can also report scams to the Australian Government’s Scamwatch and the Australian Cyber Security Centre’s ReportCyber .
+### Scam examples
+## Business alerts
+Posted on 06 January 2026
+### Critical alert from the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC)
+Type:
+The ASD's ACSC has sent a critical alert relevant to Australian organisations and technical IT support service using WatchGuard Firebox.
+An Out-of-Bounds Write vulnerability (CVE-2025-14733) enables an attacker to achieve unauthenticated Remote Code Execution (RCE) in the following vulnerable versions of the Fireware OS:
+- 11.10.2 – 11.12.4_Update1
+- 12.0 – 12.11.5
+- 2025.1 – 2025.1.3
+### How to help protect yourself?
+Australian organisations are advised to review their networks for vulnerable instances of these devices and upgrade to resolved versions.
+Organisations or individuals that have been impacted or require assistance can contact ACSC via 1300 CYBER1 ( 1300 292 371 ).
+For more information, please read the Australian Cyber Security Centre’s alert: Critical vulnerability in WatchGuard Firebox devices (CVE-2025-14733) .
+Posted on 11 December 2025
+### Critical alert from the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC)
+Type:
+The ASD's ACSC has published a critical alert regarding multiple critical vulnerabilities in a number of Fortinet Products:
+- CVE-2025-59718: This vulnerability involves improper verification of cryptographic signatures in versions of Fortinet FortiOS, FortiProxy, and FortiSwitchManager, which could allow an unauthenticated attacker to bypass FortiCloud SSO login authentication via a crafted SAML response message.
+- CVE-2025-59719: This vulnerability involves improper verification of cryptographic signatures in Fortinet FortiWeb, which could allow an unauthenticated attacker to bypass FortiCloud SSO login authentication via a crafted SAML response message.
+### How to help protect yourself?
+ASD’s ACSC encourages Australian businesses, organisations and government entities:
+- Review their networks for use of vulnerable versions of the Fortinet Products
+- Consult the Fortinet Advisory for mitigation advice and patching.
+For more information, please read the Australian Cyber Security Centre’s alert: Critical vulnerabilities in multiple Fortinet products - FortiCloud SSO Login Authentication Bypass.
+Posted on 05 December 2025
+### Critical alert from the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC)
+Type:
+The ASD's ACSC has published a critical alert regarding vulnerabilities affecting React Server Components, which is used extensively in modern web applications.
+According to the ASD’s ACSC, the vulnerability (CVE-2025-55182) enables an attacker to achieve unauthenticated Remote Code Execution (RCE) in vulnerable versions of the following packages:
+- react-server-dom-webpack
+- react-server-dom-parcel
+- react-server-dom-turbopack
+### How to help protect yourself?
+ASD’s ACSC encourages Australian organisations to review their networks for vulnerable instances of these packages and upgrade to fixed versions.
+For more information, please read the Australian Cyber Security Centre’s alert, Critical vulnerability in React Server Components (CVE-2025-55182) .
+Posted on 06 November 2025
+### Information Stealer Malware alert from the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC)
+Type:
+ASD’s ACSC has identified corporate network breaches that started in employees accessing work resources or systems from personal devices infected with malware called information stealers.
+Info stealers, are a type of malware designed to collect information from a victim’s device.
+Organisations that allow employees, contractors, managed service providers or other entities to access their network remotely, including with Bring Your Own Device (BYOD) hardware, need to be aware of the risks and protect themselves from this threat.
+### How to help protect yourself?
+ASD’s ACSC recommends organisations focus on implementing controls to protect themselves from the risk of info stealers targeting user credentials. These mitigations include:
+- Secure corporate accounts (e.g. administrator privileges and multi-factor authentication (MFA))
+- Harden enterprise mobility like (e.g. Bring Your Own Device (BYOD) policies)
+- Review and assess supply chain risks from vendors accessing your networks, including Software-as-a-Service (SaaS) vendors and Managed Service Providers
+For more information, please read the Australian Cyber Security Centre’s advisory, The silent heist: cybercriminals use information stealer malware to compromise corporate networks
+Posted on 27 October 2025
+### Critical alert from the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC)
+Type:
+The ASD's ACSC has published a critical alert regarding the following vulnerability in the Microsoft Windows Server Update Service:
+- CVE-2025-59287 : This vulnerability involves deserialisation of untrusted data in WSUS, which could enable an unauthenticated actor to achieve remote code execution with system privileges.
+The vulnerability impacts Microsoft Windows Server Update Service in Windows Server (2012, 2016, 2019, 2022 and 2025).
+### How to help protect yourself?
+ASD’s ACSC recommends affected organisations should:
+- review their networks for use of vulnerable instances of the Windows Server Update Service (WSUS); and
+- consult the Microsoft Security Update guide for mitigation advice.
+For more information, please read the ASD’s ACSC alert, Critical vulnerability in Microsoft Windows Server Update Service (WSUS).
+Posted on 17 October 2025
+### Critical alert from the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC)
+Type:
+The ASD's ACSC has published a critical alert regarding multiple high-severity vulnerabilities in F5 products and an incident impacting F5.
+According to the ASD’s ACSC, F5 have released an advisory regarding a cyber security incident that has affected certain F5 systems with recommendation on what customers can do to help protect themselves.
+In addition to this advisory, F5 has issued its October 2025 quarterly security notification summarising multiple critical vulnerabilities identified across its product portfolio.
+### How to help protect yourself?
+ASD’s ACSC recommends affected organisations:
+- Review F5 article K000154696: F5 Security Incident for recommended actions.
+- Review F5 article K000156572: Quarterly Security Notification (October 2025 ) for affected versions and patch levels.
+- Review the updated F5 article K67091411: Guidance for Quarterly Security Notifications .
+- Apply the recommended fixed versions or engineering hotfixes listed in the table.
+- For appliances at end of technical support (EoTS), upgrade to supported devices.
+- Monitor for updates and subscribe to F5 security advisories.
+For more information, please read the ASD’s ACSC alert, Multiple high-severity vulnerabilities in F5 products and incident impacting F5 .
+### View older alerts
+## Important information
+App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC
+Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/security/latest-scams-australia/
+Scraped: 2026-01-09

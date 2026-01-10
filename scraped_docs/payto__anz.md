@@ -1,0 +1,222 @@
+Title: PayTo | ANZ
+Source URL: https://www.anz.com.au/support/online-banking/payments/pay-to/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# PayTo
+Manage bills and payments from your bank account.
+PayTo® is a new secure digital payment option that allows you to view, authorise and manage your payment agreements on eligible accounts from within your ANZ banking channel.
+EndNoIndex ## What is PayTo?
+PayTo is a fast, simple, and secure way to make payments from your eligible ANZ account using your PayID® or BSB and account number. Whether it’s for your electricity bill, TV subscription or insurance policies, you can view, authorise, and manage your PayTo agreements easily all in one place within your ANZ digital channel.
+## FAQs
+### How does PayTo work?
+A merchant (payee) will set up a PayTo Payment Agreement with you. This agreement could be for a one-off, ad-hoc, or recurring payment from your eligible bank account , using your BSB and account number or PayID®.
+PayTo Payment Agreements will appear in your ANZ banking channel. Once you have reviewed and authorised the agreement, the merchant (payee) can debit your account as agreed.
+### Can I make changes to a PayTo Agreement?
+Yes, you can find your PayTo Payment Agreements in your ANZ banking channel where you can view details, pause, resume, change the linked account or cancel the agreement.
+Note: You will only be able to change the linked account or review an updated PayTo agreement from a merchant (payee) via Internet Banking. These services are not available in the ANZ App.
+### Where will I see PayTo offered as a payment option?
+As PayTo starts to become more widely available, you’ll see it in all kinds of places like in-app, ecommerce websites and for utilities.
+Keep your eye out for the PayTo logo.
+### Who owns PayTo?
+PayTo is an initiative of Australian Payments Plus (AP+), the organisation that operates Australia’s real-time payments infrastructure, the New Payments Platform (NPP). PayTo is developed by AP+ in collaboration with banks, fintechs and payment services providers.
+AP+ is Australia’s domestic payment organisation that also brings together brands such as BPAY and eftpos.
+### Is PayTo replacing Direct Debit?
+Among other uses, PayTo may be used as a digital and more modern alternative to the current direct debit system. Some merchants (payees) will move their direct debits to PayTo, which will give customers more visibility and control over their recurring payments.
+### Who do I contact for help?
+If you have a query about a PayTo Payment Agreement, you should first get in touch with the merchant (payee). If they are not able to resolve your query, please contact ANZ.
+For more information, please refer to your product Terms and Conditions.
+### Does a PayTo payment impact my Pay Anyone Limit?
+As a PayTo payment is not a Pay Anyone payment, your daily Pay Anyone limit will not be impacted when a PayTo payment is debited from your account.
+### Is there a maximum PayTo agreement limit?
+Yes, new PayTo agreements or requests to amend an existing PayTo agreement that amount to greater than $25,000 will be automatically rejected. These PayTo agreements will go straight into the Cancelled category.
+## Why use PayTo?
+### Safe and secure
+PayTo is a fast and secure payment option. PayTo gives you more control over payments with the ability to view and manage PayTo agreements in ANZ digital channels
+### Make fast payments
+Make easy, quick and secure payments from your eligible ANZ bank account . Choose to share your PayID or account BSB and account number with the merchant to set up a PayTo agreement.
+### Simple setup
+Set up a PayTo agreement with a participating merchant without a card using your account details or PayID . You can easily review, authorise, decline and manage your agreements all in one place, at any time within ANZ digital channels
+### Easy to manage
+See details of the PayTo agreements you’ve set up from your account(s) in the ANZ digital channels. You can view, authorise and manage your agreements and see your information such as when payments are due and for how much, all in one easy place.
+## FAQs
+### Is it safe to give a merchant (payee) my BSB and account number, or my Pay ID?
+As is the case for any other payment agreement, you will need to provide your payment details (BSB and account number or PayID) to the merchant (payee).
+A merchant (payee) can only begin to debit your account once you have authorised the PayTo Payment Agreement via your ANZ banking channel.
+Any personal information you provide to the merchant (payee) will be subject to the merchant’s (payee’s) Privacy Policy and terms and conditions.
+### What if a payment is taken outside of the terms of my PayTo agreement?
+If you have a PayTo Payment Agreement with a merchant (payee) who has taken a payment that you believe to be outside of the terms of the agreement, you should contact the business to rectify it.
+If you are unable to contact the merchant (payee) to resolve the matter, please contact ANZ.
+If you believe that the payment may be fraudulent, pause your agreement to ensure no further debits can be deducted from your account and immediately contact ANZ by sending us a message in the ANZ App. Tap Support to get started.
+For more information, please refer to your product Terms and Conditions.
+### Can I change my account from a BSB and Account number to a PayID?
+Once a PayTo Payment Agreement is created using a BSB and account number, you are unable to change it to a PayID.
+If you would like to use a PayID on your PayTo Payment Agreement, the merchant (payee) will need to set up a new PayTo agreement using your PayID.
+### Will a PayTo payment impact my bonus interest?
+If your account offers bonus interest on the condition that there are not any withdrawals made within the month, any PayTo payments debited from your account are classified as a transaction and will impact you receiving your bonus interest for the month.
+## How to authorise a PayTo agreement
+You can set up a PayTo agreement for a one-off or recurring payment for goods or services with a participating merchant (payee) using your BSB and account number, or by using your PayID .
+Your PayTo agreement needs to be authorised or declined within the expiry time as advised in your ANZ App or Internet Banking. The expiry date may be different for each agreement. If you haven’t or chose not to take any action within this time, your PayTo agreement will expire and will move into the ‘Cancelled’ section. To re-establish the PayTo agreement, the merchant / Payee will need to set up a new agreement.
+- In the ANZ App
+- In ANZ Internet Banking
+### To authorise a PayTo agreement in the ANZ App
+Log in to the ANZ App
+Tap more , then tap on PayTo agreements , your PayTo agreement list will display
+Tap the PayTo agreement you would like to authorise
+Review the details to make sure they match your agreement with the merchant / Payee.
+If the payment terms are correct, tap Authorise and follow the on-screen instructions. If you haven’t registered for Voice ID before you will need to follow the steps to register for Voice ID to be able to successfully Authorise the PayTo agreement.
+Important: When you are authorising a PayTo agreement it is your responsibility to ensure the payment terms of the agreement are correct. If any of the details displayed are incorrect, you should contact the Payee.
+Changes or amendments may be made by the merchant / Payee to an existing PayTo agreement. You will need to review and either authorise or decline the changes.
+Your PayTo agreement needs to be authorised or declined within the expiry time advised on the alert banner at the top of the agreement. The expiry date may be different for each agreement. If you haven’t or chose not to take any action within this time, your PayTo agreement amendments will expire.
+### To authorise a PayTo agreement in ANZ Internet Banking
+Log in to Internet Banking
+Go to the Payments menu and choose PayTo , your PayTo agreement list will display.
+Select the PayTo agreement you would like to authorise.
+Review the details to make sure they match your agreement with the merchant / Payee.
+If the payment terms are correct, click Authorise agreement and follow the on-screen instructions.
+Important: When you are authorising a PayTo agreement it is your responsibility to ensure the payment terms of the agreement are correct. If any of the details displayed are incorrect, you should contact the Payee.
+Changes or amendments may be made by the merchant / Payee to an existing PayTo agreement. You will need to review and either authorise or decline the changes.
+Your PayTo agreement needs to be authorised or declined within the expiry time advised on the alert banner at the top of the agreement. The expiry date may be different for each agreement. If you haven’t or chose not to take any action within this time, your PayTo agreement amendments will expire.
+## FAQs
+### How long do I have to authorise a PayTo agreement?
+Generally, customers have 5 calendar days to authorise or decline a PayTo agreement, but a merchant can specify a shorter timeframe. On the 6th calendar day, the agreement will be automatically cancelled if no action has been taken. To re-establish the PayTo agreement, the merchant / payee will need to set up a new agreement.
+### If I have authorised a PayTo Payment Agreements in Internet Banking can I manage it using the ANZ App?
+Yes, if you initially authorised the PayTo Payment Agreement in Internet Banking you will be able to manage it using the ANZ App. However, if you want to change the account that the PayTo Payment agreement is linked to or if you need to reauthorise a PayTo Payment Agreement because the merchant has made changes to the agreement, you can only do so in Internet Banking.
+### Will ANZ notify me when a new PayTo agreement is received?
+Yes, you will be sent an SMS when there is a new PayTo agreement that requires your action. When logging into your ANZ Internet Banking, you will also see a notification on the home page advising you of any new or amended PayTo agreements which require your action.
+### Will ANZ notify me when a change has been made to an existing PayTo agreement that requires me to re-authorise?
+Yes, when logging into your ANZ Internet Banking, you will see a notification on the home page advising you of any amended PayTo agreements.
+In the ANZ App you will see a ‘Reauthorise’ label for PayTo agreements that require reauthorisation. You will only be able to reauthorise the PayTo agreement in Internet Banking.
+### What security is required to authorise a PayTo agreement?
+Customers must have a valid PayID or BSB and Account number, the account must be NPP eligible and linked to their ANZ App or Internet Banking. Customers can then authorise PayTo agreements once logged in to their ANZ App or Internet Banking. Customers will need to use their Voice ID to authorise PayTo agreements in the ANZ App and either the SMS OTP, ANZ Shield or ANZ Security device (depending on which method of two factor authentication the Internet Banking customer has set up) when authorising PayTo agreements in Internet Banking.
+### Want to decline a PayTo agreement?
+If the PayTo agreement details do not match with your contract or what was agreed to with the merchant / Payee, you can choose to decline the PayTo agreement. Follow the same instructions as above but instead of Authorise, select Decline. Alternatively, you can contact the merchant / Payee directly who will cancel the incorrect PayTo agreement and issue a new one with the correct information.
+Please be aware that declining your PayTo agreement doesn’t change your contractual obligations with the merchant / Payee.
+## How to view your PayTo agreements
+- In the ANZ App
+- In ANZ Internet Banking
+### How to view your PayTo agreements in the ANZ App
+Log in to your ANZ App
+Tap more , then tap on PayTo agreements , your PayTo agreement list will display
+New PayTo agreements requiring actioning will appear at the top of the screen.
+- Active PayTo agreements will appear within the Active section.
+- Paused PayTo agreements will appear within the Paused section.
+- Cancelled PayTo agreements will appear within the Cancelled section.
+### How to view your PayTo agreement in ANZ Internet Banking
+Log in to Internet Banking
+Go to the Payments menu and choose PayTo , your PayTo agreement list will display.
+New PayTo agreements requiring actioning will appear at the top of the screen.
+- Active PayTo agreements will appear within the Active section.
+- Paused PayTo agreements will appear within the Paused section.
+- Cancelled PayTo agreements will appear within the Cancelled section.
+## How to pause, resume and cancel your PayTo agreements
+You may choose to cancel or pause a PayTo agreement at any time from within your ANZ App or Internet Banking
+- In the ANZ App
+- In ANZ Internet Banking
+### To cancel or pause your PayTo agreements in the ANZ App
+Log in to your ANZ App
+Tap more , then tap on PayTo agreements , your PayTo agreement list will display
+Locate and tap the PayTo agreement that you want to cancel or pause
+Tap Cancel agreement or Pause agreement and follow the prompts.
+Important: Please be aware that cancelling or pausing your PayTo agreement doesn’t change your contractual obligations with the merchant / Payee.
+### Want to resume a PayTo agreement you’ve paused?
+Simply find the PayTo agreement in your list of paused agreements in the ANZ App or Internet Banking and tap Resume Agreement and follow the prompts.
+### To cancel or pause your PayTo agreements in ANZ Internet Banking
+Log in to Internet Banking
+Go to the Payments menu and choose PayTo , your PayTo agreement list will display.
+Locate and select the PayTo agreement that you want to cancel or pause.
+Click Cancel agreement or Pause agreement and follow the prompts
+Important: Please be aware that cancelling or pausing your PayTo agreement doesn’t change your contractual obligations with the merchant / Payee.
+## How to authorise or decline changes to a PayTo agreement
+### To authorise or decline changes to a PayTo agreement in ANZ Internet Banking
+Log in to Internet Banking
+Go to the Payments menu and choose PayTo , your PayTo agreement list will display.
+Existing PayTo agreements requiring authorisation will appear in the Active or Paused list depending on the status of the PayTo agreement.
+Note: If the amendments are made on a paused PayTo agreement, you will need to resume the agreement before the payment can be debited.
+Locate and select the PayTo agreement that has had changes applied to review.
+Review the details to make sure they are correct.
+- If the agreement terms are correct, click Authorise changes and follow the prompts
+- If the amendments are incorrect, you can choose to contact the merchant / Payee directly to have them update the details or
+- Click Decline changes and follow the prompts
+## FAQs
+### Will ANZ notify me when I decline or cancel a PayTo agreement?
+In Internet Banking you will see a notification on the home page advising you of any activity on your PayTo agreements.
+You will not be notified when you decline or cancel a PayTo agreement in the ANZ App.
+### Will ANZ notify me when ANZ or the merchant (payee) cancels one or more of my PayTo agreements?
+In Internet Banking you will see a notification on the home page advising you of any activity on your PayTo agreements.
+You will not be notified in the ANZ App when ANZ or the merchant (payee) cancels one or more of your PayTo agreements.
+### Will ANZ notify me when I, ANZ or the merchant (payee) pauses or resumes my PayTo agreements?
+In Internet Banking you will see a notification on the home page advising you of any activity on your PayTo agreements.
+The ANZ App will not notify you when ANZ or the merchant (payee) pauses or resumes your PayTo agreements.
+## How to change your linked account on a PayTo agreement
+You can change the debiting account linked to a PayTo agreement at any time after the PayTo agreement has been authorised. You can choose another eligible account that is linked to your ANZ CRN.
+### To change your linked account on a PayTo agreement in ANZ Internet Banking
+Log in to Internet Banking
+Go to the Payments menu and choose PayTo , your PayTo agreement list will display.
+Select the PayTo agreement that you would like to change the linked account to.
+Click Change linked account and follow the on-screen instructions.
+Review the details to make sure they are correct.
+Only eligible accounts will appear for you to choose from. If you wish to use your PayID®, you will need to contact the payee to have a new PayTo agreement created.
+## Other ways to pay
+- Make payments online Whether you’re paying a bill, fixing up a friend for lunch, or sending money overseas, it’s easy to pay online quickly and securely with the ANZ App and Internet Banking.
+- PayID It's easier to get paid with PayID. Create a PayID on your eligible account and simply share your mobile, email or ABN/ACN instead of your BSB and account number.
+- BPAY® payments Bills are never fun but at least BPAY makes paying them quick and easy. It’s as painless as paying a bill can be.
+## FAQs
+### How do I read a PayTo agreement?
+PayTo Payment Agreements contain important details about how much and how often your account can be debited for goods or services.
+This could be for a one-off, ad-hoc, or recurring payment.
+You should check that this information matches what you have agreed to with the merchant (payee):
+- Name of merchant (payee)
+- Amount of the payment(s), this could be either a fix amount or up to a maximum amount (cap)
+- Payment terms which may include: when payments should be debited, this may include a start and end date payment frequency (how often payments will be debited) number of payments (if applicable)
+ANZ will receive the above information from the merchant (payee). You are responsible for ensuring that all information is correct before you take any action (such as authorising or declining an agreement). If you believe that any details displayed are incorrect, you should contact the merchant (payee).
+For more information, please refer to your product Terms and Conditions.
+### Can I move my existing direct debits to a PayTo agreement or do I need to call my merchant to change it?
+Some merchants (payees) may look to move existing direct debit arrangements to PayTo. Both ANZ and the merchants (payee’s) financial institution will need to be able to offer PayTo as a payment method. Please contact your merchant (payee) to see if this payment option is available to you.
+### I did not receive the PayTo agreement in the ANZ App or Internet Banking?
+Check that you have provided the merchant (payee) with the correct BSB and account number or PayID for your eligible account . If the details are correct, and your account is eligible and you are still unable to see your PayTo Payment Agreement in your ANZ banking channel, you should contact the merchant (payee) to help.
+### What do I do if a payment was taken from my account outside the terms of the agreement?
+A merchant (payee) can only debit your account if you have an active (authorised) PayTo Payment Agreement.
+If you have a PayTo Payment Agreement with a merchant (payee) who has taken a payment that you believe to be outside of the terms of the agreement, you should contact the business to rectify it.
+If you are unable to contact the merchant (payee) to resolve the matter, please contact ANZ.
+If you believe that the payment may be fraudulent, pause your agreement to ensure no further debits can be deducted from your account and immediately contact ANZ by sending us a message in the ANZ App. Tap Support to get started.
+For more information, please refer to your product Terms and Conditions.
+### I think my account has been accessed fraudulently as there are payments and/or PayTo agreements that I do not recognise.
+If you become aware of any activity that appears suspicious or fraudulent in relation to a PayTo Payment Agreement, for example if you receive a PayTo Payment Agreement authorisation request that you are not expecting or become aware of a fraudulent PayTo payment being processed from your account, you must immediately (a) pause your PayTo Payment Agreement, and (b) contact ANZ by Messaging us in the ANZ App. Tap Support to get started.
+For more information, please refer to your product Terms and Conditions.
+### I used PayTo to pay for goods and/or services that I am not satisfied with.
+If you have used PayTo to purchase goods or pay for services that you are unhappy with, you should contact the merchant (payee).
+If your concern is not resolved, you should explore avenues of consumer protections that are offered under Australian law. The Australian Competitor & Consumer Commission (ACCC) outlines consumers rights and guarantees and provides useful information and tools on its website: https://www.accc.gov.au/consumers
+## Need more help?
+#### Message us
+For fast support, message us in the ANZ App. Available 24/7.
+- Message us in the app 
+#### Contact us
+Don’t have the ANZ app? Download it now or find other ways to contact us.
+- Contact us 
+#### Visit us
+Find your local branch and book an appointment to visit us.
+- Find a branch 
+## Important information
+More information on PayTo can be found at www.payto.com.au and in your product Terms and Conditions.
+PayTo is available on accounts that are capable of processing faster payments using the New Payments Platform (NPP). PayTo is not available on some ANZ accounts, including ANZ Home Loans and ANZ Personal Loans. For more information about whether your account is eligible for PayTo, see: Eligible ANZ PayTo accounts .
+PayTo agreements can only be viewed, authorised and maintained in your ANZ banking channel if the debiting account(s) is linked directly to your Customer Registration Number (CRN). Account eligibility criteria apply.
+If you have a joint account, all account holders may be able to view, action or manage your PayTo agreement(s). This may depend on account authorisation and eligibility.
+Selected accounts may not be eligible or become ineligible for PayTo due to the account authority requiring more than one to sign.
+PayTo payments require cleared funds in your account prior to the payment being initiated by the payee or your payment may be unsuccessful.
+PayID and PayTo are registered trademarks of NPP Australia Limited.
+Eligible accounts and payments only – sending and receiving account must be capable of processing faster payments. Technical interruptions may occur and some payments may be delayed (e.g. for security screening).
+Temporary service disruptions may occur.
+ANZ receives the information contained in a PayTo agreement (such as the payment amount and payment frequency) from the Payee, via the mandate management service. You are responsible for ensuring that it is correct before you take any action (such as authorising an agreement). If you believe that any details displayed here are incorrect, you should contact the Payee.
+Delays may occur in relation to authorising, amending, pausing, resuming or cancelling a PayTo Payment Agreement, including during peak times, systems outages or technical interruptions.
+Fees and charges may apply.
+This information is of a general nature and has been prepared without taking account of your personal objectives, financial situation or needs. Any advice is general advice only and does not take into account your personal needs and financial circumstances and you should consider whether it is appropriate for you.
+Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/support/online-banking/payments/pay-to/
+Scraped: 2026-01-09

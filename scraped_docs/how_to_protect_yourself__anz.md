@@ -1,0 +1,60 @@
+Title: How to protect yourself | ANZ
+Source URL: https://www.anz.com.au/security/protect-yourself/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+EndNoIndex Article related to: # How to protect yourself
+Learn important tips on how to stay safer online, secure your internet banking, and help protect your personal information.
+# How to protect yourself
+Cyber criminals never rest. Learn how to help protect yourself online with our tips and guides. From helpful tips on how to bank securely to recognising scams and how to help safeguard your personal information, we provide you with the information you need on how to stay safe online.
+See latest scams, fraud and security alerts 
+## Topics
+- How we protect you
+- How to protect yourself 
+- Keep family safe
+- Keep your devices secure
+- Types of frauds and scams
+- Types of scams Romance scams: Tips for staying safe online ANZ Security specialist Learn how to spot and avoid romance scams. Discover common warning signs and how to protect your heart and finances when dating online. 2024-04-02 05:30
+- Types of scams Social media scams and safety ANZ Security specialist Discover how to identify and avoid common social media scams. Learn practical tips to safeguard your privacy and protect yourself from online scams. 2024-09-17 04:30
+- Shopping season Be careful when shopping online. Always use an online shopping service that is trustworthy. Avoid clicking links in emails, SMS texts or popups, instead access websites directly through your web browser.
+- Cyber Security Awareness Month With cybercrime reports increasing, ANZ is here to help empower Australians to stay safer online.
+- How to protect yourself Working from home securely ANZ Security specialist After some tips for working from home? Then you're at the right place! We share the importance of working from home safely and share some tips on how you can do so. 2024-09-17 04:30
+- How to protect yourself How to stay safe online ANZ Security specialist Discover how to stay safer online so you can shop, bank, and browse as you please on any device. Simple cyber safety? That's what we like to see. 2024-09-18 00:00
+- How to protect yourself How to know if it's really ANZ contacting you ANZ Security specialist Is it ANZ contacting you or a scammer? The answer to this question can be tricky. That's why we're here to show you how to tell the difference. 2024-09-18 00:00
+- How to protect yourself Call out and report suspicious messages ANZ Security specialist Getting scammed online can happen to anyone. But with the right tools and know-how, you can help protect yourself (and loved ones) against scams. 2024-09-18 00:00
+- How to protect yourself Make a PACT to protect yourself online ANZ Security specialist Want to learn how to stay safer online? Help protect yourself by making a PACT and following these four simple steps. 2024-09-18 00:00
+- How to protect yourself What is hacking online? ANZ Security specialist You’ve probably heard the word, but what is hacking? We explore how to help protect yourself from hackers and what to do if you’ve been hacked. 2024-09-18 00:00
+- How to protect yourself Internet banking security ANZ Security specialist Internet banking security is a must for all banking customers. So how can you stay safer when banking online? We've got all the tips you need right here. 2024-09-18 00:00
+- How to protect yourself Activate multiple layers of security ANZ Security specialist Adding multi-factor authentication (MFA) means you're adding another layer of security to help protect your account. Read on to learn more about MFA. 2024-09-18 00:00
+- How to protect yourself Pause before sharing your personal information ANZ Security specialist Pausing before sharing personal information online or acting on a request is one of the best things you can do to protect yourself (and your finances). 2024-09-18 00:00
+- How to protect yourself Turn on automatic software updates ANZ Security specialist Software updates can strengthen your devices and prevent criminals from getting your data. Read on to learn more about automatic software updates. 2024-09-18 00:00
+- How to protect yourself Digital wallets: Safeguard your money from being ‘tapped’ away ANZ Security Specialist Learn how digital wallets work and how to help protect your personal and financial information from cybercriminals. 2025-07-31 04:30
+## Good security habits
+### Erica Hardinge, ANZ Cyber Services Tribe Lead, shares that security is everyone’s responsibility
+[Erica Hardinge, ANZ Cyber Services Tribe Lead, shares that security is everyone’s responsibilityClick to play video01:41](https://www.youtube.com/watch?v=PHGts1moPy4) ### Simplifying Cyber: Make a P.A.C.T
+[Simplifying Cyber: Make a P.A.C.TClick to play video02:02](https://www.youtube.com/watch?v=jpOU-WcrffE) ### Leigh Mahoney, ANZ Head of Wholesale Digital, on the importance of good security hygiene
+[Leigh Mahoney, ANZ Head of Wholesale Digital, on the importance of good security hygiene.Click to play video01:28](https://www.youtube.com/watch?v=zjdPUWc0ztk) ### Dylan Alcott, ANZ Ambassador, talks online scams
+[Dylan Alcott, ANZ Ambassador, talks online scamsClick to play video01:11](https://www.youtube.com/watch?v=2ksHbmt9Alg) ## Security resources
+#### ANZ
+Types of scams and what to watch out for 
+What is credit card fraud? Protect yourself 
+Banking securely guide (summary) (PDF 1MB) 
+Being safe online (easy read guide) (PDF 4MB) 
+#### Australian Cyber Security Centre
+' Have you been hacked?' quiz 
+Cyber security guides for your family 
+Sign up for cyber security email alerts 
+#### National Anti-Scam Centre
+The Little Black Book of Scams 
+Videos, factsheets and reports 
+#### Australian Banking Association
+Scams Fact Sheet in different languages 
+##
+## Get in contact with us
+Report a lost or stolen card Report fraud or scams
+## Important information
+The information set out above is general in nature and has been prepared without taking into account your objectives, financial situation or needs. Before acting on the information, you should consider whether the information is appropriate for you having regard to your objectives, financial situation and needs. By providing this information ANZ does not intend to provide any financial advice or other advice or recommendations. You should seek independent financial, legal, tax and other relevant advice having regard to your particular circumstances.
+
+---
+Original URL: https://www.anz.com.au/security/protect-yourself/
+Scraped: 2026-01-09

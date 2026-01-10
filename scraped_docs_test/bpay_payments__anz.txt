@@ -1,0 +1,146 @@
+Title: BPAY payments | ANZ
+Source URL: https://www.anz.com.au/support/online-banking/payments/bpay/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+Find ANZ
+Support Centre
+BPAY® payments
+Bills are never fun but at least BPAY makes paying them quick and easy. It’s as painless as paying a bill can be.
+Jump to
+What is BPAY?
+How to make a payment with BPAY
+BPAY daily limit
+Other payment options
+Get the ANZ App
+Download the ANZ App to get started on your mobile device.
+Tip: Before you begin, you will need to
+register for online banking
+.
+What is BPAY?
+Paying BPAY bills to 45,000+ registered BPAY billers is easy - just look for the biller code and reference number on your bill and follow the steps below.
+Bill payments requested before 6pm (Syndey/Melbourne) on a bank business day will be processed to your account on the same day. Payments requested after this time will be debited immediately but may be processed on the next bank business day.
+How to make a payment with BPAY
+ANZ App
+ANZ Internet Banking
+To make a payment in the ANZ App
+Pay a bill using BPAY in the ANZ App:
+Log in to the ANZ App.
+Go to the
+Accounts tab
+and tap
+Pay.
+Choose an existing biller, or tap + then choose
+BPAY
+and
+enter the biller code and reference number
+.
+Choose to make a payment
+Today
+,
+Later
+, or
+Recurring
+if you want to set up regular payments.
+Follow the prompts. Nice one!
+To make a payment in Internet Banking
+Pay a bill using BPAY in Internet Banking:
+Log in to
+Internet Banking
+.
+Select
+Payments
+from the top menu, and choose
+Pay Anyone.
+Select the account or
+credit card
+you want to pay from.
+Choose from your existing BPAY billers, or click Add a new biller and enter the biller code and reference number.
+Enter the amount, and if you would like you can also add an optional reference or message for the recipient.
+Choose to make a payment
+Today, Later, or Recurring
+if you want to set up regular payments.
+Follow the prompts. Done!
+Tip:
+You can pay one-off bills or schedule regular payments. These bills can be paid from your bank account, or some billers accept credit card payments
+disclaimer
+.
+BPAY daily limit
+To help protect your accounts, ANZ has limits on the amount of funds that can be paid each day. Your Customer Registration Number (
+CRN
+) has a separate payment limit for each of our digital channels: the ANZ App, Internet Banking and Phone Banking. Different limits apply for business customers using
+ANZ Internet Banking for Business
+.
+BPAY daily limits in the ANZ App
+BPAY daily limits in ANZ Internet Banking
+Phone Banking
+Personal and business customers
+In the ANZ App your default daily limit for BPAY payments is $15,000. The individual transaction limit for a BPAY payment to a new biller is $10,000.
+If you have
+Voice ID
+, your daily BPAY limit is $100,000.
+These limits include BPAY payments you make today, as well as any you had previously scheduled to occur today.
+Personal customers
+Your daily limit for BPAY payments is $75,000 with a limit of $50,000 per transaction.
+Business customers
+Your daily limit for BPAY payments is $75,000 with a limit of $50,000 per transaction.
+If you are making a BPAY payment to the ATO using Pay Australian Taxation Office, the daily limit is $100,000.
+Personal and business customers
+Your daily limit for BPAY payments is $5,000.
+Tip:
+If you require a higher limit than what a channel permits in a single day, you can make payments using multiple channels. You can also schedule payments to occur over multiple days.
+Payment confirmation
+Whenever you confirm a payment/transfer in the ANZ App or Internet Banking, you’ll see a lodgment number and receipt number. The receipt number confirms that the payment has been submitted successfully.
+For more details, you can check the status and the receipt number in ANZ Internet Banking via the View past payment/Transfers function. For unsuccessful payments, the status will show as Failed. Learn more about
+past payments and transfers
+
+Other payment options
+Make payments online
+Whether you’re paying a bill, fixing up a friend for lunch, or sending money overseas, it’s easy to pay online quickly and securely with the ANZ App and Internet Banking.
+Ways to pay your credit card
+Pay your ANZ credit card online, set up CardPay Direct, use BPAY®, or explore instalment options. It’s secure, flexible and easy.
+Security hub
+Help protect your online banking and account information with ANZ’s security hub. Stay informed on the latest scams, fraud, and online threats. Help safeguard your finances with us.
+FAQs
+What bills can I pay?
+From your power bill to your car rego, over 45,000 billers accept BPAY. Visit the BPAY website to view a list of all of the billers who accept BPAY.
+See the full list
+
+What if a biller doesn’t take credit cards for payment?
+You can still pay with your credit card but it'll be treated as a cash advance. Fees may apply.
+More about fees
+
+What happens if I enter the incorrect details for my payment or transfer?
+When you are making a payment or transferring money overseas, it is your responsibility to ensure the details you provide are correct.
+If you enter the wrong payee (BSB, account number, PayID® or BPay details) or payment amount for a domestic payment and the transaction has been processed,
+Message us
+in the ANZ App or
+Contact us
+.
+Can I make a bill payment with my ANZ Credit Card?
+Bill payments from your ANZ Credit Card may be processed as a purchase. This is dependent upon how the biller is set up with the BPAY® billing service. The biller has the option of accepting a credit card as a method of payment.​
+If the biller chooses to accept, the bill payment is processed as a purchase​.
+How much does it cost to pay bills online?
+There is no charge for paying bills online. However, if you use all of your monthly free withdrawals for your accounts, normal excess transaction fees and government charges will apply.​
+Important information
+Any information provided is general in nature and does not take into account your personal needs, financial circumstances or objectives and you should consider whether it is appropriate for you. ANZ recommends you read the applicable
+Terms and Conditions
+booklets and the
+ANZ Financial Services Guide (PDF)
+before deciding whether to acquire, or continue to hold, a particular product, which are available on anz.com or by calling
+13 13 14
+before deciding whether to acquire, or continue to hold the product.
+The ANZ App is provided by Australia and New Zealand Banking Group Limited (ANZ) ABN 11 005 357 522. Super and Insurance (if available) are not provided by ANZ but entities which are not banks. ANZ does not guarantee them. This information is general in nature only and does not take into account your personal objectives, financial situation or needs. ANZ recommends that you read the ANZ App Terms and Conditions available
+here for iOS (PDF)
+and
+here for Android (PDF)
+and consider if this service is appropriate to you prior to making a decision to acquire or use the ANZ App.
+BPAY® is registered to BPAY Pty Ltd ABN 69 079 137 518.
+Eligible accounts and payments only – sending and receiving account must be capable of processing faster payments. Technical interruptions may occur and some payments may be delayed eg for security screening. PayID® is a registered trademark of NPP Australia Limited.
+Cash advance fees may apply to some billers.
+Return
+Top
+
+---
+Original URL: https://www.anz.com.au/support/online-banking/payments/bpay/
+Scraped: 2026-01-09

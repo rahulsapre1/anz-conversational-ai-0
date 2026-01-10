@@ -1,0 +1,139 @@
+Title: Your Money Report | ANZ
+Source URL: https://www.anz.com.au/support/online-banking/spending-savings/your-money-report/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# Your Money Report
+Uncover personalised spending insights with Your Money Report in the ANZ App.
+EndNoIndex ### Are you an ANZ Plus customer?
+For support, visit ANZ Plus Support .
+## Features and benefits of Your Money Report
+### More visibility
+Your spending is grouped by category and merchant to give you an idea of where your money is going.
+### Personalised insights
+You could find opportunities to save with a new perspective of your money.
+### Easy to read graphs
+Get a simple cashflow summary of your eligible ANZ accounts. disclaimer
+### A monthly report
+Access up to six months’ worth of reports easily in the ANZ App. Plus, each report covers a 12-month period.
+## How to view Your Money Report
+- In the ANZ App
+- In ANZ Internet Banking
+### To view Your Money Report in the ANZ App
+Every month, Your Money Report gives you a personalised snapshot of some of your money in and money out across eligible ANZ accounts
+Log in to the ANZ App
+Tap on For You
+Tap on Your Money Report
+[Get a better perspective of your moneyClick to play video02:16](https://www.youtube.com/watch?v=enadLOlZZEE) ### Read the video transcript
+It can often be the little things that chip away at your savings.
+And while everyday spending is easier than ever, it’s getting harder to keep track of.
+That’s why we’ve created Your Money Report. A handy tool designed to help you spot saving opportunities.
+Your Money Report provides you with a personalised snapshot of some of the money coming in and going out across your eligible ANZ accounts.
+Now, let’s get down to the details.
+First up, you’ll see handy highlights of how you spent some of your money in the previous month...
+...and how it compares to your average monthly spend over the last 12 months.
+You’ll be able to see the percentage difference between your money in and money out...
+...so you can think about whether more could be added to your savings.
+The money out of your eligible accounts will first be broken down into broad categories like Spending & Transfers, Bills, and Loan Repayments.
+After that, you’ll find a breakdown of your spending by category…
+...and by merchant.
+It could help you decide on where to make tweaks to your spending habits.
+Your Money Report also contains a 12 month summary of your spending.
+It’ll be broken down just like your monthly summary.
+A simple bar chart will show you when your spend was the highest across the last 12 months.
+Take a second to work out if this is due to yearly events like birthdays, rego renewal or holidays.
+You could get ahead of the game and put some extra funds aside for those months.
+So, where can you access Your Money Report?
+Simply log in to the ANZ App
+Select ‘For you’
+Tap on ‘Your Money Report’
+You can send Your Money Report to your email and view it in detail on another device.
+Get started and get a better perspective of your money.
+Terms and conditions apply. Consider if right for you.
+This video is provided for general guidance and may not reflect the most recent updates to our website or app. Screens, steps, or features shown may vary slightly from the current experience, including the addition of new screens or changes in layout or wording. For the most accurate and up-to-date information, please refer to the live site.
+### To view Your Money Report in ANZ Internet Banking
+Every month, Your Money Report gives you a personalised snapshot of some of your money in and money out across eligible ANZ accounts
+Log in to Internet Banking
+Click on the Your Money Report located under your accounts on the home page
+[Get a better perspective of your moneyClick to play video02:16](https://www.youtube.com/watch?v=enadLOlZZEE) ### Read the video transcript
+It can often be the little things that chip away at your savings.
+And while everyday spending is easier than ever, it’s getting harder to keep track of.
+That’s why we’ve created Your Money Report. A handy tool designed to help you spot saving opportunities.
+Your Money Report provides you with a personalised snapshot of some of the money coming in and going out across your eligible ANZ accounts.
+Now, let’s get down to the details.
+First up, you’ll see handy highlights of how you spent some of your money in the previous month...
+...and how it compares to your average monthly spend over the last 12 months.
+You’ll be able to see the percentage difference between your money in and money out...
+...so you can think about whether more could be added to your savings.
+The money out of your eligible accounts will first be broken down into broad categories like Spending & Transfers, Bills, and Loan Repayments.
+After that, you’ll find a breakdown of your spending by category…
+...and by merchant.
+It could help you decide on where to make tweaks to your spending habits.
+Your Money Report also contains a 12 month summary of your spending.
+It’ll be broken down just like your monthly summary.
+A simple bar chart will show you when your spend was the highest across the last 12 months.
+Take a second to work out if this is due to yearly events like birthdays, rego renewal or holidays.
+You could get ahead of the game and put some extra funds aside for those months.
+So, where can you access Your Money Report?
+Simply log in to the ANZ App
+Select ‘For you’
+Tap on ‘Your Money Report’
+You can send Your Money Report to your email and view it in detail on another device.
+Get started and get a better perspective of your money.
+Terms and conditions apply. Consider if right for you.
+Want to save or share your report?
+In the ANZ App, you can download, save and share your report in PDF format by tapping on the Share icon in the top right corner of the report and email it to yourself. Please take care when entering your email address and note that ANZ does not share your report. (Only you can view and share your report in the ANZ App.)
+In Internet Banking, you can save your report by clicking on the Download icon in the top right corner of the viewing window.
+## Get to know your money better
+- Set a savings goal Saving for something? Set a goal to help you save. Our goals feature in the ANZ App can help you stay on track to get to your goal.
+- Access your account statements and notices It's easy to view, save and share your account statements in the ANZ App and Internet Banking. Here's how.
+- Manage your account Instantly and securely manage your account in the ANZ App or Internet Banking. Register and log in to online banking, update your details and personalise your view.
+## FAQs
+### Who is eligible to receive the report and what products/accountsare included in the report?
+Your Money Report is available to ANZ customers who hold eligible ANZ accounts and are registered for the ANZ App or Internet Banking. For a current list of eligible accounts refer to eligible product list (PDF) . Further information on understanding accounts within Your Money Report is available on pages 13 to 15 of your report.
+A snapshot of some of your transactions for all your eligible accounts will appear in the report.
+Your Money Report will not contain any credit card transactions where you are not the credit card account holder, but are an additional cardholder on someone else’s account.
+### I am an ANZ Plus customer. Are my spend insights featured in Your Money Report?
+ANZ Plus products are not included within Your Money Report. As an ANZ Plus customer, the ANZ Plus App has interactive insights into your spend across your ANZ Plus everyday and Save accounts.
+### I can't see my report, why is that?
+You may not see your report in the ANZ App or Internet Banking for multiple reasons:
+- There may be no transactions made on any eligible account(s) for the relevant time period
+- You may not hold an eligible account
+- You only hold an ANZ credit card as an additional cardholder rather than the primary cardholder
+### Why are some of my transactions incorrectly categorised or showing missing merchant details in Your Money Report, and can I fix them?
+You may notice that some transactions are incorrectly categorised or show missing or mismatched merchant names.  In some instances, not all category classifications will match the relevant merchant names, however, this information is constantly reviewed, and we may continue to make improvements over time. In addition, while every effort has been made to provide the correct category there may be some instances where spending has not been categorised and treated as ‘Unclassified’ or falls into an ‘Other expenses’ category.
+All merchant information is provided by our third-party supplier, Look Who’s Charging Pty Ltd. In some instances, Look Who's Charging may be unable to match a particular transaction with a merchant.
+You can manually re-categorise transactions within the Spend Summary feature of the ANZ App. However, please note that these changes will only apply within the app and will not be reflected in Your Money Report.
+We are continually reviewing and improving our categorisation processes to enhance accuracy over time.
+### Does the report constitute financial advice?
+No, the report is not a statement of your financial position nor is it intended to constitute financial advice. The report should not be relied on when making financial decisions, preparing any budget plans nor should it be used to apply for a credit card or other loan products.
+### I don’t understand how certain transactions have been treated in the report.What can I do?
+The treatment of some specific scenarios have been explained here . We encourage this webpage is read together with pages 13 to 15 of your report.
+### Can I view the report in portrait and landscape orientation on my phone?
+The report can only be viewed in portrait orientation at this time. To view the report in landscape orientation you can download your report and email it to yourself to view it on a desktop.
+The report is compatible with a screen reader if it's downloaded on your device.
+The report's colour scheme is also compliant with the requirements of the Web Content Accessibility Guidelines 2.0.
+### If I close an account, will transactions made using this account still appear on my report from previous months?
+Yes, closing an account(s) does not affect reports from previous months as the reports are static.
+## Need more help?
+#### Message us
+For fast support, message us in the ANZ App. Available 24/7.
+- Message us in the app 
+#### Contact us
+Don’t have the ANZ app? Download it now or find other ways to contact us.
+- Contact us 
+#### Visit us
+Find your local branch and book an appointment to visit us.
+- Find a branch 
+## Important information
+The ANZ App is provided by Australia and New Zealand Banking Group Limited (ANZ) ABN 11 005 357 522. Super and Insurance (if available) are not provided by ANZ but entities which are not banks. ANZ does not guarantee them. This information is general in nature only and does not take into account your personal objectives, financial situation or needs. ANZ recommends that you read the ANZ App Terms and Conditions available here for iOS (PDF) and here for Android (PDF) and consider if this service is appropriate to you prior to making a decision to acquire or use the ANZ App.
+Eligible ANZ accounts only. Find the list here (PDF) .
+Return Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/support/online-banking/spending-savings/your-money-report/
+Scraped: 2026-01-09

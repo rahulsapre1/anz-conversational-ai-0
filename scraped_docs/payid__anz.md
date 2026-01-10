@@ -1,0 +1,121 @@
+Title: PayID | ANZ
+Source URL: https://www.anz.com.au/support/online-banking/payments/pay-id/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# PayID®
+Forget your BSB and account number! With PayID, it's easier to receive payments disclaimer or set up a PayTo® agreement disclaimer , by sharing your email, mobile number or ABN/ACN instead. Nice!
+## Jump to
+Why use PayID?
+Before you start
+Create your ANZ PayID
+Transfer your PayID
+Manage your ANZ PayID
+View your ANZ PayID
+FAQs
+EndNoIndex ## What is PayID?
+PayID is like a nickname for your account. It can be your phone number, email address, Australian Business Number (ABN), Australian Company Number (ACN) or organisation ID and is unique to each customer. It doesn’t replace a BSB and account number, which stays exactly the same, but is easier to remember.
+## Why use PayID?
+#### Fast payments
+Pay family, friends or tradies in as little as 60 seconds. disclaimer
+#### Easy to remember
+Simpler to remember and share your PayID than your BSB and account number.
+#### Simple setup
+Create your PayID in 3 simple steps in the ANZ App or Internet Banking.
+#### Safe and secure
+Transactions have the same security protection as your existing accounts and payments.
+#### Control your payments to businesses
+Use your PayID to set up PayTo® disclaimer agreements and control when businesses can take money out of your account.
+## Before you start
+Check or update your details to ensure the mobile number or email address you want to use are registered to your ANZ App or Internet Banking profile. This is crucial to the set up process as we will send a verification code to your ANZ registered mobile number or email to confirm it’s you setting up a PayID.
+[How to: Create a PayID in the ANZ AppClick to play video1:30](https://www.youtube.com/watch?v=xCJk-rP3VBY) This video is provided for general guidance and may not reflect the most recent updates to our website or app. Screens, steps, or features shown may vary slightly from the current experience, including the addition of new screens or changes in layout or wording. For the most accurate and up-to-date information, please refer to the live site.
+## Create your ANZ PayID
+Setting up your PayID is super simple in the ANZ App or Internet Banking.
+- In the ANZ App
+- In ANZ Internet Banking
+### How to create your PayID
+Log in to the ANZ App
+Tap Profile in the bottom right
+Under Payments, tap PayID
+Follow the prompts to create your PayID and link it to your eligible ANZ account. Nice one!
+Have an eligible business account? You can set up a PayID using your ACN or ABN , in addition to a PayID attached to your mobile or email address.
+### How to create your PayID
+Log in to ANZ Internet Banking
+In the Settings menu, select Manage your PayIDs
+Click Create a new PayID
+Select the PayID option you want to use, and link it to your eligible ANZ account. Easy!
+Have an eligible business account? You can set up a PayID using your ACN or ABN , in addition to a PayID attached to your mobile or email address.
+## Transfer your PayID
+You can transfer your PayID to a different account within ANZ or from another financial institution in ANZ Internet Banking. Remember, any payment made to your PayID will continue to go to your previously linked account until the below steps are completed and you’ve received confirmation from us.
+### How to transfer your PayID within ANZ
+Log in to ANZ Internet Banking
+Click on Settings then Manage Your PayID
+Select Edit for the PayID you wish to transfer
+Select the account you wish to link to your existing PayID
+Scroll down to click Transfer this PayID and follow the prompts. Simple!
+### How to transfer your PayID from another financial institution
+Every financial institution is different but generally you may be able to initiate the transfer via your non-ANZ financial institution’s digital banking channels. Chat to them and follow any instructions provided.
+Once you have transferred your PayID from your non-ANZ financial institution, follow the steps to create your PayID . Simple!
+Message us if you need more assistance.
+## Manage your ANZ PayID
+You can manage your PayID quickly and easily in ANZ Internet Banking.
+### Change your PayID
+To switch your PayID to a different mobile or email address:
+Log in to ANZ Internet Banking
+Close your existing PayID
+Update the mobile or email on your profile
+Create a new PayID . Simple!
+### Close your PayID
+To close your PayID as a payment option:
+Log in to ANZ Internet Banking
+Click on Settings then Manage your PayID
+Select Edit for the PayID you wish to close
+Scroll down to click Close this PayID and follow the prompts. Done!
+## View your ANZ PayID
+You can quickly see all your PayIDs – whether active, pending registration or in the process of being transferred to ANZ.
+- In the ANZ App
+- In ANZ Internet Banking
+### How to view your PayID
+Log in to the ANZ App
+Tap Profile in the bottom right
+Scroll down to see your PayIDs . Too easy!
+### How to view your PayID
+Log in to ANZ Internet Banking
+Click on Settings
+Select Manage your PayIDs to view. Nice one!
+## FAQs
+### Can I have multiple PayIDs?
+A PayID can only be registered to one account. However, you can have multiple PayIDs on your profile by creating different types, i.e. one for mobile, one for email. These can be linked to the same account or to different accounts if you prefer.
+For example:
+- You could have both your mobile PayID and your email PayID linked to your ANZ One Offset account, or
+- You could have your mobile PayID linked to your ANZ One Offset account and your email PayID linked to your ANZ Access Advantage account.
+### What should I do if I get an error when setting up PayID?
+There may be a number of reasons why you are unable to create a PayID. For example, it may be because it is already linked to another bank account at another financial institution. A mobile number, email address or ABN/ACN can only be registered once across all financial institutions in Australia. You’ll need to request a transfer from your other financial institution before you can create it with ANZ.
+If you’ve already transferred this PayID from another financial institution, please check with them to ensure that it's been released. Once it’s been successfully released, you’ll need to create your PayID using ANZ Internet Banking or the ANZ App.
+### My details may have been used by someone else as a PayID - How do I dispute this?
+If you believe a PayID has been created in error, you can complete an ownership dispute request and we can look into this for you.
+You can raise a dispute query via ANZ Internet Banking or by contacting the ANZ Contact Centre on 13 13 14.
+## Need more help?
+#### Message us
+For fast support, message us in the ANZ App. Available 24/7.
+- Message us in the app 
+#### Contact us
+Don’t have the ANZ app? Download it now or find other ways to contact us.
+- Contact us 
+#### Visit us
+Find your local branch and book an appointment to visit us.
+- Find a branch 
+## Important information
+The ANZ App is provided by Australia and New Zealand Banking Group Limited (ANZ) ABN 11 005 357 522. Super and Insurance (if available) are not provided by ANZ but entities which are not banks. ANZ does not guarantee them. This information is general in nature only and does not take into account your personal objectives, financial situation or needs. ANZ recommends that you read the ANZ App Terms and Conditions available here for iOS (PDF) and here for Android (PDF) and consider if this service is appropriate to you prior to making a decision to acquire or use the ANZ App.
+PayID and PayTo are registered trademarks of NPP Australia Limited.
+Eligible accounts and payments only – sending and receiving account must be capable of processing faster payments. Technical interruptions may occur and some payments may be delayed e.g. for security screening.
+Return To be eligible to use a PayID for a PayTo agreement, the account must be eligible to send and receive NPP payments. PayTo is only available if offered by the relevant Payee. Technical interruptions may occur.
+Return Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/support/online-banking/payments/pay-id/
+Scraped: 2026-01-09

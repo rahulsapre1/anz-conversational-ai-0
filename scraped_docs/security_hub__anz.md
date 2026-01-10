@@ -1,0 +1,142 @@
+Title: Security hub | ANZ
+Source URL: https://www.anz.com.au/security/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# Security hub
+Welcome to ANZ’s security hub. We’re here to look after you and your money - helping you to protect what matters.
+Using security features like ANZ Falcon® and behavioural biometrics , which are personal to the way you bank, we study the difference between you and fraud, to help keep your banking safe.
+Latest security alerts Contact us
+**Know Your Customer (KYC)**
+We may occasionally contact you to update your personal or business details. Learn why .
+
+EndNoIndex ## Explore the security hub
+## What is ANZ Falcon®?
+Our anti-fraud technology, ANZ Falcon®, prevented $90M+ from going to cybercriminals in 2024.
+The technology works around the clock to recognise, flag and identify suspicious transactions.
+Rest assured this is no cookie cutter approach to fraud prevention. ANZ Falcon® technology is personal to each and every one of our customers.
+By analysing thousands of data points from your online banking behaviour and millions of transactions in real time, ANZ Falcon® can identify patterns that indicate suspicious activity.
+And if you’re travelling overseas, let us know . ANZ Falcon® continues monitoring your transactions 24/7, leaving you free as a bird to enjoy your holiday.
+[](https://www.youtube.com/watch?v=cKxGKpGK8yY) ## Security articles and information
+Learn about frauds and scams and ways to help protect yourself, your family, or your business from cyber criminals.
+TOPIC
+### Types of fraud and scams
+ 28 articles
+ARTICLE
+### Online travel booking scams
+Explore tips for identifying potential online travel booking scams on platforms and consider ways to book securely.
+Find out more 
+TOPIC
+## How to protect yourself
+ 14 articles
+ARTICLE
+### Stay cyber safe this festive season
+Be aware of the scams that often pop up this time of year and learn how to help keep your information (and wallet) safe this festive season.
+Find out more 
+TOPIC
+### Keep your family and friends safe
+ 3 articles
+ARTICLE
+### Credit card fraud
+Discover how to implement safeguards on your personal credit cards and help secure your financial information.
+Find out more 
+## Security starts with awareness
+Watch our latest videos for helpful tips on staying safe from scams and cyber threats.
+Explore our security videos
+## How we protect you
+With evolving fraud detection technology, biometrics monitoring in our banking apps and Internet Banking, plus a team of specialists to help you 24/7, we offer security you can bank on.
+TOPIC
+### Keeping your devicessafe
+ 5 articles
+FEATURE
+### ANZ Digital Padlock
+If you think your banking login details may have been compromised, ANZ Digital Padlock's one touch protection puts you back in control. Bank with confidence, knowing Digital Padlock helps keep scammers locked out.
+Find out more 
+FEATURE
+### ANZ Falcon®
+Our anti-fraud technology, ANZ Falcon®, analyses your banking behaviour to help recognise, flag and identify suspicious transactions.
+Find out more 
+TOPIC
+### Business cyber security
+ 6 articles
+See more about how we protect you 
+## Insights and helpful tips on cyber security
+Get the latest scams, cyber security and online safety tips from the experts, plus important ANZ security related updates to keep you informed.
+- Scams Black Friday scams – the high cost of a bargain Allan Ng General Manager, Identity, Verification & Authentication, ANZ While consumers are hunting surprise Black Friday and Cyber Monday bargains this year, scammers are planning some surprises of their own. This is how to protect yourself and your family. 2025-11-27 00:00
+- Scams A close call Cosi De Angelis Head of Transaction Banking, ANZ Cybercrime incidents targeting small businesses are on the rise. For Benton’s Plumbing Supplies, the ANZ fraud detection team intercepted just in time. This Cyber Security Awareness Month, learn how to stay protected. 2025-10-02 00:00
+- Scams Cyber resilience starts with mindset Dr Maria Milosavljevic Chief Information Security Officer, ANZ Cyber threats are evolving. So are we. From digital risk to real-world impact. 2025-10-07 00:00
+- Scams Stay scam safe with tips from the experts Ruth Talalla Scams Portfolio Lead, ANZ As Black Friday and Christmas sales approach, investment and online shopping scams also explode in number. These easy-to-follow tips can help keep customers safe online. 2024-11-14 00:00
+## Security resources
+#### ANZ
+Types of scams and what to watch out for 
+What is credit card fraud? Protect yourself 
+Banking securely guide (summary) (PDF 1MB) 
+Being safe online (easy read guide) (PDF 4MB) 
+#### Australian Cyber Security Centre
+' Have you been hacked?' quiz 
+Cyber security guides for your family 
+Sign up for cyber security email alerts 
+Cyber security information in different languages 
+Information stealer malware toolkit 
+#### National Anti-Scam Centre
+Videos, factsheets and reports 
+#### Australian Department of Home Affairs
+Act Now. Stay Secure. 
+## Resources in your language
+Discover a range of resources for security information in your language.
+The Little Book of Scams 
+Scams Fact Sheet in different languages 
+Resources for First Nations peoples 
+Cyber security information in different languages 
+In your language – Scam Information 
+Report scams to Scamwatch in your language 
+Act Now. Stay Secure – Translated Resources 
+Act Now. Stay Secure – First Nations Resources 
+#### Need to translate this page or others?
+If you need support in a language other than English, please contact us . We have translation services for many languages, or use Google Translate 
+## Disclose a security vulnerability
+At ANZ, we take the security of our systems and customer data seriously. The responsible disclosure of vulnerabilities helps ensure the security and privacy of ANZ and our customers.
+If you think you've found a security vulnerability, report it via Bugcrowd , who manage our Responsible Disclosure Program.
+All disclosures must be made through Bugcrowd, not directly to ANZ.
+We don't condone malicious or illegal behaviour in identifying and reporting security vulnerabilities.
+For more information, including the terms of the disclosure program visit the Bugcrowd website .
+## Security questions
+### What is cyber security?
+Criminals are becoming more sophisticated and are using technology in creative ways to get access to information and funds. That’s why cyber security (protecting things like your computer, phone and personal information) is so important.
+Cyber incidents can include the use of malicious software (e.g. malware and viruses) enabled by people or through exploiting vulnerabilities on websites or online services. Cyber incidents can also include malicious attacks on organisations. Typically, these incidents are used to get access to sensitive information, ultimately for financial gain, or to make a political statement.
+Explore the steps you can take to protect yourself or your organisation from cyber incidents.
+### What is a scam?
+Scams can be complex and present in multiple ways. For example, impersonation scams typically involve convincing individuals they’re interacting with a trusted person or organisation (like your bank, tax office or investment company).
+In order to steal your money, the criminal may convince you to share sensitive information (e.g. your banking details) or authorise a payment from your account. This fake relationship can be built over a number of months over the phone, SMS messages, email or social media.
+Learn more about common types of scams 
+### What is fraud?
+Fraud can take many forms and can occur without your knowledge. An example of credit card fraud is when credit card details are stolen using a specialised device, during a legitimate transaction. You may first become aware there’s an issue when you’re notified by your bank or when you view your transaction history.
+Find out how we protect our customers using our fraud detection technology, ANZ Falcon®.
+### How to report a scam
+Reporting a scam is an important step to help stop it. Plus it can prevent countless others falling victim too. Report a scam to Scamwatch .
+If you have shared financial information or transferred money to a scammer - or if you suspect fraud on your account - please contact us immediately .
+Learn how to spot a scam 
+### What is phishing?
+Phishing is a technique used by criminals to gain access to systems or sensitive personal or financial information, like bank account details, by impersonating an individual or business you may recognise and trust. Phishing is often done through legitimate-looking websites, emails and SMS messages, which are actually fake.
+### I’ve received a message or call from ANZ. How do I know it's genuine?
+It can be hard to spot scams and fraudulent activity. In a genuine ANZ call, SMS message or email, we will never ask you to:
+- share sensitive banking details (like passwords, PINs, ANZ Shield codes, token codes. or one-time passcodes (for payment) in an email or SMS)
+- click a link to log in to your account
+- grant remote access to your computer, phone, tablet (or any other mobile device)
+- transfer money to another account
+Learn about types of scams and the latest security alerts .
+## Get in contact with us
+Report a lost or stolen card Report fraud or scams
+## Important information
+This information seeks to raise awareness and provides general information only. It may be necessary or appropriate to ensure that measures are taken in addition to, or in substitution for, the measures presented having regard to your particular personal or business circumstances.
+Falcon® is a registered trademark of Fair Isaac Corporation.
+Google Translate is a trademark of Google LLC.
+Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/security/
+Scraped: 2026-01-09

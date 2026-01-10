@@ -1,0 +1,80 @@
+Title: Overpayment scams: What they are and tips to help you protect yourself | ANZ
+Source URL: https://www.anz.com.au/security/types-of-scams/overpayment-scams/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+EndNoIndex Article related to: Types of scams
+# Overpayment scams: What they are and tips to help you protect yourself
+Protect yourself from overpayment scams. Learn how scammers trick you into refunding fake payments and discover key warning signs and tips to help you protect yourself.
+ANZ Security specialist
+2024-08-29 04:30
+#### Share
+Use contentFragment part from templates.html Override page properties Only display AhContent Only display AhContent Only display AhContent <dt class="cmp-contentfragment__element-title">Content</dt> Estimated reading time  6 min
+## Key points
+- Overpayment scams are when someone intentionally pays you more than the agreed amount for a product or service, or it’s when a fake business might overpay you as a customer.
+- Placing a complicated order, paying more than the agreed price, and putting pressure on you to refund the overpaid amount are just some of the signs of an overpayment scam.
+- Taking the extra step of verifying payments before you refund and checking the buyer’s details can help protect you and your business from overpayment scams.
+## There are times in life when it makes sense to go a little bit overboard. You might overindulge in cake on a milestone birthday, go over the top with your home renovation, or feel overjoyed at your child’s wedding.
+However, the one time you need to be wary of going overboard is when you, or your business, receives an unexpected overpayment.
+“There are many ways a cybercriminal can get you or your business with an overpayment scam,” says Chantara Lowe, ANZ Scam Assist Senior Officer in Customer Protection. “They’re often complex scams where the person or business being affected by it, is transferring their own money right into the hands of the scammer.”
+Scammers can cast their net far and wide to try and target multiple people and businesses with overpayment scams. That’s why we’re breaking down the basics of overpayment scams and how you can help protect yourself (and your business) from them.
+## What is an overpayment scam?
+In a nutshell, overpayment scams can happen when a buyer purchases from your business or online store and intentionally pays more than what you have charged them. The other end of the scam spectrum is when a fake business or a scammer impersonating a different business overpays you, the customer.
+After the overpayment has been made, the scammer will request a refund of the overpaid amount and you might oblige. However, the scammer’s original payment could be fraudulent. For example, they might have paid you with a stolen credit card or a fake wire transfer.
+This means the amount they originally ‘paid’ you might not even go through, and if you refund the overpaid amount then it will go straight into the scammer’s account. Unfortunately, you won’t know if you’ve been scammed until you check your transactions later.
+## How can you spot an overpayment scam?
+- A buyer places a large, complicated order . In this case, the scammer might use a credit card or bank account for the refund that has different information to their order details. For example, if the name on the credit card and order are different then it might be a scam.
+- The buyer pays more than the agreed price for the product and then asks you to refund the difference.
+- The scammer wants you to pay back the overpaid amount through unusual payment methods , such as sending a money order or pre-loaded card or paying the difference through cryptocurrency.
+- An urgent order or request comes from an overseas buyer , even though your product is available in their country.
+- There’s pressure to refund the scammer . They do this so you don’t have time to pause and verify the legitimacy of their original payment.
+- “ Scammers can put on a great show ,” says Chantara. “But most of the time, the stories they’re telling to explain the overpayment can be quite vague or inconsistent.”
+## 4 common overpayment scam scenarios
+### 1. Small business overpayment scam
+“One scenario of an overpayment scam that I’ve seen is when the scammer has targeted the business by claiming they’ve got a special event, like a birthday, coming up and they want to book out the whole establishment – whether it’s an entire store, restaurant, or salon,” Chantara explains. We’ve broken down this scenario step-by-step:
+- The scammer will ask to pay for the entire establishment by credit card over the phone – but they’re using a stolen credit card.
+- When the business owner takes the credit card details, the scammer might say they will pay extra to cover a different cost for the event (like a limo) because they’re struggling to pay for that second vendor directly.
+- By the time the targeted business realises the money didn’t go through to their account, they had already transferred that money onto the ‘second vendor’, which is just the scammer’s other account.
+### 2. Remote access overpayment scam
+“The scammers will claim to be any sort of business,” Chantara explains. “If you’ve lost money already, the scammers might say something like, ‘We need your help to catch the hackers, and we’ll pay you’.”
+From there, the scammer will ask for remote access to your computer. They will use a fake version of the target’s banking website and instruct the customer to type in a certain amount that the scammer intends to ‘pay’.
+“The target will enter, let’s say $2,000, into the screen – which both the target and scammer can see,” Chantara says. “But the scammer will quickly enter one extra zero and then they’ll say something like, ‘Oh no I’ve accidentally paid you $20,000 I’m going to lose my job!’ to try and guilt the customer into returning the overpaid amount.”
+Because the fake websites make it look like the money is in your account, the scammer will urge you to move that money back into their account – even though it was never there to begin with.
+“So, the target might end up transferring the ‘overpaid amount’ straight into the scammer’s bank account,” Chantara says. “Once that transaction has been finalised, it’s then the target realises that they never got paid that initial amount, which in this example is the $2,000.”
+### 3. Online marketplace overpayment scam
+After searching online marketplaces for some time, you finally found the vintage couch you’ve been looking for. You chat to the seller to pay for the item and arrange shipping, but you never receive the couch, and the buyer doesn’t contact you again.
+On the other hand, you might put up an old laptop for sale on an online marketplace and someone wants to buy it. The buyer pays more than your advertised amount and claims they thought they had to pay for shipping too. They buyer asks if you can refund the difference. If you decide to refund the overpaid amount, you realise that the original payment didn’t go through, and you’ve just paid a scammer directly.
+### 4. Holiday booking scam
+After searching for a travel agency to book an overseas holiday, you’ve finally found a well-known, legitimate agency that allows you to book your trip online and pick up the tickets at their in-person office. You pay for your flights and receive a ‘placeholder ticket’ until the real one is sent to you later. When a few weeks pass and you still haven’t received the real ticket, you head into the closest office to enquire about it.
+It turns out that it was a fake website that was designed to look very similar to the real, legitimate business.
+## What can you do to help stay safe from overpayment scams?
+- When selling an item, only accept the agreed amount from a buyer. Confirm that you’ve received the agreed amount before doing anything else.
+- Make sure payments are genuine and fully processed before giving out a refund or delivering a product or service. It’s also a good idea to ensure you have the cleared funds in your account before giving out a refund or handing over goods. Check your bank statements and verify credit card transactions.
+- Contact your bank for support on how to verify multiple credit card payments if the buyer used multiple cards to purchase an item from you.
+- Always check that the buyer’s details match the information on the account or credit card they paid from .
+- Be wary of customers who place complicated and urgent orders , especially if they’re from overseas.
+- Use preferred payment methods , like debit or credit card, as they have built-in protections against fraud.
+## What can you do if you think you’ve been scammed?
+- If you’ve shared financial information or transferred money, contact your bank immediately. If you’re an ANZ customer, contact us immediately to report the fraud.
+- If you’ve shared credit card details, ‘block’ or cancel those cards immediately. If your cards are with ANZ, you can report the stolen card through the ANZ app or by calling us.
+- If you used an online marketplace or third-party payment system, such as eBay or PayPal, then report the cybercriminal to that platform.
+## Who can you contact if you’ve been scammed?
+- Report the scam to the Australian Signals Directorate’s ReportCyber portal . This resource is there for reports of scams where money or personal information has been lost.
+- Help others by reporting to Scamwatch to help them prevent future losses, monitor trends and educate the population about emerging threats.
+- For phishing or identity theft associated with government accounts such as Centrelink, Medicare, or Child Support, contact the Services Australia scams and identity helpdesk on 1800 941 126 or visit their website .
+- You can also contact IDCare , a not-for-profit organisation providing support to those experiencing identity and cyber security concerns.
+- If you’re an ANZ customer, you can report fraud or suspicious activity in multiple ways , such as through the ANZ app or by calling us
+anzcomau:content-hubs/security/scams,anzcomau:content-hubs/security/business-scams-and-fraud Overpayment scams: What they are and tips to help you protect yourself ANZ Security specialist 2024-08-29 /content/dam/anzcomau/images/security-hub/types-of-scams/overpayment-scams-banner1200x800.jpg Only display AhContent Only display AhContent Only display AhContent Only display AhContent Only display AhContent Only display AhContent Only display AhContent Only display AhContent Use placeholder part from /apps/core/wcm/components/commons/v1/templates.html ## Cyber security resources for you and your business
+From working at home securely to learning how to educate your staff, we’ve got plenty of guides to help you protect yourself and your business from scams.
+Get more tips
+- What is credit card fraud and how to protect yourself Welcome to our useful guide on credit card fraud. Discover what it is and what to do if you fall victim. We also look at how ANZ protects you. And how you can protect yourself. Learn more.
+- Types of fraud Cheque fraud: How to protect yourself and your business ANZ Security specialist Learn how cheque fraud works and practical ways to help you protect yourself and your business. Spot red flags and stay secure. 2024-09-16 04:30
+- Types of scams Online shopping scams: How to spot and avoid them ANZ Security specialist Learn how to buy and sell online safely by spotting common online shopping scams. Discover red flags, scam tactics, and practical tips to help you protect your money and personal information on online marketplaces. 2024-04-02 05:30
+## Important information
+The information set out above is general in nature and has been prepared without taking into account your objectives, financial situation or needs. Before acting on the information, you should consider whether the information is appropriate for you having regard to your objectives, financial situation and needs. By providing this information ANZ does not intend to provide any financial advice or other advice or recommendations. You should seek independent financial, legal, tax and other relevant advice having regard to your particular circumstances.
+References
+1.     Scamwatch, Scam statistics , 2024
+
+---
+Original URL: https://www.anz.com.au/security/types-of-scams/overpayment-scams/
+Scraped: 2026-01-09

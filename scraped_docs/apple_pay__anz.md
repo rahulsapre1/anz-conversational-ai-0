@@ -1,0 +1,118 @@
+Title: Apple Pay | ANZ
+Source URL: https://www.anz.com.au/support/online-banking/manage-your-card/digital-wallets/apple-pay/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# Apple Pay™
+Got an iPhone or Apple Watch? Apple Pay is ready to go in your Apple Wallet. Leave your cards at home and pay securely in-store, online or in-app with your device. It’s fast, easy and built for everyday purchases.
+EndNoIndex ## Why useApple Pay?
+### Pay without cash or card
+Apple Pay works on iPhone and Apple Watch - no need for cards or cash. Lost your card? Your new one updates automatically in Apple Wallet.
+### Safe and secure mobile payments
+Apple Pay is secure and private. Authorise with Face ID, Touch ID or passcode. Card details aren’t shared. See transactions on ANZ statements.
+### Quick and simple way to pay
+Brunch, streaming or groceries - pay easily with Apple Pay on your device disclaimer . It’s a smart, secure way to pay online, in-store or in-app.
+### Accepted worldwide
+Use Apple Pay wherever your card is accepted disclaimer - shops, online, overseas, ATMs, payment terminals and phones with payment apps.
+Tip: Just look for contactless payments or Apple Pay logos at check out.
+To get started with Apple Pay
+- An eligible Apple device 
+- The ANZ App.
+- An eligible ANZ debit or credit card (you can also add multiple cards.
+## Add your ANZ card to Apple Wallet on your iPhone or Apple Watch
+- On your iPhone
+- On your Apple Watch
+### How to add your ANZ Card to Apple Wallet
+Use the ANZ App to add your ANZ card to Apple Pay:
+Log in to the ANZ App.
+Select the account.
+Tap Manage.
+Tap Add to Wallet and follow the prompts. Sorted!
+Tip: Alternatively, you can use Apple Wallet app to add your card to your iPhone wallet.
+### How to add your ANZ card to your Apple Watch's Wallet
+Use Apple Pay with your ANZ Card on your Apple Watch:
+On your iPhone, open the Apple Watch app.
+On the My watch tab, tap Wallet & Apple Pay.
+Tap Add Card and follow the prompts.
+Use Apple Wallet with ANZ debit, credit & rewards cards
+Set up Apple Wallet with your ANZ debit or credit card - or both. Add multiple cards and set a default for mobile payments. Don’t forget to include other cards, like rewards cards, so you never miss out on points. It’s quick, easy, and keeps everything in one place.
+## Make payments in-store with your iPhone or Apple Watch
+- On your iPhone
+- On your Apple Watch
+### Pay with Apple Pay on iPhone
+How to Pay in-store quickly with your iPhone from Lock Screen or while using other apps:
+Double-click the side button on your iPhone.
+Authenticate with Face ID, passcode or touch ID.
+Hold your iPhone near the reader.
+You will feel a vibration or hear a beep from the iPhone.
+### Pay with Apple Pay on Apple Watch
+How to Pay in-store quickly with your Apple Watch:
+Double-click the side button on your Apple Watch.
+Hold your Apple Watch near the reader.
+You will feel a vibration or hear a beep from the Apple Watch.
+Tip: Touch ID is available on older iPhones (or SE models) that have a Home button. Authenticate by double-clicking the Home Button and hold iPhone near the reader.
+## Pay with Apple Pay on iPhone
+- On your iPhone
+- On your Apple Watch
+### How to pay online or in apps with your iPhone
+Quickly pay online without entering card number, expiry or security codes:
+Select Apple Pay or tap the Apple Pay button at checkout on an app or website.
+On the following screen confirm payment details, then authenticate with Face ID, Touch ID or passcode .
+Wait for the confirmation - your payment is complete.
+### How to pay online or in apps with your Apple Watch
+Quick, no fuss - Apple Watch keeps payments effortless:
+When prompted, double-click the side button on your Apple Watch.
+Wait for the confirmation - your payment is complete.
+Security Tip
+If you're disposing of your iPhone or Apple watch, make sure to remove your card from Apple Pay to help protect your account.
+## Remove a card from your iPhone or Apple Watch
+- On your iPhone
+- On your Apple Watch
+### How to remove a card from iPhone Wallet
+Quickly remove a card from Apple Wallet:
+Open the Wallet app .
+Tap the card you want to remove.
+Tap the More button (three dots).
+Follow the prompts. Done!
+### How to remove a card from an Apple Watch
+Remove cards fast - Apple Watch makes it easy:
+Open the Wallet & Apple Pay app on your Apple Watch.
+Tap the card you want to remove.
+Select the Info tab scroll down tap Remove Card .
+Follow the prompts. Done!
+## The ANZ App and manage your card
+- The ANZ App Your money, your control. Take command of your personal and business banking, instantly and securely from the palm of your hand with the ANZ App.
+- Manage your card Easily manage your ANZ card online. Report a lost or stolen card, activate a new one, add to your digital wallet, replace your card, or dispute transactions - start now.
+- Lost or stolen cards It's easy to report and replace your lost or stolen card using the ANZ App. You can also temporarily block your card to keep your money secure.
+## FAQs
+### How secure is Apple Pay?
+Learn more about Apple Pay security and privacy 
+### Where can I find more information or help with Apple Pay?
+Learn more - Apple Pay Support 
+## Need more help?
+#### Message us
+For fast support, message us in the ANZ App. Available 24/7.
+- Message us in the app 
+#### Contact us
+Don’t have the ANZ app? Download it now or find other ways to contact us.
+- Contact us 
+#### Visit us
+Find your local branch and book an appointment to visit us.
+- Find a branch 
+## Important information
+Any advice does not take into account your personal needs and financial circumstances and you should consider whether it is appropriate for you. ANZ recommends you read the applicable product terms and conditions , which are available at anz.com or by calling 13 13 14 or for ANZ Plus at anz.com/plus before deciding whether to acquire, or continue to hold, the product. Fees, charges and eligibility criteria apply.
+Apple Pay is available on compatible devices and eligible ANZ cards.
+Terms and conditions apply to the use of Apple Pay.
+Apple, Apple Pay and iPhone are trade marks of Apple Inc., registered in the U.S. and other countries.
+Currently all ANZ cards which are not expired, blocked, suspended or cancelled are eligible for Apple Pay.
+Content on this page is accurate as at 25 September 2025 and is subject to change.
+Participating sites and merchants only.
+Return Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/support/online-banking/manage-your-card/digital-wallets/apple-pay/
+Scraped: 2026-01-09

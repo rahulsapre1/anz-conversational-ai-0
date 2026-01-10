@@ -1,0 +1,66 @@
+Title: How secure is your password? | ANZ
+Source URL: https://www.anz.com.au/security/protect-devices/secure-password/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+EndNoIndex Article related to: Keep your devices secure
+# How secure is your password?
+A secure password is the first line of defence between your account and a cybercriminal. That's why we're helping you make passwords that are harder to crack.
+ANZ Security specialist
+2024-09-17 00:00
+#### Share
+Use contentFragment part from templates.html Override page properties Only display AhContent Only display AhContent Only display AhContent <dt class="cmp-contentfragment__element-title">Content</dt> Estimated reading time  5 min
+## Key points
+- The first step in protecting your accounts from cybercriminals is creating a strong, unique password or passphrase that combines numbers, letters, and symbols.
+- The longer and more unpredictable your password is, the harder it is for cybercriminals to crack it with their password-cracking techniques, so consider a longer passphrase for more protection.
+- To be smarter with your passwords, you can use a password manager, not rely on autofill, and turn on multi-factor authentication.
+## Passwords are an essential part of our lives. We use them to log into our most important accounts – whether that’s looking at bank balances, scrolling through social media, or checking emails.
+Cybercriminals can walk right in without a strong password and have free reign over our data. A password is like a locked door preventing anyone from getting in and stealing data, information and money.
+Even though 66% of Australians use unique passwords and don’t share them with others, plenty of us have simple, easy-to-crack passwords. 1 Did you know that cybercriminals can crack a seven-character password in just two seconds if it doesn’t include numbers or special characters?
+“Password123 is still one of the most common passwords people use,” explains Abigail De Jesus, ANZ Journey Expert, Customer Security Education. “You must use long, complex, unique passwords for every account. And I get it – it’s hard to remember them all! But these safety measures can help keep your accounts safe from hackers.”
+So, if you’ve been using ‘123456’ or ‘password’ to log into your accounts and are unsure just how strong your passwords are, it’s time to learn why strong passwords are important and how to make one.
+## Why is having a unique and strong password important?
+Your password is the first line of defence against cybercriminals who are trying to get into your accounts. That’s why they’re an important part of cyber security. On top of that, a strong and unique password can help protect your personal information and accounts from being compromised by cybercriminals.
+However, no matter how strong and long your password is, hackers will stop at nothing to try and get into your accounts. Some of the methods they may use include:
+- Brute force attacks are when a cybercriminal uses software to generate and test every possible password combination to try to get into your account. Complex passwords and passphrases may make it more time-consuming for hackers to do this.
+- A dictionary attack occurs when a hacker uses software with a pre-defined list of words and phrases to try to guess the password. The software focuses on common words, phrases, or variations, which means common passwords like ‘password123’ and ‘admin’ can be easily cracked.
+- Password cracking software lets cybercriminals guess or identify passwords by exploiting weaknesses in the account or device. This software often uses a combination of brute force and dictionary attacks. It might also scan for passwords and personal details available from other leaks and data breaches.
+- Credential stuffing attacks are when a cybercriminal uses a stolen username and password pairing to gain unauthorised access to your accounts. They may use software to try your login credentials across other sites. If you reuse passwords and usernames, that can make hacking your accounts this way easier.
+- A rainbow table attack is when a hacker uses a precomputed table of hashed passwords – a password that has been turned into a unique string of characters – to compare against actual hashed passwords.
+- Keylogging malware is software that can track your keyboard movements when you type. It sends this information to the cybercriminal’s remote server. They can then use that information to log into your accounts.
+- Social engineering is a tactic that involves a cybercriminal manipulating you into doing something for them, such as sharing a username and password. The cybercriminal might impersonate a trusted organisation, like your bank, to trick you into sharing your login details. Or they might send you an email with a phishing link. When you enter the fake website and enter your login details, the cybercriminal can steal them.
+## How to make or create a stronger password
+There are two key elements of making a more secure password for your accounts:
+- The longer your password is, generally the harder it will be for hackers to crack . Aim for at least 12 to 14 characters, including using upper- and lower-case letters, standard special characters, and numbers.
+- Make your password unpredictable so the cybercriminal’s software will have a more challenging time cracking it. Phrases like ‘happy birthday’, ‘password’ or ‘abc’ are child’s play for password cracking software. However, using a line from your favourite song or the name of a TV or movie character can make it much harder for password-cracking software to figure out. Avoid using identifiable information, like the name of your partner, child, or pet. And don’t use obvious substitutions, like swapping an ‘I’ for ‘!’ – get creative instead.
+- At ANZ, we believe that strong passwords can significantly enhance your security . Our password guidelines – suggests a maximum of 32 characters, including spaces, and standard special characters (e.g., (@!#$%^&*), to help protect your account from potential threats. Your password must not include your birth date, any recognisable part of your name, or sequential or repetitive numbers.
+## What about passphrases?
+Passphrases are another way to make more complex passwords that are long, unpredictable, and difficult to crack – and they’re also easy for you to remember.
+“Passphrases are a combination of three or four unrelated words,” Abigail says. “So, ideally, it’ll be easy for you to remember but harder for hackers to predict.”
+And when you add numbers, symbols, and uppercase letters to the mix, you can turn a string of random words into an impenetrable passphrase for your accounts.
+“For example, if your password is ‘m3rrychr!stma5’, it’s still a predictable phrase because it’s ‘merry Christmas’ with obvious letter swaps. If hackers run their brute force software, the computer can predict the password and get into your account,” explains Abigail. “But, if you had a passphrase like ‘pencil-hair-water-mug-96>.<’, then the combination of random words, symbols and numbers will be harder for hackers to predict.”
+## How safe is your password?
+Is my password strong enough to protect me from criminals? We should all ask ourselves this question regularly. Length and complexity are the two main factors to consider, which is why passphrases with a mix of symbols can be the most secure options.
+If you’ve created a new password, there are online tools you can use to check how secure your password is or whether it’s been part of a data breach. All you have to do is type it in. It’s that simple.
+## 7 tips for being smarter with your passwords
+- Consider using a password manager to record and store your passwords and phrases. “It’s hard to keep track of all your passwords and passphrases across all your accounts,” Abigail says, “but using a password manager might make it easier to store and remember your passwords.”
+- Use different passwords for different accounts . “If you’re using the same password across several platforms, then you could be risking yourself of getting hacked,” explains Abigail. “For example, if you get hacked in one account, the hacker will take your login information – your username, email and password – and might try using that to get into other platforms.”
+- Consider using a passphrase instead of a password. This can make it easier for you to remember the password while making it harder for others to access your accounts.
+- Don’t use autofill to log into your accounts when you’re using a shared device or desktop. “While auto-filling your login details is convenient, if your device is stolen, or if you’re using a shared desktop, then it will automatically fill in your details for anyone,” Abigail says. “It’s much better if you don’t let your computer remember and autofill your passwords unless you can guarantee the device won’t be used by someone else.”
+- Don’t share your passwords with anyone or any platform. When you share your password, you can’t control what the other person or organisation will do with it.
+- Turn on multi-factor authentication (MFA ) whenever it’s available. “MFA or two-factor authentication could help protect your accounts,” Abigail says. “Yes, it’s an extra step you’ll need to take, but it’s another way of having an extra layer of security.”
+- Avoid reusing old passwords that you haven’t touched in years. If an old password of yours was leaked or compromised, and you decide to reuse it, it’ll be a breeze for cybercriminals to log into your accounts.
+anzcomau:content-hubs/security/keep-your-devices-secure How secure is your password? ANZ Security specialist 2024-09-17 /content/dam/anzcomau/images/security-hub/keep-your-devices-secure/secure-password-banner-1200x800.jpg Only display AhContent Only display AhContent Only display AhContent Only display AhContent Only display AhContent Use placeholder part from /apps/core/wcm/components/commons/v1/templates.html ## Stay safer when using all your devices
+Having a robust and unique password is just one of many measures that might help you stay safe online and on your devices. Knowing how to keep your phone secure, manage your privacy settings and activate MFA (along with a strong password or passphrase) could help you use your devices smartly and safely.
+Learn the safety tips
+- Keep your devices secure Mobile banking and phone security ANZ Security specialist Good mobile phone security helps prevent hackers from accessing your data. Exploring ways to secure your phone can contribute to safer use and help protect your data. 2024-09-18 00:00
+- Keep your devices secure How to check your privacy and security settings ANZ Security specialist Managing your privacy and security settings can help you control the data being collected by apps. We explain the basics of security settings to help you use your apps safely. 2024-09-18 00:00
+- Keep your devices secure Multi-factor authentication: What is MFA? ANZ Security specialist Learn about multi-factor authentication, known as MFA, and how it keeps your accounts safe. Find out why MFA is important. 2024-09-18 00:00
+## Important information
+The information set out above is general in nature and has been prepared without taking into account your objectives, financial situation or needs. Before acting on the information, you should consider whether the information is appropriate for you having regard to your objectives, financial situation and needs. By providing this information ANZ does not intend to provide any financial advice or other advice or recommendations. You should seek independent financial, legal, tax and other relevant advice having regard to your particular circumstances.
+References
+1. Office of the Australian Information Commissioner, Australian community attitudes to privacy survey 2023 , 2023
+
+---
+Original URL: https://www.anz.com.au/security/protect-devices/secure-password/
+Scraped: 2026-01-09

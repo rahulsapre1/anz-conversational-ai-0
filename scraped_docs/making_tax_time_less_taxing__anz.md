@@ -1,0 +1,58 @@
+Title: Making tax time, less taxing | ANZ
+Source URL: https://www.anz.com.au/support/online-banking/spending-savings/tax-time/
+Retrieval Date: 2026-01-09
+Content Type: public
+
+# Making tax time, less taxing
+When tax time comes around each year, you may need to lodge an Australian tax return.  To make things easier, we've gathered some useful information and tips to help you get tax ready.
+EndNoIndex ## Get the statements you need online
+There may be a number of reasons you might need to access your account statements at tax time, such as records for an investment property or you might have tax-deductable expenses related to your work.
+You can do it yourself online, using the ANZ App or Internet Banking. View your latest statement or one from up to seven years ago. You can save them, email them or print them if you'd prefer a hard copy.
+We'll show you how 
+## How to view your interest and charges
+### To view your interest and charges in Internet Banking.
+To view for a specific account:
+Log in to Internet Banking .
+Select an account from your list.
+Select the Details tab.
+Expand the Interest and charges section by clicking on the arrow to the right.
+To view a summary of all of your eligible accounts:
+Log in to Internet Banking .
+Go to the Settings menu.
+Under Account Preferences, select View interest and charges summary .
+To view term deposit interest history:
+Log in to Internet Banking .
+Select your term deposit.
+Then select the Interest history link. The term deposit details are divided into an account summary and investment details.
+## What interest and charges you'll see online
+You can view the following information for the current financial year and previous financial years disclaimer :
+- Total interest paid - interest debited from your account(s)
+- Total interest received - interest credited to your account(s)
+- Government charges and bank fees - debited from your account(s).
+Tip: Think it’s a rebate? It could be a scam. Know the signs 
+## What to do once you receive your tax refund
+- Tax refund or windfall Whether you've received a tax refund, inheritance, employment bonus or lottery win, we have some smart ideas for how to make the most of your financial windfall.
+- Managing debt Learn about different types of debt, as well as tactics & clever tricks to get on top of it with ANZ's financial wellbeing guidance.
+- View your account details See how to quickly and securely view your bank details, including balances, interest, fees, charges and more with the ANZ App and Internet Banking.
+## Need more help?
+#### Message us
+For fast support, message us in the ANZ App. Available 24/7.
+- Message us in the app 
+#### Contact us
+Don’t have the ANZ app? Download it now or find other ways to contact us.
+- Contact us 
+#### Visit us
+Find your local branch and book an appointment to visit us.
+- Find a branch 
+## Important information
+The ANZ App is provided by Australia and New Zealand Banking Group Limited (ANZ) ABN 11 005 357 522. Super and Insurance (if available) are not provided by ANZ but entities which are not banks. ANZ does not guarantee them. This information is general in nature only and does not take into account your personal objectives, financial situation or needs. ANZ recommends that you read the ANZ App Terms and Conditions available here for iOS (PDF) and here for Android (PDF) and consider if this service is appropriate to you prior to making a decision to acquire or use the ANZ App.
+Interest and charges summary for eligible accounts only. Some interest, charges and fees may not appear. For more information, please refer to your account statements via ANZ Internet Banking or the ANZ App.
+Return Top /* <head data-sly-test="false" data-sly-include="/libs/wcm/mobile/components/simulator/simulator.jsp" data-sly-unwrap></head> */ [if lte IE 9]>
+<script src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/ie.js"></script>
+<![endif] [if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="/apps/settings/wcm/designs/commons/clientlibs/latest-SNAPSHOT/js/lib/selectivizr.js"></script>
+<![endif]
+
+---
+Original URL: https://www.anz.com.au/support/online-banking/spending-savings/tax-time/
+Scraped: 2026-01-09

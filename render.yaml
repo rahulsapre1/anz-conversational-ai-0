@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: contactiq
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_VECTOR_STORE_ID_CUSTOMER
+        sync: false
+      - key: OPENAI_VECTOR_STORE_ID_BANKER
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: CONFIDENCE_THRESHOLD
+        value: 0.68
+      - key: LOG_LEVEL
+        value: INFO
+      - key: SESSION_PASSWORD
+        sync: false
+      - key: API_TIMEOUT
+        value: 30
