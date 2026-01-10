@@ -4,7 +4,9 @@ Authentication module for ContactIQ.
 Implements simple password-based authentication at session start.
 """
 import streamlit as st
+import pandas as pd
 from config import Config
+from ui.tested_questions import get_tested_questions_data
 
 # ANZ Brand Colors
 ANZ_PRIMARY_BLUE = "#003D82"
@@ -29,7 +31,8 @@ def _render_one_pager_case_study():
         ("7. How It Works (User Flow)", "user-flow"),
         ("8. Metrics & Evals", "metrics"),
         ("9. Launch & Adoption Plan", "launch"),
-        ("10. Risks & Controls", "risks")
+        ("10. Risks & Controls", "risks"),
+        ("11. Tested Questions & Example Queries", "tested-questions")
     ]
     toc_html = " | ".join([f'<a href="#{anchor}" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: bold;">{title}</a>' 
                            for title, anchor in toc_links])
@@ -166,6 +169,53 @@ def _render_one_pager_case_study():
         "- **Overconfidence** → conservative confidence threshold + outcome logging\n"
         "- **Low trust** → visible citations + transparent escalation reasons"
     )
+    st.markdown("---")
+    
+    # Section 11
+    st.markdown('<div id="tested-questions"></div>', unsafe_allow_html=True)
+    st.markdown("### 11. Tested Questions & Example Queries")
+    st.markdown(
+        "The following questions have been tested and are known to work well with ContactIQ. "
+        "**You can use these as examples** when interacting with the assistant after logging in. "
+        "Filter by Mode (Customer/Banker) or Intent to find relevant examples."
+    )
+    
+    # Get tested questions data
+    questions_df = get_tested_questions_data()
+    
+    # Filter controls
+    col1, col2 = st.columns(2)
+    with col1:
+        mode_filter = st.selectbox(
+            "Filter by Mode:",
+            ["All"] + sorted(questions_df["Mode"].unique().tolist()),
+            key="tested_questions_mode_filter"
+        )
+    with col2:
+        intent_filter = st.selectbox(
+            "Filter by Intent:",
+            ["All"] + sorted(questions_df["Intent"].unique().tolist()),
+            key="tested_questions_intent_filter"
+        )
+    
+    # Apply filters
+    filtered_df = questions_df.copy()
+    if mode_filter != "All":
+        filtered_df = filtered_df[filtered_df["Mode"] == mode_filter]
+    if intent_filter != "All":
+        filtered_df = filtered_df[filtered_df["Intent"] == intent_filter]
+    
+    # Display table
+    if not filtered_df.empty:
+        st.dataframe(
+            filtered_df,
+            use_container_width=True,
+            hide_index=True,
+            height=400
+        )
+        st.caption(f"Showing {len(filtered_df)} of {len(questions_df)} tested questions")
+    else:
+        st.info("No questions match the selected filters. Try adjusting your filters.")
 
 
 def check_authentication():

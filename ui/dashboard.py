@@ -106,10 +106,8 @@ def render_dashboard():
     </div>
     """, unsafe_allow_html=True)
     
-    # Filters
-    filters = render_filters()
-    
-    # Display all metric sections
+    # Display all metric sections (no filters - show all data)
+    filters = {}
     display_overall_metrics(filters)
     st.markdown("---")
     display_mode_breakdown(filters)
@@ -300,115 +298,6 @@ def apply_anz_styling():
     """, unsafe_allow_html=True)
 
 
-def render_filters() -> Dict[str, Any]:
-    """Render dashboard filters with sticky positioning."""
-    # Sticky container for filters
-    st.markdown("""
-    <style>
-    .sticky-filters {
-        position: sticky;
-        top: 0;
-        background-color: #1a1a1a;
-        padding: 1rem 0;
-        border-bottom: 1px solid #404040;
-        z-index: 1000;
-        margin: -1rem -1rem 1rem -1rem;
-    }
-    .filter-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 1rem;
-    }
-    .filter-badge {
-        background-color: #0052a5;
-        color: white;
-        padding: 0.2rem 0.5rem;
-        border-radius: 12px;
-        font-size: 0.8em;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
-    with st.container():
-        st.markdown('<div class="sticky-filters">', unsafe_allow_html=True)
-
-        # Filter header with title and clear button
-        col_title, col_clear = st.columns([3, 1])
-        with col_title:
-            st.markdown("### 🔍 Filters")
-
-        # Count active filters
-        active_filters = 0
-        if st.session_state.get("mode_filter", "All") != "All":
-            active_filters += 1
-        if st.session_state.get("date_range_filter", "Last 7 days") != "Last 7 days":
-            active_filters += 1
-        if st.session_state.get("intent_filter", "All") != "All":
-            active_filters += 1
-
-        with col_clear:
-            if active_filters > 0:
-                st.markdown(f'<div class="filter-badge">{active_filters} active</div>', unsafe_allow_html=True)
-                if st.button("🗑️ Clear All", help="Reset all filters to default"):
-                    st.session_state.mode_filter = "All"
-                    st.session_state.date_range_filter = "Last 7 days"
-                    st.session_state.intent_filter = "All"
-                    st.rerun()
-
-        col1, col2, col3 = st.columns(3)
-    
-        with col1:
-            mode_filter = st.selectbox(
-                "Mode:",
-                ["All", "Customer", "Banker"],
-                key="mode_filter"
-            )
-
-        with col2:
-            date_range = st.selectbox(
-                "Date Range:",
-                ["Last 7 days", "Last 30 days", "Last 90 days", "All time"],
-                key="date_range_filter"
-            )
-
-        with col3:
-            intents = get_available_intents()
-            intent_filter = st.selectbox(
-                "Intent:",
-                ["All"] + intents,
-                key="intent_filter"
-            )
-
-        st.markdown('</div>', unsafe_allow_html=True)  # Close sticky-filters container
-
-    # Calculate date range
-    end_date = datetime.now()
-    if date_range == "Last 7 days":
-        start_date = end_date - timedelta(days=7)
-    elif date_range == "Last 30 days":
-        start_date = end_date - timedelta(days=30)
-    elif date_range == "Last 90 days":
-        start_date = end_date - timedelta(days=90)
-    else:
-        start_date = None  # All time
-
-    return {
-        "mode": mode_filter.lower() if mode_filter != "All" else None,
-        "start_date": start_date,
-        "end_date": end_date,
-        "intent": intent_filter if intent_filter != "All" else None
-    }
-
-
-def get_available_intents() -> List[str]:
-    """Get list of available intents from database."""
-    try:
-        db_client = get_db_client()
-        return db_client.get_distinct_intents()
-    except Exception as e:
-        logger.error("error_getting_intents", error=str(e))
-        return []
 
 
 def get_interactions_data(filters: Dict[str, Any]) -> pd.DataFrame:

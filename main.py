@@ -8,9 +8,10 @@ import streamlit as st
 import sys
 import traceback
 from config import Config
-from ui.auth import check_authentication, logout
+from ui.auth import check_authentication
 from ui.chat_interface import render_chat_interface
 from ui.dashboard import render_dashboard
+from ui.tested_questions import render_tested_questions
 from utils.logger import setup_logging, get_logger
 
 # Setup structured logging
@@ -38,7 +39,7 @@ def apply_anz_styling():
             background-color: #F5F5F5;
         }}
         .sidebar .sidebar-content {{
-            background: linear-gradient(180deg, {ANZ_PRIMARY_BLUE} 0%, {ANZ_SECONDARY_BLUE} 100%);
+            background-color: #F5F5F5;
         }}
         .stRadio label {{
             color: white;
@@ -124,26 +125,13 @@ def main():
     
     logger.info("app_started")
     
-    # Sidebar navigation with ANZ branding
+    # Sidebar navigation
     with st.sidebar:
-        # ANZ branded header
-        st.markdown(f"""
-        <div style='background: linear-gradient(135deg, {ANZ_PRIMARY_BLUE} 0%, {ANZ_SECONDARY_BLUE} 100%); 
-                    padding: 1.5rem; border-radius: 10px; margin-bottom: 1rem;'>
-            <h1 style='color: white; margin: 0; font-size: 1.8rem; text-align: center;'>💬 ContactIQ</h1>
-            <p style='color: rgba(255,255,255,0.9); margin: 0.5rem 0 0 0; font-size: 0.9rem; text-align: center;'>
-                ANZ Conversational AI
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        st.markdown("---")
-
         # Navigation
         st.markdown("### Navigate")
         page = st.radio(
             "",
-            ["💬 Chat", "📊 Dashboard"],
+            ["💬 Chat", "📊 Dashboard", "📋 Tested Questions"],
             key="page_selector",
             label_visibility="collapsed"
         )
@@ -165,16 +153,10 @@ def main():
             )
             st.session_state.assistant_mode = mode.lower()
             st.markdown("---")
-
-        # System status
-        st.markdown("### System Status")
-        if Config.validate():
-            st.success("✅ System Ready")
-        else:
-            st.error("❌ Configuration Error")
         
-        # Configuration info (collapsible)
-        with st.expander("⚙️ Configuration"):
+        # Settings
+        st.markdown("### ⚙️ Settings")
+        with st.expander("Configuration", expanded=False):
             st.write(f"**Model:** {Config.OPENAI_MODEL}")
             st.write(f"**Confidence Threshold:** {Config.CONFIDENCE_THRESHOLD}")
             st.write(f"**API Timeout:** {Config.API_TIMEOUT}s")
@@ -183,13 +165,6 @@ def main():
                 st.write(f"**Customer Vector Store:** Configured")
             if Config.OPENAI_VECTOR_STORE_ID_BANKER:
                 st.write(f"**Banker Vector Store:** Configured")
-        
-        st.markdown("---")
-        
-        # Logout button
-        if st.button("🚪 Logout", type="secondary", use_container_width=True):
-            logout()
-            logger.info("user_logged_out")
     
     # Route to selected page with error handling
     try:
@@ -197,6 +172,8 @@ def main():
             render_chat_interface()
         elif page == "📊 Dashboard":
             render_dashboard()
+        elif page == "📋 Tested Questions":
+            render_tested_questions()
     except Exception as e:
         logger.error("page_render_error", page=page, error=str(e), exc_info=True)
         handle_global_error(e, context=f"Rendering {page} page")
