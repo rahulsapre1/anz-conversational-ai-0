@@ -1,0 +1,867 @@
+{
+  "summary": {
+    "total_questions": 81,
+    "correct_intent": 66,
+    "correct_category": 57,
+    "automatable_handled": 47,
+    "sensitive_handled": 12,
+    "human_escalated": 22,
+    "errors": 0
+  },
+  "category_performance": {
+    "customer_automatable": {
+      "total": 21,
+      "correct_cat": 21,
+      "correct_intent": 17,
+      "escalated": 0,
+      "errors": 0
+    },
+    "customer_sensitive": {
+      "total": 21,
+      "correct_cat": 8,
+      "correct_intent": 20,
+      "escalated": 12,
+      "errors": 0
+    },
+    "customer_human_only": {
+      "total": 0,
+      "correct_cat": 0,
+      "correct_intent": 0,
+      "escalated": 0,
+      "errors": 0
+    },
+    "banker_automatable": {
+      "total": 27,
+      "correct_cat": 25,
+      "correct_intent": 19,
+      "escalated": 1,
+      "errors": 0
+    },
+    "banker_sensitive": {
+      "total": 12,
+      "correct_cat": 3,
+      "correct_intent": 10,
+      "escalated": 9,
+      "errors": 0
+    },
+    "banker_human_only": {
+      "total": 0,
+      "correct_cat": 0,
+      "correct_intent": 0,
+      "escalated": 0,
+      "errors": 0
+    }
+  },
+  "results": [
+    {
+      "question": "Hello, can you help me with my ANZ account?",
+      "mode": "customer",
+      "expected_intent": "greeting",
+      "expected_category": "automatable",
+      "actual_intent": "greeting",
+      "actual_category": "automatable",
+      "response": "Of course! What specific information or assistance do you need regarding your ANZ account? Let me kn...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Hi there, what services does ANZ offer?",
+      "mode": "customer",
+      "expected_intent": "greeting",
+      "expected_category": "automatable",
+      "actual_intent": "greeting",
+      "actual_category": "automatable",
+      "response": "ANZ offers a wide range of services to meet the banking needs of both personal and business customer...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Good morning, I'd like to know about banking options",
+      "mode": "customer",
+      "expected_intent": "greeting",
+      "expected_category": "automatable",
+      "actual_intent": "general_conversation",
+      "actual_category": "automatable",
+      "response": "Good morning! Here\u2019s a summary of the banking options available, particularly with ANZ:\n\n1. **Digita...",
+      "confidence": 0.85
+    },
+    {
+      "question": "Can you tell me what the ANZ app can do?",
+      "mode": "customer",
+      "expected_intent": "general_conversation",
+      "expected_category": "automatable",
+      "actual_intent": "unknown",
+      "actual_category": "automatable",
+      "response": "The ANZ app offers a variety of features to help you manage your personal and business banking needs...",
+      "confidence": 0.9
+    },
+    {
+      "question": "How does internet banking work at ANZ?",
+      "mode": "customer",
+      "expected_intent": "general_conversation",
+      "expected_category": "automatable",
+      "actual_intent": "unknown",
+      "actual_category": "automatable",
+      "response": "ANZ Internet Banking allows customers to manage their finances securely and conveniently online. Her...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What are the different ways I can bank with ANZ?",
+      "mode": "customer",
+      "expected_intent": "general_conversation",
+      "expected_category": "automatable",
+      "actual_intent": "unknown",
+      "actual_category": "automatable",
+      "response": "You can bank with ANZ in several ways:\n\n1. **ANZ App**: Use this mobile app to manage your accounts,...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What does a cash advance transaction mean?",
+      "mode": "customer",
+      "expected_intent": "transaction_explanation",
+      "expected_category": "automatable",
+      "actual_intent": "transaction_explanation",
+      "actual_category": "automatable",
+      "response": "A cash advance transaction means that you use your credit card to obtain cash or a cash equivalent. ...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How do balance transfers work on ANZ credit cards?",
+      "mode": "customer",
+      "expected_intent": "transaction_explanation",
+      "expected_category": "automatable",
+      "actual_intent": "transaction_explanation",
+      "actual_category": "automatable",
+      "response": "Balance transfers on ANZ credit cards allow you to move existing credit card debt from other banks t...",
+      "confidence": 0.85
+    },
+    {
+      "question": "What's the difference between purchases and cash advances?",
+      "mode": "customer",
+      "expected_intent": "transaction_explanation",
+      "expected_category": "automatable",
+      "actual_intent": "transaction_explanation",
+      "actual_category": "automatable",
+      "response": "The main difference between purchases and cash advances lies in how they are processed and the costs...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What are the annual fees for ANZ credit cards?",
+      "mode": "customer",
+      "expected_intent": "fee_inquiry",
+      "expected_category": "automatable",
+      "actual_intent": "fee_inquiry",
+      "actual_category": "automatable",
+      "response": "Here are the annual fees for various ANZ credit cards:\n\n1. **ANZ Low Rate**: $58\n2. **ANZ Platinum**...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Are there any fees for using ATMs with my ANZ card?",
+      "mode": "customer",
+      "expected_intent": "fee_inquiry",
+      "expected_category": "automatable",
+      "actual_intent": "fee_inquiry",
+      "actual_category": "automatable",
+      "response": "Yes, there are fees associated with using ATMs with your ANZ card, especially for cash advances. A c...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What fees apply when I make international transactions?",
+      "mode": "customer",
+      "expected_intent": "fee_inquiry",
+      "expected_category": "automatable",
+      "actual_intent": "fee_inquiry",
+      "actual_category": "automatable",
+      "response": "When making international transactions with ANZ, you may encounter several types of fees:\n\n1. **Fore...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What's the daily limit for cash advances on my credit card?",
+      "mode": "customer",
+      "expected_intent": "account_limits",
+      "expected_category": "automatable",
+      "actual_intent": "account_limits",
+      "actual_category": "automatable",
+      "response": "The daily limit for cash advances on your credit card is typically **$1,000** per day when using an ...",
+      "confidence": 0.9
+    },
+    {
+      "question": "How much can I transfer per day using internet banking?",
+      "mode": "customer",
+      "expected_intent": "account_limits",
+      "expected_category": "automatable",
+      "actual_intent": "account_limits",
+      "actual_category": "automatable",
+      "response": "The amount you can transfer per day using internet banking at ANZ depends on the type of transaction...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Are there limits on how many transactions I can make?",
+      "mode": "customer",
+      "expected_intent": "account_limits",
+      "expected_category": "automatable",
+      "actual_intent": "account_limits",
+      "actual_category": "automatable",
+      "response": "Yes, there are limits on the number of transactions you can make with ANZ, particularly for differen...",
+      "confidence": 0.9
+    },
+    {
+      "question": "How do I dispute a transaction on my credit card?",
+      "mode": "customer",
+      "expected_intent": "card_dispute_process",
+      "expected_category": "automatable",
+      "actual_intent": "card_dispute_process",
+      "actual_category": "automatable",
+      "response": "To dispute a transaction on your credit card, you can follow these steps:\n\n1. **Use the ANZ App**:\n ...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What should I do if I see unauthorized charges?",
+      "mode": "customer",
+      "expected_intent": "card_dispute_process",
+      "expected_category": "automatable",
+      "actual_intent": "card_dispute_process",
+      "actual_category": "automatable",
+      "response": "If you see unauthorized charges on your account, here are the steps you should take:\n\n1. **Contact Y...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How long do I have to report a disputed transaction?",
+      "mode": "customer",
+      "expected_intent": "card_dispute_process",
+      "expected_category": "automatable",
+      "actual_intent": "card_dispute_process",
+      "actual_category": "automatable",
+      "response": "You should report a disputed transaction as soon as possible, as time limits apply. It's important t...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How do I apply for a new credit card with ANZ?",
+      "mode": "customer",
+      "expected_intent": "application_process",
+      "expected_category": "automatable",
+      "actual_intent": "application_process",
+      "actual_category": "automatable",
+      "response": "To apply for a new credit card with ANZ, follow these steps:\n\n1. **Choose Your Card**: Start by visi...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What documents do I need to open a business account?",
+      "mode": "customer",
+      "expected_intent": "application_process",
+      "expected_category": "automatable",
+      "actual_intent": "application_process",
+      "actual_category": "automatable",
+      "response": "To open a business account at ANZ, you typically need the following documents:\n\n1. **Proof of Identi...",
+      "confidence": 0.9
+    },
+    {
+      "question": "How long does it take to get approved for a personal loan?",
+      "mode": "customer",
+      "expected_intent": "application_process",
+      "expected_category": "automatable",
+      "actual_intent": "application_process",
+      "actual_category": "automatable",
+      "response": "The time it takes to get approved for a personal loan can vary based on the lender and the specifics...",
+      "confidence": 0.85
+    },
+    {
+      "question": "What's my current account balance?",
+      "mode": "customer",
+      "expected_intent": "account_balance",
+      "expected_category": "sensitive",
+      "actual_intent": "account_balance",
+      "actual_category": "sensitive",
+      "response": "To find your current account balance, you can log in to the ANZ App or Internet Banking. This will a...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How much money do I have in my savings account?",
+      "mode": "customer",
+      "expected_intent": "account_balance",
+      "expected_category": "sensitive",
+      "actual_intent": "account_balance",
+      "actual_category": "sensitive",
+      "response": "To find out how much money you have in your savings account, you'll need to log into your banking ap...",
+      "confidence": 0.8
+    },
+    {
+      "question": "Can you show me my loan balance?",
+      "mode": "customer",
+      "expected_intent": "account_balance",
+      "expected_category": "sensitive",
+      "actual_intent": "account_balance",
+      "actual_category": "sensitive",
+      "response": "To check your loan balance, you can use the ANZ App or Internet Banking. Here\u2019s how:\n\n1. **In the AN...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Show me my recent transactions",
+      "mode": "customer",
+      "expected_intent": "transaction_history",
+      "expected_category": "sensitive",
+      "actual_intent": "transaction_history",
+      "actual_category": "sensitive",
+      "response": "To view your recent transactions, you can follow these steps:\n\n1. **In the ANZ App**:\n   - Log in to...",
+      "confidence": 0.85
+    },
+    {
+      "question": "What payments did I make last month?",
+      "mode": "customer",
+      "expected_intent": "transaction_history",
+      "expected_category": "sensitive",
+      "actual_intent": "transaction_history",
+      "actual_category": "sensitive",
+      "response": "To view the payments you made last month, you have a couple of options:\n\n1. **Using the ANZ App**:\n ...",
+      "confidence": 0.85
+    },
+    {
+      "question": "Can I see my account activity for the past week?",
+      "mode": "customer",
+      "expected_intent": "transaction_history",
+      "expected_category": "sensitive",
+      "actual_intent": "transaction_history",
+      "actual_category": "sensitive",
+      "response": "Yes, you can see your account activity for the past week by generating a Transaction Report using ei...",
+      "confidence": 0.9
+    },
+    {
+      "question": "I forgot my online banking password, how do I reset it?",
+      "mode": "customer",
+      "expected_intent": "password_reset",
+      "expected_category": "sensitive",
+      "actual_intent": "password_reset",
+      "actual_category": "sensitive",
+      "response": "If you've forgotten your online banking password, you can reset it by following these steps:\n\n1. **V...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How do I change my PIN for internet banking?",
+      "mode": "customer",
+      "expected_intent": "password_reset",
+      "expected_category": "sensitive",
+      "actual_intent": "unknown",
+      "actual_category": "automatable",
+      "response": "To change your PIN for internet banking with ANZ, you can do it through either the ANZ App or ANZ In...",
+      "confidence": 0.9
+    },
+    {
+      "question": "I need to update my security questions",
+      "mode": "customer",
+      "expected_intent": "password_reset",
+      "expected_category": "sensitive",
+      "actual_intent": "password_reset",
+      "actual_category": "sensitive",
+      "response": "To update your security questions for your ANZ account, follow these steps:\n\n1. **Log into Your Acco...",
+      "confidence": 0.85
+    },
+    {
+      "question": "Should I invest in shares or keep my money in savings?",
+      "mode": "customer",
+      "expected_intent": "financial_advice",
+      "expected_category": "sensitive",
+      "actual_intent": "financial_advice",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "What's the best way to pay off my credit card debt?",
+      "mode": "customer",
+      "expected_intent": "financial_advice",
+      "expected_category": "sensitive",
+      "actual_intent": "financial_advice",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "How can I improve my credit score?",
+      "mode": "customer",
+      "expected_intent": "financial_advice",
+      "expected_category": "sensitive",
+      "actual_intent": "financial_advice",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "I'm unhappy with the service I received from your call center",
+      "mode": "customer",
+      "expected_intent": "complaint",
+      "expected_category": "sensitive",
+      "actual_intent": "complaint",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "I want to make a formal complaint about billing errors",
+      "mode": "customer",
+      "expected_intent": "complaint",
+      "expected_category": "sensitive",
+      "actual_intent": "complaint",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "The bank made a mistake with my account",
+      "mode": "customer",
+      "expected_intent": "complaint",
+      "expected_category": "sensitive",
+      "actual_intent": "complaint",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "I'm having trouble making my loan payments, can you help?",
+      "mode": "customer",
+      "expected_intent": "hardship",
+      "expected_category": "sensitive",
+      "actual_intent": "hardship",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "I've lost my job and can't afford my mortgage repayments",
+      "mode": "customer",
+      "expected_intent": "hardship",
+      "expected_category": "sensitive",
+      "actual_intent": "hardship",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "Due to medical issues, I need assistance with my credit card payments",
+      "mode": "customer",
+      "expected_intent": "hardship",
+      "expected_category": "sensitive",
+      "actual_intent": "hardship",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "I think someone hacked my account",
+      "mode": "customer",
+      "expected_intent": "fraud_alert",
+      "expected_category": "sensitive",
+      "actual_intent": "fraud_alert",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "I received a suspicious email pretending to be from ANZ",
+      "mode": "customer",
+      "expected_intent": "fraud_alert",
+      "expected_category": "sensitive",
+      "actual_intent": "fraud_alert",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "Someone stole my card and made unauthorized purchases",
+      "mode": "customer",
+      "expected_intent": "fraud_alert",
+      "expected_category": "sensitive",
+      "actual_intent": "fraud_alert",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "Hello, I'm calling about a customer inquiry",
+      "mode": "banker",
+      "expected_intent": "greeting",
+      "expected_category": "automatable",
+      "actual_intent": "customer_specific_query",
+      "actual_category": "sensitive",
+      "response": "To assist you effectively, please provide me with the specific details of the customer inquiry. This...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Good afternoon, I need information about ANZ policies",
+      "mode": "banker",
+      "expected_intent": "greeting",
+      "expected_category": "automatable",
+      "actual_intent": "policy_lookup",
+      "actual_category": "automatable",
+      "response": "Good afternoon,\n\nHere is a summary of the key ANZ policies based on the available documents:\n\n1. **A...",
+      "confidence": 0.85
+    },
+    {
+      "question": "Hi, can you help me understand our fee structure?",
+      "mode": "banker",
+      "expected_intent": "greeting",
+      "expected_category": "automatable",
+      "actual_intent": "fee_structure",
+      "actual_category": "automatable",
+      "response": "Certainly! Here\u2019s an overview of our fee structure based on the provided context:\n\n### Fee Structure...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What are the current interest rates for home loans?",
+      "mode": "banker",
+      "expected_intent": "general_conversation",
+      "expected_category": "automatable",
+      "actual_intent": "product_comparison",
+      "actual_category": "automatable",
+      "response": "Currently, the uploaded documents do not provide specific information regarding the current interest...",
+      "confidence": 0.8
+    },
+    {
+      "question": "How do our credit card rewards programs work?",
+      "mode": "banker",
+      "expected_intent": "general_conversation",
+      "expected_category": "automatable",
+      "actual_intent": "process_clarification",
+      "actual_category": "automatable",
+      "response": "Unfortunately, the documents provided do not contain specific information about how our credit card ...",
+      "confidence": 0.7
+    },
+    {
+      "question": "Can you explain the overdraft policy?",
+      "mode": "banker",
+      "expected_intent": "general_conversation",
+      "expected_category": "automatable",
+      "actual_intent": "policy_lookup",
+      "actual_category": "automatable",
+      "response": "The overdraft policy at ANZ encompasses several key elements related to the use of overdraft facilit...",
+      "confidence": 0.85
+    },
+    {
+      "question": "What's the bank's policy on fee waivers?",
+      "mode": "banker",
+      "expected_intent": "policy_lookup",
+      "expected_category": "automatable",
+      "actual_intent": "policy_lookup",
+      "actual_category": "automatable",
+      "response": "The bank's policy on fee waivers includes several important points:\n\n1. **Monthly Account Fees**: Fe...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How does ANZ handle financial hardship cases?",
+      "mode": "banker",
+      "expected_intent": "policy_lookup",
+      "expected_category": "automatable",
+      "actual_intent": "complex_case",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "What are the terms and conditions for business accounts?",
+      "mode": "banker",
+      "expected_intent": "policy_lookup",
+      "expected_category": "automatable",
+      "actual_intent": "policy_lookup",
+      "actual_category": "automatable",
+      "response": "The terms and conditions for business accounts at ANZ generally encompass the following key points:\n...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How do customers apply for hardship assistance?",
+      "mode": "banker",
+      "expected_intent": "process_clarification",
+      "expected_category": "automatable",
+      "actual_intent": "process_clarification",
+      "actual_category": "automatable",
+      "response": "To assist customers in applying for hardship assistance, they generally need to follow these steps:\n...",
+      "confidence": 0.7
+    },
+    {
+      "question": "What's the process for disputing card transactions?",
+      "mode": "banker",
+      "expected_intent": "process_clarification",
+      "expected_category": "automatable",
+      "actual_intent": "process_clarification",
+      "actual_category": "automatable",
+      "response": "To dispute card transactions, follow these detailed steps:\n\n1. **Review the Transaction**: Start by ...",
+      "confidence": 0.9
+    },
+    {
+      "question": "How does the loan approval process work?",
+      "mode": "banker",
+      "expected_intent": "process_clarification",
+      "expected_category": "automatable",
+      "actual_intent": "process_clarification",
+      "actual_category": "automatable",
+      "response": "The loan approval process generally involves several key steps, which may vary slightly depending on...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What's the difference between ANZ credit cards?",
+      "mode": "banker",
+      "expected_intent": "product_comparison",
+      "expected_category": "automatable",
+      "actual_intent": "product_comparison",
+      "actual_category": "automatable",
+      "response": "ANZ offers a variety of credit cards designed to cater to different customer needs. While specific c...",
+      "confidence": 0.85
+    },
+    {
+      "question": "How do our home loan products compare?",
+      "mode": "banker",
+      "expected_intent": "product_comparison",
+      "expected_category": "automatable",
+      "actual_intent": "product_comparison",
+      "actual_category": "automatable",
+      "response": "Unfortunately, the provided context does not include any specific information regarding home loan pr...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Which account is better for small businesses?",
+      "mode": "banker",
+      "expected_intent": "product_comparison",
+      "expected_category": "automatable",
+      "actual_intent": "product_comparison",
+      "actual_category": "automatable",
+      "response": "When considering the best account for small businesses, it's essential to evaluate various aspects t...",
+      "confidence": 0.7
+    },
+    {
+      "question": "How should I phrase information about credit card fees?",
+      "mode": "banker",
+      "expected_intent": "compliance_phrasing",
+      "expected_category": "automatable",
+      "actual_intent": "compliance_phrasing",
+      "actual_category": "automatable",
+      "response": "When discussing credit card fees with customers, it's crucial to communicate in a clear and complian...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What's the compliant way to explain interest rates?",
+      "mode": "banker",
+      "expected_intent": "compliance_phrasing",
+      "expected_category": "automatable",
+      "actual_intent": "compliance_phrasing",
+      "actual_category": "automatable",
+      "response": "To explain interest rates in a compliant manner, follow these structured guidelines:\n\n### General Ex...",
+      "confidence": 0.9
+    },
+    {
+      "question": "How do I discuss target market determinations?",
+      "mode": "banker",
+      "expected_intent": "compliance_phrasing",
+      "expected_category": "automatable",
+      "actual_intent": "process_clarification",
+      "actual_category": "automatable",
+      "response": "To effectively discuss target market determinations, follow these structured steps:\n\n1. **Define the...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What fees apply to international transactions?",
+      "mode": "banker",
+      "expected_intent": "fee_structure",
+      "expected_category": "automatable",
+      "actual_intent": "fee_structure",
+      "actual_category": "automatable",
+      "response": "International transactions may incur several types of fees, as outlined below:\n\n1. **Transaction Fee...",
+      "confidence": 0.9
+    },
+    {
+      "question": "How are credit card annual fees structured?",
+      "mode": "banker",
+      "expected_intent": "fee_structure",
+      "expected_category": "automatable",
+      "actual_intent": "fee_structure",
+      "actual_category": "automatable",
+      "response": "The structure of credit card annual fees generally includes the following components:\n\n1. **Flat Ann...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What are the charges for business banking?",
+      "mode": "banker",
+      "expected_intent": "fee_structure",
+      "expected_category": "automatable",
+      "actual_intent": "fee_structure",
+      "actual_category": "automatable",
+      "response": "The charges for business banking at ANZ typically include the following components:\n\n1. **Monthly Ac...",
+      "confidence": 0.85
+    },
+    {
+      "question": "What are the requirements for a personal loan?",
+      "mode": "banker",
+      "expected_intent": "eligibility_criteria",
+      "expected_category": "automatable",
+      "actual_intent": "eligibility_criteria",
+      "actual_category": "automatable",
+      "response": "The requirements for a personal loan typically include the following criteria:\n\n1. **Age**: The appl...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Who qualifies for hardship assistance?",
+      "mode": "banker",
+      "expected_intent": "eligibility_criteria",
+      "expected_category": "automatable",
+      "actual_intent": "eligibility_criteria",
+      "actual_category": "automatable",
+      "response": "Based on the current context, there is no specific information available regarding the criteria for ...",
+      "confidence": 0.6
+    },
+    {
+      "question": "What criteria must customers meet for credit cards?",
+      "mode": "banker",
+      "expected_intent": "eligibility_criteria",
+      "expected_category": "automatable",
+      "actual_intent": "eligibility_criteria",
+      "actual_category": "automatable",
+      "response": "To qualify for a credit card with ANZ, customers must meet the following eligibility criteria:\n\n1. *...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What documents do customers need for account opening?",
+      "mode": "banker",
+      "expected_intent": "documentation_requirements",
+      "expected_category": "automatable",
+      "actual_intent": "documentation_requirements",
+      "actual_category": "automatable",
+      "response": "To open an account, customers typically need to provide the following documents:\n\n1. **Proof of Iden...",
+      "confidence": 0.9
+    },
+    {
+      "question": "What paperwork is required for loan applications?",
+      "mode": "banker",
+      "expected_intent": "documentation_requirements",
+      "expected_category": "automatable",
+      "actual_intent": "documentation_requirements",
+      "actual_category": "automatable",
+      "response": "For loan applications, the following paperwork is typically required:\n\n1. **Proof of Identity**: A g...",
+      "confidence": 0.85
+    },
+    {
+      "question": "What supporting documents are needed for hardship applications?",
+      "mode": "banker",
+      "expected_intent": "documentation_requirements",
+      "expected_category": "automatable",
+      "actual_intent": "documentation_requirements",
+      "actual_category": "automatable",
+      "response": "The context provided does not specify the exact supporting documents required for hardship applicati...",
+      "confidence": 0.5
+    },
+    {
+      "question": "Can you check this customer's account balance?",
+      "mode": "banker",
+      "expected_intent": "customer_specific_query",
+      "expected_category": "sensitive",
+      "actual_intent": "customer_specific_query",
+      "actual_category": "sensitive",
+      "response": "I cannot check a customer's account balance directly, as the provided documents do not contain speci...",
+      "confidence": 0.85
+    },
+    {
+      "question": "What transactions has this customer made recently?",
+      "mode": "banker",
+      "expected_intent": "customer_specific_query",
+      "expected_category": "sensitive",
+      "actual_intent": "customer_specific_query",
+      "actual_category": "sensitive",
+      "response": "Unfortunately, the documents provided do not contain specific details regarding recent transactions ...",
+      "confidence": 0.9
+    },
+    {
+      "question": "Does this customer have any outstanding fees?",
+      "mode": "banker",
+      "expected_intent": "customer_specific_query",
+      "expected_category": "sensitive",
+      "actual_intent": "customer_specific_query",
+      "actual_category": "sensitive",
+      "response": "To determine if a specific customer has any outstanding fees, you will need to check their account d...",
+      "confidence": 0.75
+    },
+    {
+      "question": "This customer has multiple accounts and complex financial issues",
+      "mode": "banker",
+      "expected_intent": "complex_case",
+      "expected_category": "sensitive",
+      "actual_intent": "complex_case",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "We have a customer with legal disputes involving their accounts",
+      "mode": "banker",
+      "expected_intent": "complex_case",
+      "expected_category": "sensitive",
+      "actual_intent": "regulatory_question",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "This case involves potential money laundering concerns",
+      "mode": "banker",
+      "expected_intent": "complex_case",
+      "expected_category": "sensitive",
+      "actual_intent": "regulatory_question",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "A customer is complaining about unfair treatment",
+      "mode": "banker",
+      "expected_intent": "complaint_handling",
+      "expected_category": "sensitive",
+      "actual_intent": "complaint_handling",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "We have a formal complaint about billing errors",
+      "mode": "banker",
+      "expected_intent": "complaint_handling",
+      "expected_category": "sensitive",
+      "actual_intent": "complaint_handling",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "Customer wants to escalate their dissatisfaction",
+      "mode": "banker",
+      "expected_intent": "complaint_handling",
+      "expected_category": "sensitive",
+      "actual_intent": "complaint_handling",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "How do we handle AML compliance for this transaction?",
+      "mode": "banker",
+      "expected_intent": "regulatory_question",
+      "expected_category": "sensitive",
+      "actual_intent": "regulatory_question",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "What are the regulatory requirements for this product?",
+      "mode": "banker",
+      "expected_intent": "regulatory_question",
+      "expected_category": "sensitive",
+      "actual_intent": "regulatory_question",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    },
+    {
+      "question": "Does this customer situation require ASIC notification?",
+      "mode": "banker",
+      "expected_intent": "regulatory_question",
+      "expected_category": "sensitive",
+      "actual_intent": "regulatory_question",
+      "actual_category": "human_only",
+      "response": "ESCALATED",
+      "confidence": 0.0
+    }
+  ]
+}

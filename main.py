@@ -43,6 +43,19 @@ def apply_anz_styling():
         .stRadio label {{
             color: white;
         }}
+        /* Make "Navigate" label text black */
+        [data-testid="stSidebar"] .stRadio label {{
+            color: #000000 !important;
+        }}
+        [data-testid="stSidebar"] .stRadio label p {{
+            color: #000000 !important;
+        }}
+        [data-testid="stSidebar"] .stRadio > div > label {{
+            color: #000000 !important;
+        }}
+        [data-testid="stSidebar"] .stRadio > label {{
+            color: #000000 !important;
+        }}
         h1, h2, h3 {{
             color: {ANZ_PRIMARY_BLUE};
         }}
@@ -125,16 +138,34 @@ def main():
         """, unsafe_allow_html=True)
         
         st.markdown("---")
-        
+
         # Navigation
+        st.markdown("### Navigate")
         page = st.radio(
-            "Navigate",
+            "",
             ["💬 Chat", "📊 Dashboard"],
-            key="page_selector"
+            key="page_selector",
+            label_visibility="collapsed"
         )
-        
+
         st.markdown("---")
-        
+
+        # Assistant Mode (only show on Chat page)
+        if page == "💬 Chat":
+            st.markdown("### 🤖 Assistant Mode")
+            if "assistant_mode" not in st.session_state:
+                st.session_state.assistant_mode = "customer"
+            mode = st.radio(
+                "",
+                ["Customer", "Banker"],
+                index=0 if st.session_state.assistant_mode == "customer" else 1,
+                key="main_mode_selector",
+                label_visibility="collapsed",
+                help="Choose Customer mode for general inquiries or Banker mode for financial advice"
+            )
+            st.session_state.assistant_mode = mode.lower()
+            st.markdown("---")
+
         # System status
         st.markdown("### System Status")
         if Config.validate():

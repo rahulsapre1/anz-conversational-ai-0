@@ -25,18 +25,26 @@ class IntentClassifier:
     ) -> Optional[Dict[str, Any]]:
         """
         Classify user query into intent (async with timeout).
-        
+
         Args:
             user_query: User query string
             assistant_mode: 'customer' or 'banker'
             conversation_history: Optional list of previous messages in format [{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}]
-        
+
         Returns:
             Dictionary with intent_name, intent_category, classification_reason
             or None on failure
         """
         start_time = time.time()
-        
+
+        # Debug: Log conversation history
+        if conversation_history:
+            logger.info(f"Intent classifier received conversation history: {len(conversation_history)} messages")
+            for i, msg in enumerate(conversation_history):
+                logger.info(f"History {i+1}: {msg.get('role')} - {msg.get('content', '')[:50]}...")
+        else:
+            logger.info("Intent classifier received no conversation history")
+
         # Sanitize input
         user_query = sanitize_user_query(user_query)
         if not user_query:
@@ -207,6 +215,7 @@ class IntentClassifier:
                     context_lines.append(f"Assistant: {content}")
             if context_lines:
                 conversation_context = "\nPrevious conversation:\n" + "\n".join(context_lines) + "\n\n"
+                logger.info(f"Intent classifier prompt context: {conversation_context.strip()}")
         
         system_prompt = f"""You are an intent classification system for a banking assistant.
 
@@ -222,7 +231,8 @@ Intent categories:
 
 Special handling:
 - If the query is a greeting (hi, hello, hey, good morning, etc.), classify as "greeting" with category "automatable"
-- If the query is general conversation or a follow-up to previous messages, classify as "general_conversation" with category "automatable"
+- Use conversation context to understand follow-up questions - if the previous conversation was about a specific topic (like card disputes), classify follow-up questions under that intent rather than "general_conversation"
+- Only classify as "general_conversation" for truly general, off-topic, or conversational queries that don't relate to the previous banking topic
 - If the query doesn't match any specific intent but could be answered with general guidance, use "unknown" with category "automatable" (we'll provide helpful guidance)
 - Only use "human_only" category for queries that truly require human intervention (account access, financial advice, complaints, etc.)
 
@@ -235,7 +245,7 @@ Respond with a JSON object with the following structure:
 
 Be accurate and consistent. Consider the full context of the query and any previous conversation."""
 
-        user_prompt = f"{conversation_context}Classify this query: {user_query}"
+        user_prompt = f"{conversation_context}Classify this query, considering the conversation context above: {user_query}"
 
         return {
             "system": system_prompt,

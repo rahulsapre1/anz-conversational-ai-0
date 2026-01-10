@@ -103,7 +103,8 @@ class ResponseGenerator:
             return {
                 "response_text": response_text,
                 "citations": [],
-                "has_synthetic_content": False
+                "has_synthetic_content": False,
+                "response_generation_time_ms": int(processing_time)
             }
         
         # Handle unknown intent with helpful guidance
@@ -135,7 +136,8 @@ Could you rephrase your question, or specify what you'd like to know? I can also
             return {
                 "response_text": response_text,
                 "citations": [],
-                "has_synthetic_content": False
+                "has_synthetic_content": False,
+                "response_generation_time_ms": int(processing_time)
             }
         
         # Check if we have retrieved chunks for knowledge-based queries
@@ -152,12 +154,14 @@ Could you rephrase your question, or specify what you'd like to know? I can also
                 return {
                     "response_text": "I'm here to help! Could you let me know what specific information you're looking for? I can assist with ANZ banking questions, product information, and processes.",
                     "citations": [],
-                    "has_synthetic_content": False
+                    "has_synthetic_content": False,
+                    "response_generation_time_ms": int(processing_time)
                 }
             return {
                 "response_text": "I don't have enough information to answer your question. Could you rephrase it, or would you like me to connect you with ANZ customer service?",
                 "citations": [],
-                "has_synthetic_content": False
+                "has_synthetic_content": False,
+                "response_generation_time_ms": int(processing_time)
             }
         
         # Format context from retrieved chunks
@@ -211,6 +215,9 @@ Could you rephrase your question, or specify what you'd like to know? I can also
                         else:
                             return None
                     
+                    # Clean response text: replace file citation placeholders and sanitize markdown
+                    response_text = self._clean_response_text(response_text, citations)
+                    
                     # Extract citations from response text
                     extracted_citations = self._extract_citations(response_text, citations)
                     
@@ -235,7 +242,8 @@ Could you rephrase your question, or specify what you'd like to know? I can also
                     return {
                         "response_text": response_text,
                         "citations": extracted_citations,
-                        "has_synthetic_content": has_synthetic
+                        "has_synthetic_content": has_synthetic,
+                        "response_generation_time_ms": int(processing_time)
                     }
                 else:
                     logger.warning("empty_response", attempt=attempt + 1)
@@ -270,6 +278,45 @@ Could you rephrase your question, or specify what you'd like to know? I can also
                 await asyncio.sleep(2 ** attempt)
         
         return None
+    
+    def _clean_response_text(self, response_text: str, citations: Optional[List[Dict[str, Any]]] = None) -> str:
+        """
+        Clean response text by replacing file citation placeholders and fixing markdown issues.
+        
+        Args:
+            response_text: Raw response text from OpenAI
+            citations: Optional list of citations to map file IDs to citation numbers
+        
+        Returns:
+            Cleaned response text
+        """
+        # Replace file citation placeholders like [file-xyz] or similar patterns
+        # OpenAI might include raw file IDs that need to be replaced with citation numbers
+        if citations:
+            # Create mapping from file_id to citation number
+            file_id_to_number = {}
+            for citation in citations:
+                file_id = citation.get("file_id")
+                number = citation.get("number")
+                if file_id and number:
+                    file_id_to_number[file_id] = number
+            
+            # Replace file ID patterns with citation numbers
+            # Pattern to match file citations like [file-xyz] or similar
+            file_pattern = r'\[file-([a-zA-Z0-9_-]+)\]'
+            def replace_file_citation(match):
+                file_id = f"file-{match.group(1)}"
+                if file_id in file_id_to_number:
+                    return f"[{file_id_to_number[file_id]}]"
+                return match.group(0)  # Keep original if no mapping found
+            
+            response_text = re.sub(file_pattern, replace_file_citation, response_text)
+        
+        # Fix common markdown formatting issues
+        # Remove any malformed markdown that might cause rendering issues
+        # For now, just ensure the text is properly formatted
+        
+        return response_text
     
     def _format_context(self, retrieved_chunks: List[str]) -> str:
         """

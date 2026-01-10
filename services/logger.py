@@ -126,7 +126,8 @@ class InteractionLogger:
         escalation_reason: Optional[str] = None,
         response_text: Optional[str] = None,
         citations: Optional[List[Dict[str, Any]]] = None,
-        retrieved_chunks_count: Optional[int] = None
+        retrieved_chunks_count: Optional[int] = None,
+        response_generation_time_ms: Optional[int] = None
     ) -> Optional[str]:
         """
         Log interaction to Supabase (async, non-blocking).
@@ -168,7 +169,8 @@ class InteractionLogger:
             "response_text": response_text,
             "citations": citations if citations else None,
             "retrieved_chunks_count": retrieved_chunks_count,
-            "processing_time_ms": processing_time_ms
+            "processing_time_ms": processing_time_ms,
+            "response_generation_time_ms": response_generation_time_ms
         }
         
         # Ensure retry queue is initialized

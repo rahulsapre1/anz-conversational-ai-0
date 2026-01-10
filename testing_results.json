@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Hello, can you help me with my ANZ account?",
+    "expected_intent": "greeting",
+    "expected_category": "automatable",
+    "actual_intent": "greeting",
+    "actual_category": "automatable",
+    "response": "Of course! What specific information or assistance do you need regarding your ANZ account?",
+    "confidence": 0.9
+  },
+  {
+    "question": "Hi there, what services does ANZ offer?",
+    "expected_intent": "greeting",
+    "expected_category": "automatable",
+    "actual_intent": "general_conversation",
+    "actual_category": "automatable",
+    "response": "ANZ offers a variety of services to meet customers' banking needs, including:\n\n1. **Banking Services...",
+    "confidence": 0.9
+  },
+  {
+    "question": "Good morning, I'd like to know about banking options",
+    "expected_intent": "greeting",
+    "expected_category": "automatable",
+    "actual_intent": "general_conversation",
+    "actual_category": "automatable",
+    "response": "Good morning! Here are some banking options available through ANZ:\n\n1. **Online Banking**: Manage yo...",
+    "confidence": 0.85
+  },
+  {
+    "question": "Can you tell me what the ANZ app can do?",
+    "expected_intent": "general_conversation",
+    "expected_category": "automatable",
+    "actual_intent": "unknown",
+    "actual_category": "automatable",
+    "response": "The ANZ app offers a range of features for both personal and business banking. Here are the key func...",
+    "confidence": 0.9
+  },
+  {
+    "question": "How does internet banking work at ANZ?",
+    "expected_intent": "general_conversation",
+    "expected_category": "automatable",
+    "actual_intent": "unknown",
+    "actual_category": "automatable",
+    "response": "ANZ Internet Banking allows you to manage your banking needs online easily and securely. Here\u2019s a si...",
+    "confidence": 0.9
+  },
+  {
+    "question": "What are the different ways I can bank with ANZ?",
+    "expected_intent": "general_conversation",
+    "expected_category": "automatable",
+    "actual_intent": "unknown",
+    "actual_category": "automatable",
+    "response": "You can bank with ANZ in several convenient ways:\n\n1. **ANZ App**: This mobile application allows yo...",
+    "confidence": 0.9
+  },
+  {
+    "question": "What does a cash advance transaction mean?",
+    "expected_intent": "transaction_explanation",
+    "expected_category": "automatable",
+    "actual_intent": "transaction_explanation",
+    "actual_category": "automatable",
+    "response": "A cash advance transaction refers to a debit to your credit card account that allows you to obtain a...",
+    "confidence": 0.9
+  },
+  {
+    "question": "How do balance transfers work on ANZ credit cards?",
+    "expected_intent": "transaction_explanation",
+    "expected_category": "automatable",
+    "actual_intent": "transaction_explanation",
+    "actual_category": "automatable",
+    "response": "Balance transfers on ANZ credit cards allow you to move debt from another credit card to your ANZ ca...",
+    "confidence": 0.9
+  },
+  {
+    "question": "What's the difference between purchases and cash advances?",
+    "expected_intent": "transaction_explanation",
+    "expected_category": "automatable",
+    "actual_intent": "transaction_explanation",
+    "actual_category": "automatable",
+    "response": "The difference between purchases and cash advances lies in their nature and associated costs:\n\n1. **...",
+    "confidence": 0.9
+  },
+  {
+    "question": "What are the annual fees for ANZ credit cards?",
+    "expected_intent": "fee_inquiry",
+    "expected_category": "automatable",
+    "actual_intent": "fee_inquiry",
+    "actual_category": "automatable",
+    "response": "Here are the annual fees for various ANZ credit cards:\n\n1. **ANZ Low Rate**: $58\n2. **ANZ First**: $...",
+    "confidence": 0.9
+  },
+  {
+    "question": "Are there any fees for using ATMs with my ANZ card?",
+    "expected_intent": "fee_inquiry",
+    "expected_category": "automatable",
+    "actual_intent": "fee_inquiry",
+    "actual_category": "automatable",
+    "response": "Yes, there are fees associated with using ATMs with your ANZ card, especially when using your ANZ cr...",
+    "confidence": 0.9
+  },
+  {
+    "question": "What fees apply when I make international transactions?",
+    "expected_intent": "fee_inquiry",
+    "expected_category": "automatable",
+    "actual_intent": "fee_inquiry",
+    "actual_category": "automatable",
+    "response": "When making international transactions with ANZ, several fees may apply. Here are the common fees yo...",
+    "confidence": 0.85
+  },
+  {
+    "question": "What's the daily limit for cash advances on my credit card?",
+    "expected_intent": "account_limits",
+    "expected_category": "automatable",
+    "actual_intent": "account_limits",
+    "actual_category": "automatable",
+    "response": "The daily limit for cash advances on your credit card is typically $1,000 when made at an ATM. Howev...",
+    "confidence": 0.9
+  },
+  {
+    "question": "How much can I transfer per day using internet banking?",
+    "expected_intent": "account_limits",
+    "expected_category": "automatable",
+    "actual_intent": "account_limits",
+    "actual_category": "automatable",
+    "response": "The daily transfer limits for internet banking with ANZ are as follows:\n\n1. **Pay Anyone 'Today' Pay...",
+    "confidence": 0.9
+  },
+  {
+    "question": "Are there limits on how many transactions I can make?",
+    "expected_intent": "account_limits",
+    "expected_category": "automatable",
+    "actual_intent": "account_limits",
+    "actual_category": "automatable",
+    "response": "Yes, there are limits on the number of transactions you can make with ANZ, particularly for differen...",
+    "confidence": 0.9
+  },
+  {
+    "question": "How do I dispute a transaction on my credit card?",
+    "expected_intent": "card_dispute_process",
+    "expected_category": "automatable",
+    "actual_intent": "card_dispute_process",
+    "actual_category": "automatable",
+    "response": "To dispute a transaction on your credit card, you can follow these steps:\n\n1. **Use the ANZ App**:\n ...",
+    "confidence": 0.9
+  },
+  {
+    "question": "What should I do if I see unauthorized charges?",
+    "expected_intent": "card_dispute_process",
+    "expected_category": "automatable",
+    "actual_intent": "card_dispute_process",
+    "actual_category": "automatable",
+    "response": "If you see unauthorized charges on your account, here are the steps you should take:\n\n1. **Contact Y...",
+    "confidence": 0.9
+  },
+  {
+    "question": "How long do I have to report a disputed transaction?",
+    "expected_intent": "card_dispute_process",
+    "expected_category": "automatable",
+    "actual_intent": "card_dispute_process",
+    "actual_category": "automatable",
+    "response": "You should report a disputed transaction as soon as possible, as time limits apply. It's important t...",
+    "confidence": 0.85
+  },
+  {
+    "question": "How do I apply for a new credit card with ANZ?",
+    "expected_intent": "application_process",
+    "expected_category": "automatable",
+    "actual_intent": "application_process",
+    "actual_category": "automatable",
+    "response": "To apply for a new credit card with ANZ, follow these steps:\n\n1. **Choose Your Card**: Visit the ANZ...",
+    "confidence": 0.9
+  },
+  {
+    "question": "What documents do I need to open a business account?",
+    "expected_intent": "application_process",
+    "expected_category": "automatable",
+    "actual_intent": "application_process",
+    "actual_category": "automatable",
+    "response": "To open a business account at ANZ, you'll typically need the following documents:\n\n1. **Identificati...",
+    "confidence": 0.9
+  }
+]

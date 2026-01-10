@@ -76,6 +76,63 @@ async def test_customer_intent_classification():
         traceback.print_exc()
         return False
 
+
+async def test_conversation_history_context():
+    """Test intent classification with conversation history context."""
+    print("=" * 60)
+    print("Testing Conversation History Context")
+    print("=" * 60)
+    print()
+
+    try:
+        from services.intent_classifier import classify_intent
+
+        # Test case: Follow-up question with conversation history
+        conversation_history = [
+            {
+                "role": "user",
+                "content": "How do I dispute a transaction on my ANZ credit card?"
+            },
+            {
+                "role": "assistant",
+                "content": "To dispute a transaction on your ANZ credit card, you can contact ANZ customer service. Here are the steps: 1. Call 1800 123 456, 2. Have your card details ready, 3. Explain the dispute clearly."
+            }
+        ]
+
+        follow_up_query = "Can I do it via phone call?"
+        print(f"Testing follow-up query: '{follow_up_query}'")
+        print("With conversation history about card disputes")
+        print()
+
+        result = await classify_intent(follow_up_query, "customer", conversation_history)
+
+        if result:
+            intent_name = result.get("intent_name")
+            intent_category = result.get("intent_category")
+            print(f"Result: {intent_name} ({intent_category})")
+
+            # This should ideally be classified as card_dispute_process, not general_conversation
+            if intent_name == "card_dispute_process":
+                print("✅ Correctly classified as card dispute follow-up")
+                return True
+            elif intent_name == "general_conversation":
+                print("⚠️ Classified as general conversation - context not used effectively")
+                print("This indicates the intent classifier needs improvement for follow-up questions")
+                return False
+            else:
+                print(f"❓ Classified as: {intent_name} (unexpected)")
+                return False
+        else:
+            print("❌ No result returned")
+            return False
+
+    except Exception as e:
+        print(f"❌ Error testing conversation history context: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+
 async def test_banker_intent_classification():
     """Test intent classification for banker queries."""
     print("=" * 60)
@@ -290,6 +347,11 @@ async def run_all_tests():
     results.append(await test_customer_intent_classification())
     print()
     
+    # Test conversation history context
+    print("Running conversation history context tests...")
+    results.append(await test_conversation_history_context())
+    print()
+
     # Test banker classification
     print("Running banker intent classification tests...")
     results.append(await test_banker_intent_classification())

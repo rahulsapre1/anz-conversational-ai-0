@@ -1,9 +1,9 @@
 from supabase import create_client, Client
 from typing import Optional, Dict, List, Any
 from config import Config
-import logging
+from utils.logger import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 class SupabaseClient:
     """Wrapper for Supabase client operations."""
@@ -452,6 +452,176 @@ class SupabaseClient:
                 "failed_retrieval_rate": 0.0,
                 "top_sources": []
             }
+
+    def create_conversation(self, conversation_id: str, assistant_mode: str, user_id: Optional[str] = None) -> Optional[str]:
+        """
+        Create a new conversation.
+
+        Args:
+            conversation_id: Unique conversation identifier
+            assistant_mode: 'customer' or 'banker'
+            user_id: Optional user identifier
+
+        Returns:
+            Conversation UUID if successful, None otherwise
+        """
+        try:
+            data = {
+                "conversation_id": conversation_id,
+                "assistant_mode": assistant_mode,
+                "user_id": user_id,
+                "is_active": True
+            }
+            result = self.client.table("conversations").insert(data).execute()
+            if result.data and len(result.data) > 0:
+                conversation_uuid = result.data[0]["id"]
+                logger.info(f"Conversation created: {conversation_id} (UUID: {conversation_uuid})")
+                return conversation_uuid
+            return None
+        except Exception as e:
+            logger.error(f"Failed to create conversation: {e}")
+            return None
+
+    def get_conversation_by_id(self, conversation_id: str) -> Optional[Dict[str, Any]]:
+        """
+        Get conversation metadata by conversation_id.
+
+        Args:
+            conversation_id: Conversation identifier
+
+        Returns:
+            Conversation dict if found, None otherwise
+        """
+        try:
+            result = self.client.table("conversations").select("*").eq("conversation_id", conversation_id).execute()
+            if result.data and len(result.data) > 0:
+                return result.data[0]
+            return None
+        except Exception as e:
+            logger.error(f"Failed to get conversation: {e}")
+            return None
+
+    def save_message(self, conversation_uuid: str, role: str, content: str,
+                    citations: Optional[List[Dict[str, Any]]] = None,
+                    confidence_score: Optional[float] = None,
+                    escalated: bool = False,
+                    escalation_message: Optional[str] = None,
+                    trigger_type: Optional[str] = None,
+                    interaction_id: Optional[str] = None) -> Optional[str]:
+        """
+        Save a message to a conversation.
+
+        Args:
+            conversation_uuid: Conversation UUID
+            role: 'user', 'assistant', or 'system'
+            content: Message content
+            citations: Optional citations for assistant messages
+            confidence_score: Optional confidence score for assistant messages
+            escalated: Whether this message represents an escalation
+            escalation_message: Escalation message if escalated
+            trigger_type: Escalation trigger type
+            interaction_id: Link to detailed interaction log
+
+        Returns:
+            Message UUID if successful, None otherwise
+        """
+        try:
+            data = {
+                "conversation_id": conversation_uuid,
+                "role": role,
+                "content": content,
+                "citations": citations,
+                "confidence_score": confidence_score,
+                "escalated": escalated,
+                "escalation_message": escalation_message,
+                "trigger_type": trigger_type,
+                "interaction_id": interaction_id
+            }
+            result = self.client.table("conversation_messages").insert(data).execute()
+            if result.data and len(result.data) > 0:
+                message_uuid = result.data[0]["id"]
+                logger.debug(f"Message saved to conversation {conversation_uuid}: {role}")
+                return message_uuid
+
+            # Update conversation's message count and updated_at
+            self.client.table("conversations").update({
+                "message_count": self.client.table("conversations").select("message_count").eq("id", conversation_uuid).execute().data[0]["message_count"] + 1,
+                "updated_at": "now()"
+            }).eq("id", conversation_uuid).execute()
+
+            return None
+        except Exception as e:
+            logger.error(f"Failed to save message: {e}")
+            return None
+
+    def load_conversation_history(self, conversation_uuid: str, limit: Optional[int] = None) -> List[Dict[str, Any]]:
+        """
+        Load conversation history (messages) for a conversation.
+
+        Args:
+            conversation_uuid: Conversation UUID
+            limit: Optional limit on number of messages (most recent first)
+
+        Returns:
+            List of message dictionaries ordered by timestamp
+        """
+        try:
+            query = self.client.table("conversation_messages").select("*").eq("conversation_id", conversation_uuid).order("timestamp", desc=False)
+            if limit:
+                query = query.limit(limit)
+            result = query.execute()
+            return result.data if result.data else []
+        except Exception as e:
+            logger.error(f"Failed to load conversation history: {e}")
+            return []
+
+    def get_recent_conversations(self, user_id: Optional[str] = None, assistant_mode: Optional[str] = None,
+                               limit: int = 10) -> List[Dict[str, Any]]:
+        """
+        Get recent conversations for a user or all active conversations.
+
+        Args:
+            user_id: Optional user identifier to filter by
+            assistant_mode: Optional assistant mode to filter by
+            limit: Maximum number of conversations to return
+
+        Returns:
+            List of conversation dictionaries ordered by updated_at desc
+        """
+        try:
+            query = self.client.table("conversations").select("*").eq("is_active", True).order("updated_at", desc=True).limit(limit)
+
+            if user_id:
+                query = query.eq("user_id", user_id)
+            if assistant_mode:
+                query = query.eq("assistant_mode", assistant_mode)
+
+            result = query.execute()
+            return result.data if result.data else []
+        except Exception as e:
+            logger.error(f"Failed to get recent conversations: {e}")
+            return []
+
+    def update_conversation_title(self, conversation_uuid: str, title: str) -> bool:
+        """
+        Update conversation title (auto-generated from first user message).
+
+        Args:
+            conversation_uuid: Conversation UUID
+            title: New title
+
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            self.client.table("conversations").update({
+                "title": title,
+                "updated_at": "now()"
+            }).eq("id", conversation_uuid).execute()
+            return True
+        except Exception as e:
+            logger.error(f"Failed to update conversation title: {e}")
+            return False
 
 # Singleton instance
 _db_client: Optional[SupabaseClient] = None
