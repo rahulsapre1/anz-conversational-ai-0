@@ -117,7 +117,7 @@ def render_dashboard():
     st.markdown(f"""
     <div style='background: linear-gradient(135deg, {ANZ_PRIMARY_BLUE} 0%, {ANZ_SECONDARY_BLUE} 100%);
                 padding: 2rem; border-radius: 10px; margin-bottom: 2rem;'>
-        <h1 style='color: white; margin: 0; font-size: 2.5rem;'>📊 ContactIQ KPI Dashboard</h1>
+        <h1 style='color: white; margin: 0; font-size: 2.5rem;'>ContactIQ KPI Dashboard</h1>
         <p style='color: rgba(255,255,255,0.9); margin: 0.5rem 0 0 0; font-size: 1.1rem;'>
             Analytics & Performance Metrics
         </p>
@@ -128,7 +128,7 @@ def render_dashboard():
     st.markdown(f"""
     <div style='background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
                 border-left: 5px solid {ANZ_ACCENT_BLUE}; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;'>
-        <h3 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.5rem 0; font-size: 1.2rem;'>📋 About This Dashboard</h3>
+        <h3 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.5rem 0; font-size: 1.2rem;'>About This Dashboard</h3>
         <p style='color: #333; margin: 0; font-size: 0.95rem; line-height: 1.5;'>
             This dashboard demonstrates the analytics and performance monitoring capabilities of <strong>ContactIQ</strong>,
             an AI-powered conversational assistant for ANZ banking services. Built as a portfolio project,
@@ -140,34 +140,34 @@ def render_dashboard():
     # Table of contents for quick navigation
     st.markdown(f"""
     <div style='background: white; border: 2px solid {ANZ_ACCENT_BLUE}; padding: 1.2rem 1.4rem; border-radius: 10px; margin-bottom: 1.8rem;'>
-        <h3 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.6rem 0; font-size: 1.25rem;'>📑 Metrics Overview</h3>
+        <h3 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.6rem 0; font-size: 1.25rem;'>Metrics Overview</h3>
         <p style='margin: 0 0 0.8rem 0; color: #333;'>Jump to the metrics you need:</p>
         <ul style='margin: 0; padding-left: 1.2rem; line-height: 1.6;'>
-            <li><a href="#quick-stats" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">📊 Quick Stats Summary</a></li>
-            <li><a href="#system-performance" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">⚡ System Performance &amp; Usage</a>
+            <li><a href="#quick-stats" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">Quick Stats Summary</a></li>
+            <li><a href="#system-performance" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">System Performance &amp; Usage</a>
                 <ul style='margin: 0.2rem 0 0.5rem 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
-                    <li><a href="#overall-usage" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📈 Overall Usage Metrics</a></li>
-                    <li><a href="#mode-breakdown" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">👥 Mode Breakdown</a></li>
-                    <li><a href="#time-trends" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📅 Time-Based Trends</a></li>
+                    <li><a href="#overall-usage" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Overall Usage Metrics</a></li>
+                    <li><a href="#mode-breakdown" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Mode Breakdown</a></li>
+                    <li><a href="#time-trends" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Time-Based Trends</a></li>
                 </ul>
             </li>
-            <li><a href="#business-impact" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">📈 Business Impact &amp; Resolution</a>
+            <li><a href="#business-impact" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">Business Impact &amp; Resolution</a>
                 <ul style='margin: 0.2rem 0 0.5rem 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
-                    <li><a href="#resolution-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">✅ Resolution Metrics</a></li>
-                    <li><a href="#escalation-analysis" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">⚠️ Escalation Analysis</a></li>
+                    <li><a href="#resolution-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Resolution Metrics</a></li>
+                    <li><a href="#escalation-analysis" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Escalation Analysis</a></li>
                 </ul>
             </li>
-            <li><a href="#technical-deep-dive" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">🔧 Technical Deep Dive</a>
+            <li><a href="#technical-deep-dive" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">Technical Deep Dive</a>
                 <ul style='margin: 0.2rem 0 0.5rem 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
-                    <li><a href="#intent-frequency" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">🎯 Intent Frequency</a></li>
-                    <li><a href="#confidence-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📊 Confidence Metrics</a></li>
-                    <li><a href="#performance-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">⚡ Performance Metrics</a></li>
+                    <li><a href="#intent-frequency" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Intent Frequency</a></li>
+                    <li><a href="#confidence-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Confidence Metrics</a></li>
+                    <li><a href="#performance-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Performance Metrics</a></li>
                 </ul>
             </li>
-            <li><a href="#quality-compliance" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">🛡️ Quality &amp; Compliance</a>
+            <li><a href="#quality-compliance" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">Quality &amp; Compliance</a>
                 <ul style='margin: 0.2rem 0 0 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
-                    <li><a href="#intent-risk-value" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">🎯 Intent Risk × Value Matrix</a></li>
-                    <li><a href="#citation-coverage" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📚 Citation Coverage &amp; Source Health</a></li>
+                    <li><a href="#intent-risk-value" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Intent Risk × Value Matrix</a></li>
+                    <li><a href="#citation-coverage" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">Citation Coverage &amp; Source Health</a></li>
                 </ul>
             </li>
         </ul>
@@ -175,7 +175,7 @@ def render_dashboard():
     """, unsafe_allow_html=True)
 
     # Quick Stats Summary - Key Metrics at a Glance
-    render_section_heading("📊 Quick Stats Summary", "quick-stats")
+    render_section_heading("Quick Stats Summary", "quick-stats")
 
     # Get key stats data
     try:
@@ -205,7 +205,8 @@ def render_dashboard():
                             padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
                             box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
                     <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{total_interactions:,}</h3>
-                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Total Interactions</p>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9; font-weight: 600;'>Total Interactions</p>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.7; font-size: 0.75rem;'>Total number of user queries processed</p>
                 </div>
                 """, unsafe_allow_html=True)
 
@@ -216,7 +217,8 @@ def render_dashboard():
                             padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
                             box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
                     <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{containment_rate:.1f}%</h3>
-                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Containment Rate</p>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9; font-weight: 600;'>Containment Rate</p>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.7; font-size: 0.75rem;'>Queries resolved without escalation (target: >75%)</p>
                 </div>
                 """, unsafe_allow_html=True)
 
@@ -228,7 +230,8 @@ def render_dashboard():
                                 padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
                                 box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
                         <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{avg_confidence:.1f}%</h3>
-                        <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Avg Confidence</p>
+                        <p style='margin: 0.5rem 0 0 0; opacity: 0.9; font-weight: 600;'>Avg Confidence</p>
+                        <p style='margin: 0.5rem 0 0 0; opacity: 0.7; font-size: 0.75rem;'>System certainty level (target: >80%)</p>
                     </div>
                     """, unsafe_allow_html=True)
                 else:
@@ -237,7 +240,8 @@ def render_dashboard():
                                 padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
                                 box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
                         <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>--</h3>
-                        <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Avg Confidence</p>
+                        <p style='margin: 0.5rem 0 0 0; opacity: 0.9; font-weight: 600;'>Avg Confidence</p>
+                        <p style='margin: 0.5rem 0 0 0; opacity: 0.7; font-size: 0.75rem;'>System certainty level (target: >80%)</p>
                     </div>
                     """, unsafe_allow_html=True)
 
@@ -248,17 +252,18 @@ def render_dashboard():
                             padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
                             box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
                     <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{citation_coverage:.1f}%</h3>
-                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Citation Coverage</p>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9; font-weight: 600;'>Citation Coverage</p>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.7; font-size: 0.75rem;'>Responses with source citations (target: >95%)</p>
                 </div>
                 """, unsafe_allow_html=True)
         else:
-            st.info("📊 Quick stats will appear once interaction data is available.")
+            st.info("Quick stats will appear once interaction data is available.")
     except Exception as e:
         logger.warning(f"Could not load quick stats: {e}")
-        st.info("📊 Quick stats will appear once the system has processed interactions.")
+        st.info("Quick stats will appear once the system has processed interactions.")
 
     # Technical Glossary - Collapsible Section
-    with st.expander("📚 Technical Glossary - Understanding Key Metrics", expanded=False):
+    with st.expander("Technical Glossary - Understanding Key Metrics", expanded=False):
         st.markdown(f"""
         <div style='background: #f8f9fa; padding: 1rem; border-radius: 6px; margin-bottom: 1rem;'>
             <h4 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.5rem 0;'>Key Terms & Definitions</h4>
@@ -295,7 +300,7 @@ def render_dashboard():
     filters = {}
 
     # System Performance & Usage
-    render_section_heading("⚡ System Performance & Usage", "system-performance")
+    render_section_heading("System Performance & Usage", "system-performance")
     display_overall_metrics(filters)
     st.markdown("---")
     display_mode_breakdown(filters)
@@ -303,13 +308,13 @@ def render_dashboard():
     display_time_based_trends(filters)
 
     # Business Impact & Resolution
-    render_section_heading("📈 Business Impact & Resolution", "business-impact")
+    render_section_heading("Business Impact & Resolution", "business-impact")
     display_resolution_metrics(filters)
     st.markdown("---")
     display_escalation_analysis(filters)
 
     # Technical Deep Dive
-    render_section_heading("🔧 Technical Deep Dive", "technical-deep-dive")
+    render_section_heading("Technical Deep Dive", "technical-deep-dive")
     display_intent_frequency(filters)
     st.markdown("---")
     display_confidence_metrics(filters)
@@ -317,7 +322,7 @@ def render_dashboard():
     display_performance_metrics(filters)
 
     # Quality & Compliance
-    render_section_heading("🛡️ Quality & Compliance", "quality-compliance")
+    render_section_heading("Quality & Compliance", "quality-compliance")
     display_intent_risk_value_matrix(filters)
     st.markdown("---")
     display_citation_coverage(filters)
@@ -326,7 +331,7 @@ def render_dashboard():
     st.markdown("---")
     col1, col2, col3 = st.columns([1, 1, 1])
     with col2:
-        if st.button("🔄 Refresh Data", type="primary", width='stretch', help="Refresh all dashboard data and charts"):
+        if st.button("Refresh Data", type="primary", width='stretch', help="Refresh all dashboard data and charts"):
             st.rerun()
 
 
@@ -544,14 +549,14 @@ def get_escalations_data(filters: Dict[str, Any]) -> pd.DataFrame:
 
 def display_time_based_trends(filters: Dict[str, Any]):
     """Display time-based trends (usage, escalations, containment) as required by PRD."""
-    render_section_heading("📅 Time-Based Trends", "time-trends")
+    render_section_heading("Time-Based Trends", "time-trends")
 
     with st.spinner("Loading trend data..."):
         interactions_df = get_interactions_data(filters)
         escalations_df = get_escalations_data(filters)
 
     if interactions_df.empty or "timestamp" not in interactions_df.columns:
-        st.info("📅 **No time-series data found**\n\nTime-based trends will appear once interactions are logged with timestamps.")
+        st.info("**No time-series data found**\n\nTime-based trends will appear once interactions are logged with timestamps.")
         return
 
     # Ensure datetime
@@ -631,7 +636,7 @@ def display_time_based_trends(filters: Dict[str, Any]):
             fig.update_layout(**layout_config)
             st.plotly_chart(fig, width='stretch')
         else:
-            st.info("ℹ️ No escalation time-series data available yet.")
+            st.info("No escalation time-series data available yet.")
 
     # Containment / escalation rate trend
     if not daily_outcomes.empty:
@@ -662,18 +667,18 @@ def display_time_based_trends(filters: Dict[str, Any]):
         fig.update_layout(**layout_config)
         st.plotly_chart(fig, width='stretch')
     else:
-        st.info("ℹ️ Outcome data not available for containment/escalation trends.")
+        st.info("Outcome data not available for containment/escalation trends.")
 
 
 def display_overall_metrics(filters: Dict[str, Any]):
     """Display overall usage metrics."""
-    render_section_heading("📈 Overall Usage Metrics", "overall-usage")
+    render_section_heading("Overall Usage Metrics", "overall-usage")
 
     with st.spinner("Loading usage metrics..."):
         df = get_interactions_data(filters)
     
     if df.empty:
-        st.info("📊 **No interaction data found**\n\nTry adjusting your filters or check back after more user interactions. Data will appear here once conversations begin.")
+        st.info("**No interaction data found**\n\nTry adjusting your filters or check back after more user interactions. Data will appear here once conversations begin.")
         return
     
     col1, col2, col3 = st.columns(3)
@@ -711,16 +716,16 @@ def display_overall_metrics(filters: Dict[str, Any]):
 
 def display_mode_breakdown(filters: Dict[str, Any]):
     """Display mode breakdown metrics."""
-    render_section_heading("👥 Mode Breakdown", "mode-breakdown")
+    render_section_heading("Mode Breakdown", "mode-breakdown")
     
     df = get_interactions_data(filters)
     
     if df.empty:
-        st.info("ℹ️ No data available.")
+        st.info("No data available.")
         return
     
     if "assistant_mode" not in df.columns:
-        st.info("ℹ️ Mode data not available.")
+        st.info("Mode data not available.")
         return
     
     mode_counts = df["assistant_mode"].value_counts()
@@ -733,8 +738,8 @@ def display_mode_breakdown(filters: Dict[str, Any]):
         banker_count = mode_counts.get("banker", 0)
         total = customer_count + banker_count
         
-        st.metric("Customer Mode", f"{customer_count:,}")
-        st.metric("Banker Mode", f"{banker_count:,}")
+        st.metric("Customer Mode", f"{customer_count:,}", help="Number of interactions in customer assistant mode")
+        st.metric("Banker Mode", f"{banker_count:,}", help="Number of interactions in banker assistant mode")
     
     with col2:
         # Pie chart with ANZ colors
@@ -754,17 +759,17 @@ def display_mode_breakdown(filters: Dict[str, Any]):
             fig.update_layout(get_dark_theme_layout("Mode Distribution"))
             st.plotly_chart(fig, width='stretch')
         else:
-            st.info("ℹ️ No mode data available.")
+            st.info("No mode data available.")
 
 
 def display_resolution_metrics(filters: Dict[str, Any]):
     """Display resolution metrics (containment/escalation rates)."""
-    render_section_heading("✅ Resolution Metrics", "resolution-metrics")
+    render_section_heading("Resolution Metrics", "resolution-metrics")
     
     df = get_interactions_data(filters)
     
     if df.empty:
-        st.info("ℹ️ No data available.")
+        st.info("No data available.")
         return
     
     # Calculate metrics
@@ -803,11 +808,11 @@ def display_resolution_metrics(filters: Dict[str, Any]):
         )
 
     with col4:
-        containment_status = "🟢 Good" if containment_rate >= 75 else "🟡 Needs Attention" if containment_rate >= 60 else "🔴 Poor"
+        containment_status = "Good" if containment_rate >= 75 else "Needs Attention" if containment_rate >= 60 else "Poor"
         st.metric(
             "Containment Rate",
             f"{containment_rate:.1f}%",
-            help=f"Percentage of queries resolved without escalation. Target: >75% | Current: {containment_status}"
+            help=f"Percentage of queries resolved without escalation. Target: >75% | Current status: {containment_status}"
         )
     
     # Bar chart with ANZ colors
@@ -828,20 +833,20 @@ def display_resolution_metrics(filters: Dict[str, Any]):
 
 def display_intent_frequency(filters: Dict[str, Any]):
     """Display intent frequency distribution."""
-    render_section_heading("🎯 Intent Frequency", "intent-frequency")
+    render_section_heading("Intent Frequency", "intent-frequency")
 
     with st.spinner("Loading intent data..."):
         df = get_interactions_data(filters)
     
     if df.empty or "intent_name" not in df.columns:
-        st.info("🎯 **No intent classification data found**\n\nIntent data will appear once users start conversations with the AI assistant. Try different date ranges or check back later.")
+        st.info("**No intent classification data found**\n\nIntent data will appear once users start conversations with the AI assistant. Try different date ranges or check back later.")
         return
     
     # Filter out None/null intents
     intent_df = df[df["intent_name"].notna()]
     
     if intent_df.empty:
-        st.info("ℹ️ No intent data available.")
+        st.info("No intent data available.")
         return
     
     # Intent frequency
@@ -907,13 +912,13 @@ def display_intent_frequency(filters: Dict[str, Any]):
 
 def display_escalation_analysis(filters: Dict[str, Any]):
     """Display escalation analysis."""
-    render_section_heading("⚠️ Escalation Analysis", "escalation-analysis")
+    render_section_heading("Escalation Analysis", "escalation-analysis")
     
     escalations_df = get_escalations_data(filters)
     interactions_df = get_interactions_data(filters)
     
     if escalations_df.empty:
-        st.info("ℹ️ No escalation data available.")
+        st.info("No escalation data available.")
         return
     
     col1, col2 = st.columns(2)
@@ -986,20 +991,20 @@ def display_escalation_analysis(filters: Dict[str, Any]):
 
 def display_confidence_metrics(filters: Dict[str, Any]):
     """Display confidence metrics."""
-    render_section_heading("📊 Confidence Metrics", "confidence-metrics")
+    render_section_heading("Confidence Metrics", "confidence-metrics")
 
     with st.spinner("Loading confidence data..."):
         df = get_interactions_data(filters)
     
     if df.empty or "confidence_score" not in df.columns:
-        st.info("ℹ️ No confidence data available.")
+        st.info("No confidence data available.")
         return
     
     # Filter out None/null confidence scores
     confidence_df = df[df["confidence_score"].notna()]
     
     if confidence_df.empty:
-        st.info("📊 **No confidence score data found**\n\nConfidence scores will appear once the AI assistant processes user queries. This data helps measure response reliability.")
+        st.info("**No confidence score data found**\n\nConfidence scores will appear once the AI assistant processes user queries. This data helps measure response reliability.")
         return
     
     col1, col2 = st.columns(2)
@@ -1057,13 +1062,13 @@ def display_confidence_metrics(filters: Dict[str, Any]):
 
 def display_performance_metrics(filters: Dict[str, Any]):
     """Display performance metrics."""
-    render_section_heading("⚡ Performance Metrics", "performance-metrics")
+    render_section_heading("Performance Metrics", "performance-metrics")
 
     with st.spinner("Loading performance data..."):
         df = get_interactions_data(filters)
 
     if df.empty:
-        st.info("⚡ **No performance data found**\n\nPerformance metrics will be available once the system processes user interactions. This includes response times and system efficiency.")
+        st.info("**No performance data found**\n\nPerformance metrics will be available once the system processes user interactions. This includes response times and system efficiency.")
         return
 
     # Performance metrics row - better aligned layout
@@ -1079,7 +1084,7 @@ def display_performance_metrics(filters: Dict[str, Any]):
                 st.metric("Avg Server Processing Time", f"{avg_time:.2f}s",
                          help="Average server-side processing time (intent classification, retrieval, response generation)")
             else:
-                st.info("ℹ️ Processing time data not available.")
+                st.info("Processing time data not available.")
 
         # Average response generation time - second metric
         if "response_generation_time_ms" in df.columns:
@@ -1089,7 +1094,7 @@ def display_performance_metrics(filters: Dict[str, Any]):
                 st.metric("Avg Response Generation Time", f"{avg_response_time:.2f}s",
                          help="Average time spent specifically on LLM response generation")
             else:
-                st.info("ℹ️ Response generation time data not available.")
+                st.info("Response generation time data not available.")
         else:
             st.info("ℹ️ Processing time data not available.")
 
@@ -1200,12 +1205,12 @@ def display_performance_metrics(filters: Dict[str, Any]):
                          help="Median server processing time across all sessions")
 
             # Add explanatory note
-            st.info("💡 **Understanding this metric**: This measures only the time spent on your server processing requests (intent classification, document retrieval, response generation). The actual time users experience includes additional factors like network latency, UI rendering, and client-side processing.")
+            st.info("**Understanding this metric**: This measures only the time spent on your server processing requests (intent classification, document retrieval, response generation). The actual time users experience includes additional factors like network latency, UI rendering, and client-side processing.")
 
         else:
-            st.info("ℹ️ Session data not available for session-based visualization.")
+            st.info("Session data not available for session-based visualization.")
     else:
-            st.info("ℹ️ Processing time or session data not available for session-based visualization.")
+            st.info("Processing time or session data not available for session-based visualization.")
 
     # Response Generation Time by Intent
     st.markdown("---")
@@ -1285,14 +1290,14 @@ def display_performance_metrics(filters: Dict[str, Any]):
                 st.metric("Total Samples", f"{len(response_time_df):,}",
                          help="Number of queries with response generation time data")
         else:
-            st.info("ℹ️ Response generation time data not available for intent analysis.")
+            st.info("Response generation time data not available for intent analysis.")
     else:
-        st.info("ℹ️ Response generation time or intent data not available for intent analysis.")
+        st.info("Response generation time or intent data not available for intent analysis.")
 
 
 def display_intent_risk_value_matrix(filters: Dict[str, Any]):
     """Display Intent Risk × Value Matrix bubble chart."""
-    render_section_heading("🎯 Intent Risk × Value Matrix", "intent-risk-value")
+    render_section_heading("Intent Risk × Value Matrix", "intent-risk-value")
 
     try:
         with st.spinner("Loading risk-value matrix..."):
@@ -1300,7 +1305,7 @@ def display_intent_risk_value_matrix(filters: Dict[str, Any]):
             matrix_data = db_client.get_intent_risk_value_matrix(filters)
 
         if not matrix_data:
-            st.info("🎯 **No intent risk-value data found**\n\nThis analysis requires both intent classification data and risk/value assessments. Data will appear once more conversations are processed.")
+            st.info("**No intent risk-value data found**\n\nThis analysis requires both intent classification data and risk/value assessments. Data will appear once more conversations are processed.")
             return
 
         # Convert to DataFrame for plotting
@@ -1437,28 +1442,28 @@ def display_intent_risk_value_matrix(filters: Dict[str, Any]):
 
         with col1:
             total_intents = len(df)
-            st.metric("Total Intents", f"{total_intents:,}")
+            st.metric("Total Intents", f"{total_intents:,}", help="Total number of distinct intent types identified")
 
         with col2:
             high_value_intents = len(df[df["containment_rate"] > 70])
-            st.metric("High Value (>70%)", f"{high_value_intents:,}")
+            st.metric("High Value (>70%)", f"{high_value_intents:,}", help="Intents with containment rate above 70%")
 
         with col3:
             high_risk_intents = len(df[df["escalation_rate"] > 30])
-            st.metric("High Risk (>30%)", f"{high_risk_intents:,}")
+            st.metric("High Risk (>30%)", f"{high_risk_intents:,}", help="Intents with escalation rate above 30%")
 
         with col4:
             critical_intents = len(df[(df["escalation_rate"] > 30) & (df["volume"] > df["volume"].quantile(0.75))])
-            st.metric("High Risk + High Volume", f"{critical_intents:,}")
+            st.metric("High Risk + High Volume", f"{critical_intents:,}", help="High-risk intents with above-average volume - priority for review")
 
     except Exception as e:
         logger.error("error_displaying_intent_matrix", error=str(e))
-        st.error("❌ Failed to load intent risk-value matrix.")
+        st.error("Failed to load intent risk-value matrix.")
 
 
 def display_citation_coverage(filters: Dict[str, Any]):
     """Display Citation Coverage & Source Health metrics."""
-    render_section_heading("📚 Citation Coverage & Source Health", "citation-coverage")
+    render_section_heading("Citation Coverage & Source Health", "citation-coverage")
 
     try:
         with st.spinner("Loading citation data..."):
@@ -1491,7 +1496,7 @@ def display_citation_coverage(filters: Dict[str, Any]):
 
         with col3:
             total_responses = citation_data.get("total_responses", 0)
-            st.metric("Total Responses", f"{total_responses:,}")
+            st.metric("Total Responses", f"{total_responses:,}", help="Total number of responses generated by the system")
 
         # Top source pages
         top_sources = citation_data.get("top_sources", [])
@@ -1517,8 +1522,8 @@ def display_citation_coverage(filters: Dict[str, Any]):
             fig.update_layout(**layout_config)
             st.plotly_chart(fig, width='stretch')
         else:
-            st.info("ℹ️ No citation sources found.")
+            st.info("No citation sources found.")
 
     except Exception as e:
         logger.error("error_displaying_citation_coverage", error=str(e))
-        st.error("❌ Failed to load citation coverage data.")
+        st.error("Failed to load citation coverage data.")
