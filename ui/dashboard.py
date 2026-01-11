@@ -41,6 +41,24 @@ ANZ_COLORS = [ANZ_PRIMARY_BLUE, ANZ_SECONDARY_BLUE, ANZ_ACCENT_BLUE, ANZ_SUCCESS
 
 
 
+def render_section_heading(title: str, anchor: str):
+    """Render a consistently styled section heading with an anchor for deep links."""
+    st.markdown(
+        f"""
+        <div id="{anchor}" style="scroll-margin-top: 80px;"></div>
+        <h3 style="
+            color: {ANZ_PRIMARY_BLUE};
+            border-bottom: 2px solid {ANZ_ACCENT_BLUE};
+            padding-bottom: 0.35rem;
+            margin-top: 1.5rem;
+            font-size: 1.3rem;
+            font-weight: 700;
+        ">{title}</h3>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def get_dark_theme_layout(title: str = "") -> dict:
     """
     Get dark theme layout configuration for Plotly charts.
@@ -97,7 +115,7 @@ def render_dashboard():
     
     # Page header
     st.markdown(f"""
-    <div style='background: linear-gradient(135deg, {ANZ_PRIMARY_BLUE} 0%, {ANZ_SECONDARY_BLUE} 100%); 
+    <div style='background: linear-gradient(135deg, {ANZ_PRIMARY_BLUE} 0%, {ANZ_SECONDARY_BLUE} 100%);
                 padding: 2rem; border-radius: 10px; margin-bottom: 2rem;'>
         <h1 style='color: white; margin: 0; font-size: 2.5rem;'>📊 ContactIQ KPI Dashboard</h1>
         <p style='color: rgba(255,255,255,0.9); margin: 0.5rem 0 0 0; font-size: 1.1rem;'>
@@ -105,25 +123,201 @@ def render_dashboard():
         </p>
     </div>
     """, unsafe_allow_html=True)
-    
-    # Display all metric sections (no filters - show all data)
+
+    # Introduction/Portfolio Context Banner
+    st.markdown(f"""
+    <div style='background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+                border-left: 5px solid {ANZ_ACCENT_BLUE}; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;'>
+        <h3 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.5rem 0; font-size: 1.2rem;'>📋 About This Dashboard</h3>
+        <p style='color: #333; margin: 0; font-size: 0.95rem; line-height: 1.5;'>
+            This dashboard demonstrates the analytics and performance monitoring capabilities of <strong>ContactIQ</strong>,
+            an AI-powered conversational assistant for ANZ banking services. Built as a portfolio project,
+            it showcases end-to-end AI system development, from intent classification to risk-based escalation.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Table of contents for quick navigation
+    st.markdown(f"""
+    <div style='background: white; border: 2px solid {ANZ_ACCENT_BLUE}; padding: 1.2rem 1.4rem; border-radius: 10px; margin-bottom: 1.8rem;'>
+        <h3 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.6rem 0; font-size: 1.25rem;'>📑 Metrics Overview</h3>
+        <p style='margin: 0 0 0.8rem 0; color: #333;'>Jump to the metrics you need:</p>
+        <ul style='margin: 0; padding-left: 1.2rem; line-height: 1.6;'>
+            <li><a href="#quick-stats" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">📊 Quick Stats Summary</a></li>
+            <li><a href="#system-performance" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">⚡ System Performance &amp; Usage</a>
+                <ul style='margin: 0.2rem 0 0.5rem 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
+                    <li><a href="#overall-usage" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📈 Overall Usage Metrics</a></li>
+                    <li><a href="#mode-breakdown" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">👥 Mode Breakdown</a></li>
+                    <li><a href="#time-trends" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📅 Time-Based Trends</a></li>
+                </ul>
+            </li>
+            <li><a href="#business-impact" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">📈 Business Impact &amp; Resolution</a>
+                <ul style='margin: 0.2rem 0 0.5rem 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
+                    <li><a href="#resolution-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">✅ Resolution Metrics</a></li>
+                    <li><a href="#escalation-analysis" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">⚠️ Escalation Analysis</a></li>
+                </ul>
+            </li>
+            <li><a href="#technical-deep-dive" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">🔧 Technical Deep Dive</a>
+                <ul style='margin: 0.2rem 0 0.5rem 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
+                    <li><a href="#intent-frequency" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">🎯 Intent Frequency</a></li>
+                    <li><a href="#confidence-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📊 Confidence Metrics</a></li>
+                    <li><a href="#performance-metrics" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">⚡ Performance Metrics</a></li>
+                </ul>
+            </li>
+            <li><a href="#quality-compliance" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none; font-weight: 600;">🛡️ Quality &amp; Compliance</a>
+                <ul style='margin: 0.2rem 0 0 1rem; padding-left: 1rem; list-style: disc; color: #333;'>
+                    <li><a href="#intent-risk-value" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">🎯 Intent Risk × Value Matrix</a></li>
+                    <li><a href="#citation-coverage" style="color: {ANZ_ACCENT_BLUE}; text-decoration: none;">📚 Citation Coverage &amp; Source Health</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Quick Stats Summary - Key Metrics at a Glance
+    render_section_heading("📊 Quick Stats Summary", "quick-stats")
+
+    # Get key stats data
+    try:
+        df = get_interactions_data({})
+        if not df.empty:
+            # Calculate key metrics
+            total_interactions = len(df)
+            total_conversations = df["session_id"].nunique() if "session_id" in df.columns else total_interactions
+
+            resolved = len(df[df["outcome"] == "resolved"]) if "outcome" in df.columns else 0
+            escalated = len(df[df["outcome"] == "escalated"]) if "outcome" in df.columns else 0
+            containment_rate = (resolved / total_interactions * 100) if total_interactions > 0 else 0
+
+            avg_confidence = df["confidence_score"].mean() if "confidence_score" in df.columns and df["confidence_score"].notna().any() else None
+
+            # Citation data
+            db_client = get_db_client()
+            citation_data = db_client.get_citation_coverage_data({})
+            citation_coverage = citation_data.get("citation_coverage_rate", 0) if citation_data else 0
+
+            # Display in grid
+            col1, col2, col3, col4 = st.columns(4)
+
+            with col1:
+                st.markdown(f"""
+                <div style='background: linear-gradient(135deg, {ANZ_SECONDARY_BLUE} 0%, {ANZ_ACCENT_BLUE} 100%);
+                            padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
+                            box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
+                    <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{total_interactions:,}</h3>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Total Interactions</p>
+                </div>
+                """, unsafe_allow_html=True)
+
+            with col2:
+                containment_color = ANZ_SUCCESS_GREEN if containment_rate >= 75 else ANZ_WARNING_ORANGE if containment_rate >= 60 else ANZ_ERROR_RED
+                st.markdown(f"""
+                <div style='background: linear-gradient(135deg, {containment_color} 0%, {ANZ_SUCCESS_GREEN} 100%);
+                            padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
+                            box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
+                    <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{containment_rate:.1f}%</h3>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Containment Rate</p>
+                </div>
+                """, unsafe_allow_html=True)
+
+            with col3:
+                if avg_confidence is not None:
+                    confidence_color = ANZ_SUCCESS_GREEN if avg_confidence >= 0.80 else ANZ_WARNING_ORANGE if avg_confidence >= 0.70 else ANZ_ERROR_RED
+                    st.markdown(f"""
+                    <div style='background: linear-gradient(135deg, {confidence_color} 0%, {ANZ_SUCCESS_GREEN} 100%);
+                                padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
+                                box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
+                        <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{avg_confidence:.1f}%</h3>
+                        <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Avg Confidence</p>
+                    </div>
+                    """, unsafe_allow_html=True)
+                else:
+                    st.markdown(f"""
+                    <div style='background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+                                padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
+                                box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
+                        <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>--</h3>
+                        <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Avg Confidence</p>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+            with col4:
+                citation_color = ANZ_SUCCESS_GREEN if citation_coverage >= 95 else ANZ_WARNING_ORANGE if citation_coverage >= 80 else ANZ_ERROR_RED
+                st.markdown(f"""
+                <div style='background: linear-gradient(135deg, {citation_color} 0%, {ANZ_SUCCESS_GREEN} 100%);
+                            padding: 1.5rem; border-radius: 12px; text-align: center; color: white; margin-bottom: 1rem;
+                            box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
+                    <h3 style='margin: 0; font-size: 2rem; font-weight: bold;'>{citation_coverage:.1f}%</h3>
+                    <p style='margin: 0.5rem 0 0 0; opacity: 0.9;'>Citation Coverage</p>
+                </div>
+                """, unsafe_allow_html=True)
+        else:
+            st.info("📊 Quick stats will appear once interaction data is available.")
+    except Exception as e:
+        logger.warning(f"Could not load quick stats: {e}")
+        st.info("📊 Quick stats will appear once the system has processed interactions.")
+
+    # Technical Glossary - Collapsible Section
+    with st.expander("📚 Technical Glossary - Understanding Key Metrics", expanded=False):
+        st.markdown(f"""
+        <div style='background: #f8f9fa; padding: 1rem; border-radius: 6px; margin-bottom: 1rem;'>
+            <h4 style='color: {ANZ_PRIMARY_BLUE}; margin: 0 0 0.5rem 0;'>Key Terms & Definitions</h4>
+            <div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;'>
+                <div>
+                    <strong style='color: {ANZ_SECONDARY_BLUE};'>Containment Rate</strong><br>
+                    <small>Percentage of user queries resolved without requiring human intervention. Higher is better (target: >75%).</small>
+                </div>
+                <div>
+                    <strong style='color: {ANZ_SECONDARY_BLUE};'>Escalation Rate</strong><br>
+                    <small>Percentage of queries that trigger human escalation due to low confidence, risk, or complexity.</small>
+                </div>
+                <div>
+                    <strong style='color: {ANZ_SECONDARY_BLUE};'>Intent Classification</strong><br>
+                    <small>Automatic categorization of user queries (e.g., "fee_inquiry", "account_balance") to route them appropriately.</small>
+                </div>
+                <div>
+                    <strong style='color: {ANZ_SECONDARY_BLUE};'>Confidence Score</strong><br>
+                    <small>AI system's certainty level (0-100%) about answer accuracy. Lower scores trigger escalation.</small>
+                </div>
+                <div>
+                    <strong style='color: {ANZ_SECONDARY_BLUE};'>Citation Coverage</strong><br>
+                    <small>Percentage of responses that include source citations. Ensures transparency and verifiability.</small>
+                </div>
+                <div>
+                    <strong style='color: {ANZ_SECONDARY_BLUE};'>Failed Retrieval Rate</strong><br>
+                    <small>Percentage of queries where the system couldn't find relevant knowledge base content.</small>
+                </div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    # Display metric sections organized by story (no filters - show all data)
     filters = {}
+
+    # System Performance & Usage
+    render_section_heading("⚡ System Performance & Usage", "system-performance")
     display_overall_metrics(filters)
     st.markdown("---")
     display_mode_breakdown(filters)
     st.markdown("---")
     display_time_based_trends(filters)
-    st.markdown("---")
+
+    # Business Impact & Resolution
+    render_section_heading("📈 Business Impact & Resolution", "business-impact")
     display_resolution_metrics(filters)
     st.markdown("---")
-    display_intent_frequency(filters)
-    st.markdown("---")
     display_escalation_analysis(filters)
+
+    # Technical Deep Dive
+    render_section_heading("🔧 Technical Deep Dive", "technical-deep-dive")
+    display_intent_frequency(filters)
     st.markdown("---")
     display_confidence_metrics(filters)
     st.markdown("---")
     display_performance_metrics(filters)
-    st.markdown("---")
+
+    # Quality & Compliance
+    render_section_heading("🛡️ Quality & Compliance", "quality-compliance")
     display_intent_risk_value_matrix(filters)
     st.markdown("---")
     display_citation_coverage(filters)
@@ -350,7 +544,7 @@ def get_escalations_data(filters: Dict[str, Any]) -> pd.DataFrame:
 
 def display_time_based_trends(filters: Dict[str, Any]):
     """Display time-based trends (usage, escalations, containment) as required by PRD."""
-    st.header("📅 Time-Based Trends")
+    render_section_heading("📅 Time-Based Trends", "time-trends")
 
     with st.spinner("Loading trend data..."):
         interactions_df = get_interactions_data(filters)
@@ -473,7 +667,7 @@ def display_time_based_trends(filters: Dict[str, Any]):
 
 def display_overall_metrics(filters: Dict[str, Any]):
     """Display overall usage metrics."""
-    st.header("📈 Overall Usage Metrics")
+    render_section_heading("📈 Overall Usage Metrics", "overall-usage")
 
     with st.spinner("Loading usage metrics..."):
         df = get_interactions_data(filters)
@@ -517,7 +711,7 @@ def display_overall_metrics(filters: Dict[str, Any]):
 
 def display_mode_breakdown(filters: Dict[str, Any]):
     """Display mode breakdown metrics."""
-    st.header("👥 Mode Breakdown")
+    render_section_heading("👥 Mode Breakdown", "mode-breakdown")
     
     df = get_interactions_data(filters)
     
@@ -565,7 +759,7 @@ def display_mode_breakdown(filters: Dict[str, Any]):
 
 def display_resolution_metrics(filters: Dict[str, Any]):
     """Display resolution metrics (containment/escalation rates)."""
-    st.header("✅ Resolution Metrics")
+    render_section_heading("✅ Resolution Metrics", "resolution-metrics")
     
     df = get_interactions_data(filters)
     
@@ -584,26 +778,37 @@ def display_resolution_metrics(filters: Dict[str, Any]):
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        st.metric("Total Interactions", f"{total:,}")
-    
+        st.metric(
+            "Total Interactions",
+            f"{total:,}",
+            help="Total number of user queries processed by the system"
+        )
+
     with col2:
         st.metric(
             "Resolved",
             f"{resolved:,}",
             delta=f"{containment_rate:.1f}%",
-            delta_color="normal"
+            delta_color="normal",
+            help="Queries answered successfully without human intervention"
         )
-    
+
     with col3:
         st.metric(
             "Escalated",
             f"{escalated:,}",
             delta=f"{escalation_rate:.1f}%",
-            delta_color="inverse"
+            delta_color="inverse",
+            help="Queries requiring human assistance due to risk, complexity, or low confidence"
         )
-    
+
     with col4:
-        st.metric("Containment Rate", f"{containment_rate:.1f}%")
+        containment_status = "🟢 Good" if containment_rate >= 75 else "🟡 Needs Attention" if containment_rate >= 60 else "🔴 Poor"
+        st.metric(
+            "Containment Rate",
+            f"{containment_rate:.1f}%",
+            help=f"Percentage of queries resolved without escalation. Target: >75% | Current: {containment_status}"
+        )
     
     # Bar chart with ANZ colors
     fig = px.bar(
@@ -623,7 +828,7 @@ def display_resolution_metrics(filters: Dict[str, Any]):
 
 def display_intent_frequency(filters: Dict[str, Any]):
     """Display intent frequency distribution."""
-    st.header("🎯 Intent Frequency")
+    render_section_heading("🎯 Intent Frequency", "intent-frequency")
 
     with st.spinner("Loading intent data..."):
         df = get_interactions_data(filters)
@@ -702,7 +907,7 @@ def display_intent_frequency(filters: Dict[str, Any]):
 
 def display_escalation_analysis(filters: Dict[str, Any]):
     """Display escalation analysis."""
-    st.header("⚠️ Escalation Analysis")
+    render_section_heading("⚠️ Escalation Analysis", "escalation-analysis")
     
     escalations_df = get_escalations_data(filters)
     interactions_df = get_interactions_data(filters)
@@ -781,7 +986,7 @@ def display_escalation_analysis(filters: Dict[str, Any]):
 
 def display_confidence_metrics(filters: Dict[str, Any]):
     """Display confidence metrics."""
-    st.header("📊 Confidence Metrics")
+    render_section_heading("📊 Confidence Metrics", "confidence-metrics")
 
     with st.spinner("Loading confidence data..."):
         df = get_interactions_data(filters)
@@ -802,7 +1007,12 @@ def display_confidence_metrics(filters: Dict[str, Any]):
     with col1:
         # Average confidence
         avg_confidence = confidence_df["confidence_score"].mean()
-        st.metric("Average Confidence", f"{avg_confidence:.2%}")
+        confidence_status = "🟢 Good" if avg_confidence >= 0.80 else "🟡 Moderate" if avg_confidence >= 0.70 else "🔴 Low"
+        st.metric(
+            "Average Confidence",
+            f"{avg_confidence:.2%}",
+            help=f"Overall system certainty (0-100%). Target: >80% | Current: {confidence_status}"
+        )
         
         # Confidence by intent
         if "intent_name" in confidence_df.columns:
@@ -847,7 +1057,7 @@ def display_confidence_metrics(filters: Dict[str, Any]):
 
 def display_performance_metrics(filters: Dict[str, Any]):
     """Display performance metrics."""
-    st.header("⚡ Performance Metrics")
+    render_section_heading("⚡ Performance Metrics", "performance-metrics")
 
     with st.spinner("Loading performance data..."):
         df = get_interactions_data(filters)
@@ -1082,7 +1292,7 @@ def display_performance_metrics(filters: Dict[str, Any]):
 
 def display_intent_risk_value_matrix(filters: Dict[str, Any]):
     """Display Intent Risk × Value Matrix bubble chart."""
-    st.header("🎯 Intent Risk × Value Matrix")
+    render_section_heading("🎯 Intent Risk × Value Matrix", "intent-risk-value")
 
     try:
         with st.spinner("Loading risk-value matrix..."):
@@ -1248,7 +1458,7 @@ def display_intent_risk_value_matrix(filters: Dict[str, Any]):
 
 def display_citation_coverage(filters: Dict[str, Any]):
     """Display Citation Coverage & Source Health metrics."""
-    st.header("📚 Citation Coverage & Source Health")
+    render_section_heading("📚 Citation Coverage & Source Health", "citation-coverage")
 
     try:
         with st.spinner("Loading citation data..."):
@@ -1263,20 +1473,20 @@ def display_citation_coverage(filters: Dict[str, Any]):
 
         with col1:
             coverage_rate = citation_data.get("citation_coverage_rate", 0)
-            color = ANZ_SUCCESS_GREEN if coverage_rate >= 95 else ANZ_WARNING_ORANGE if coverage_rate >= 80 else ANZ_ERROR_RED
+            coverage_status = "🟢 Excellent" if coverage_rate >= 95 else "🟡 Good" if coverage_rate >= 80 else "🔴 Needs Attention"
             st.metric(
                 "Citation Coverage",
                 f"{coverage_rate:.1f}%",
-                help="Percentage of responses with citations (target: ~100%)"
+                help=f"Percentage of responses with source citations. Target: >95% | Current: {coverage_status}"
             )
 
         with col2:
             failed_rate = citation_data.get("failed_retrieval_rate", 0)
-            color = ANZ_SUCCESS_GREEN if failed_rate <= 5 else ANZ_WARNING_ORANGE if failed_rate <= 15 else ANZ_ERROR_RED
+            failed_status = "🟢 Good" if failed_rate <= 5 else "🟡 Monitor" if failed_rate <= 15 else "🔴 High"
             st.metric(
                 "Failed Retrieval Rate",
                 f"{failed_rate:.1f}%",
-                help="Percentage of responses with no retrieved chunks"
+                help=f"Percentage where system couldn't find relevant knowledge. Target: <5% | Current: {failed_status}"
             )
 
         with col3:

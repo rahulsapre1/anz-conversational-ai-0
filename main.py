@@ -8,7 +8,7 @@ import streamlit as st
 import sys
 import traceback
 from config import Config
-from ui.auth import check_authentication
+from ui.auth import check_authentication, show_welcome_message
 from ui.chat_interface import render_chat_interface
 from ui.dashboard import render_dashboard
 from ui.tested_questions import render_tested_questions
@@ -124,7 +124,10 @@ def main():
         st.stop()
     
     logger.info("app_started")
-    
+
+    # Show welcome message once per session
+    show_welcome_message()
+
     # Sidebar navigation
     with st.sidebar:
         # Navigation
@@ -152,19 +155,6 @@ def main():
                 help="Choose Customer mode for general inquiries or Banker mode for financial advice"
             )
             st.session_state.assistant_mode = mode.lower()
-            st.markdown("---")
-        
-        # Settings
-        st.markdown("### ⚙️ Settings")
-        with st.expander("Configuration", expanded=False):
-            st.write(f"**Model:** {Config.OPENAI_MODEL}")
-            st.write(f"**Confidence Threshold:** {Config.CONFIDENCE_THRESHOLD}")
-            st.write(f"**API Timeout:** {Config.API_TIMEOUT}s")
-            st.write(f"**Log Level:** {Config.LOG_LEVEL}")
-            if Config.OPENAI_VECTOR_STORE_ID_CUSTOMER:
-                st.write(f"**Customer Vector Store:** Configured")
-            if Config.OPENAI_VECTOR_STORE_ID_BANKER:
-                st.write(f"**Banker Vector Store:** Configured")
     
     # Route to selected page with error handling
     try:

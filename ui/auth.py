@@ -255,6 +255,8 @@ def check_authentication():
             if st.button("Login", type="primary", use_container_width=True):
                 if password == Config.SESSION_PASSWORD:
                     st.session_state.authenticated = True
+                    # Reset welcome flag so the welcome card shows after login
+                    st.session_state.welcome_shown = False
                     st.rerun()
                 else:
                     st.error("❌ Incorrect password. Please try again.")
@@ -269,8 +271,76 @@ def check_authentication():
     return True
 
 
+def show_welcome_message():
+    """
+    Show a one-time welcome card immediately after password login.
+    
+    Renders a dismissible card and blocks navigation until the user clicks OK,
+    then routes them to the chat page.
+    """
+    if "welcome_shown" not in st.session_state:
+        st.session_state.welcome_shown = False
+    
+    if st.session_state.welcome_shown:
+        return
+    
+    # Centered welcome card styled to match provided design
+    st.markdown(f"""
+    <div style="
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    ">
+        <div style="
+            background: #f5f7fb;
+            border: 3px solid {ANZ_PRIMARY_BLUE};
+            border-radius: 16px;
+            padding: 2rem 2.25rem;
+            max-width: 760px;
+            width: 100%;
+            box-shadow: 0 12px 28px rgba(0, 61, 130, 0.15);
+            color: #1f2d3d;
+        ">
+            <h2 style="margin-top: 0; color: {ANZ_PRIMARY_BLUE}; font-size: 1.9rem; display: flex; align-items: center; gap: 0.6rem;">
+                🎯 <span>Welcome to ContactIQ</span>
+            </h2>
+            <p style="font-size: 1.05rem; margin: 0 0 1rem 0;">Here's a quick tour of what you can do:</p>
+            <ul style="list-style: none; padding-left: 0; margin: 0; font-size: 1.02rem; line-height: 1.6;">
+                <li style="margin-bottom: 0.9rem;">
+                    <span style="font-size: 1.2rem; margin-right: 0.5rem;">💬</span>
+                    <strong>Chat assistant:</strong> Ask banking questions in Customer or Banker mode and receive cited compliant answers.
+                </li>
+                <li style="margin-bottom: 0.9rem;">
+                    <span style="font-size: 1.2rem; margin-right: 0.5rem;">📊</span>
+                    <strong>Dashboard:</strong> Track analytics such as containment, escalation, confidence, and citation health in one view for product improvement.
+                </li>
+                <li style="margin-bottom: 0.4rem;">
+                    <span style="font-size: 1.2rem; margin-right: 0.5rem;">📝</span>
+                    <strong>Tested Questions:</strong> Browse curated examples that work well with the assistant.
+                </li>
+            </ul>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Centered acknowledgement button
+    st.markdown("<div style='height: 3rem;'></div>", unsafe_allow_html=True)
+    btn_cols = st.columns([1, 1, 1])
+    with btn_cols[1]:
+        if st.button("OK, go to chat", type="primary", use_container_width=True):
+            st.session_state.welcome_shown = True
+            st.session_state.page_selector = "💬 Chat"
+            st.rerun()
+    
+    # Stop rendering the rest of the app until the welcome is dismissed
+    st.stop()
+
+
 def logout():
     """Clear authentication state and rerun app."""
     if "authenticated" in st.session_state:
         del st.session_state.authenticated
+        # Also reset welcome message for next login
+        if "welcome_shown" in st.session_state:
+            del st.session_state.welcome_shown
     st.rerun()
