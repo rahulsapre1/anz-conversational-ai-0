@@ -1,321 +1,218 @@
-# ContactIQ
+# ContactIQ 💬
 
 **Conversational AI for Banking (MVP)**
 
-## Introduction
+A safe, transparent AI system for handling banking queries with policy-backed responses, confidence scoring, and automatic escalation.
 
-ContactIQ is a conversational AI system designed to explore how banking organisations can responsibly use AI to handle common queries and support frontline staff while maintaining safety, transparency, and measurable outcomes.
+---
 
-## Features
+## 🎯 Quick Start
 
-- **Dual Assistant Modes**: Customer and Banker assistants with distinct behaviors
-- **Intent-First Pipeline**: Classify → Route → Retrieve → Generate → Confidence Check → Escalate
-- **Retrieval-Augmented Generation**: Uses OpenAI Vector Store for knowledge retrieval
-- **Transparent Responses**: Citations, confidence scores, and escalation reasons
-- **Live KPI Dashboard**: Real-time metrics and analytics
-- **Authentication**: Simple password protection
-- **Async Architecture**: Concurrent operations with timeout handling
-- **Structured Logging**: Enhanced observability with ERROR, WARN, INFO levels
+```bash
+git clone https://github.com/rahulsapre1/anz-conversational-ai-0.git
+cd anz-conversational-ai-0
+python3.12 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env  # Fill in your keys
+streamlit run main.py
+```
 
-## Prerequisites
+**Deploy:** See [`QUICK_DEPLOY.md`](QUICK_DEPLOY.md) for Streamlit Cloud deployment (5 minutes)
 
-- Python 3.12 or 3.13
-- OpenAI API account with access to:
-  - Chat Completions API
-  - Vector Store API
-  - Files API
-- Supabase account (free tier is fine)
-- Virtual environment (venv)
+---
 
-## Installation
+## 🏗️ Architecture
 
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd anz-conversational-ai-0
-   ```
+```mermaid
+graph TB
+    A[Streamlit Frontend] --> B[Authentication]
+    B --> C[Chat Interface]
+    B --> D[Dashboard]
+    B --> E[Tested Questions]
+    C --> F[AI Pipeline]
+    F --> G[(Supabase DB)]
+    F --> H[OpenAI API]
+    H --> I[Vector Store]
+```
 
-2. **Create virtual environment**:
-   ```bash
-   python3.12 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+---
 
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🔄 Pipeline Flow
 
-4. **Set up environment variables**:
-   Create a `.env` file in the root directory:
-   ```bash
-   # OpenAI
-   OPENAI_API_KEY=sk-...
-   OPENAI_MODEL=gpt-4o-mini
-   OPENAI_VECTOR_STORE_ID_CUSTOMER=vs_...
-   OPENAI_VECTOR_STORE_ID_BANKER=vs_...
-   
-   # Supabase
-   SUPABASE_URL=https://xxx.supabase.co
-   SUPABASE_KEY=eyJ...
-   
-   # Application
-   CONFIDENCE_THRESHOLD=0.68
-   LOG_LEVEL=INFO
-   SESSION_PASSWORD=your-password
-   API_TIMEOUT=30
-   ```
+```mermaid
+flowchart LR
+    A[User Query] --> B[1. Intent<br/>Classification]
+    B --> C[2. Router]
+    C -->|Automatable| D[3. Retrieval<br/>Vector Store]
+    C -->|Human Only| H[Escalate]
+    D --> E[4. Response<br/>Generation]
+    E --> F[5. Confidence<br/>Scoring]
+    F -->|≥0.68| G[Return Response]
+    F -->|<0.68| H[6. Escalation]
+    G --> I[7. Logging]
+    H --> I
+```
 
-5. **Set up Supabase**:
-   - Create Supabase project
-   - Run migrations: `python database/run_migrations.py`
-   - Or manually run `database/schema.sql` in Supabase SQL Editor
+---
 
-6. **Set up Vector Stores**:
-   - Run knowledge ingestion: `python knowledge/ingestor.py`
-   - Upload to Vector Stores: `python knowledge/vector_store_setup.py`
-   - Or use the setup script: `python setup_vector_stores.py`
-   - Add Vector Store IDs to `.env`
+## 📊 Features
 
-## Configuration
+```mermaid
+mindmap
+  root((ContactIQ))
+    Dual Modes
+      Customer Assistant
+      Banker Assistant
+    Safety
+      Confidence Scoring
+      Auto Escalation
+      Policy-Backed
+    Transparency
+      Citations
+      Confidence Scores
+      Escalation Reasons
+    Analytics
+      KPI Dashboard
+      Time-Based Trends
+      Tested Questions
+```
 
-Required environment variables (see `.env` example above):
+---
 
-- `OPENAI_API_KEY`: Your OpenAI API key
-- `OPENAI_MODEL`: Model to use (default: `gpt-4o-mini`)
-- `OPENAI_VECTOR_STORE_ID_CUSTOMER`: Customer Vector Store ID
-- `OPENAI_VECTOR_STORE_ID_BANKER`: Banker Vector Store ID
-- `SUPABASE_URL`: Your Supabase project URL
-- `SUPABASE_KEY`: Your Supabase API key
-- `CONFIDENCE_THRESHOLD`: Confidence threshold for escalation (default: `0.68`)
-- `LOG_LEVEL`: Logging level (default: `INFO`)
-- `SESSION_PASSWORD`: Password for authentication
-- `API_TIMEOUT`: API timeout in seconds (default: `30`)
+## 🛠️ Tech Stack
 
-## Usage
+| Component | Technology |
+|-----------|-----------|
+| **Frontend** | Streamlit |
+| **Backend** | Python 3.12+ (async/await) |
+| **AI/ML** | OpenAI gpt-4o-mini, Vector Store |
+| **Database** | Supabase PostgreSQL |
+| **Logging** | structlog |
 
-1. **Start the application**:
-   ```bash
-   streamlit run main.py
-   ```
+---
 
-2. **Access the application**:
-   - Open browser to `http://localhost:8501`
-   - Enter password (configured in `.env`)
-   - Select mode (Customer or Banker)
-   - Start chatting!
+## 📁 Project Structure
 
-## Testing
+```
+anz-conversational-ai-0/
+├── main.py              # Entry point
+├── config.py            # Configuration
+├── services/            # Pipeline services (async)
+│   ├── intent_classifier.py
+│   ├── router.py
+│   ├── retrieval_service.py
+│   ├── response_generator.py
+│   ├── confidence_scorer.py
+│   ├── escalation_handler.py
+│   └── logger.py
+├── ui/                  # Streamlit UI
+│   ├── auth.py
+│   ├── chat_interface.py
+│   ├── dashboard.py
+│   └── tested_questions.py
+├── database/            # Supabase schema & client
+├── knowledge/           # Vector Store setup
+└── tests/               # Test suite (56 tests)
+```
 
-Comprehensive test suite with **56 tests** covering all services and integration scenarios. Test suite includes unit tests, integration tests, authentication tests, timeout handling tests, and structured logging tests.
+---
 
-### Test Coverage
+## ⚙️ Configuration
 
-- **Unit Tests**: All services (intent_classifier, router, retrieval, response_generator, confidence_scorer, escalation_handler, logger)
-- **Integration Tests**: Full pipeline execution scenarios
-- **Authentication Tests**: Password authentication and session management
-- **Timeout Handling Tests**: API timeout scenarios across all services
-- **Structured Logging Tests**: Logging functionality and structured output
+Required environment variables (`.env`):
 
-### Running Tests
+```bash
+OPENAI_API_KEY=sk-...
+OPENAI_VECTOR_STORE_ID_CUSTOMER=vs_...
+OPENAI_VECTOR_STORE_ID_BANKER=vs_...
+SUPABASE_URL=https://xxx.supabase.co
+SUPABASE_KEY=eyJ...
+SESSION_PASSWORD=your-password
+```
+
+See [`SETUP_SUPABASE.md`](SETUP_SUPABASE.md) for database setup.
+
+---
+
+## 🧪 Testing
 
 ```bash
 # Run all tests
 pytest tests/
 
-# Run specific test file
-pytest tests/test_intent_classifier.py
-
-# Run with coverage report
-pytest --cov=services --cov=utils --cov=ui --cov-report=html tests/
-
-# Run with verbose output
-pytest -v tests/
-
-# Run with detailed output (show print statements)
-pytest -s tests/
-
-# Run only async tests
-pytest -m asyncio tests/
+# With coverage
+pytest --cov=services --cov=ui --cov-report=html tests/
 ```
 
-### Test Files
+**Test Coverage:** 56 tests covering all services, integration, auth, timeouts, and logging.
 
-- `test_intent_classifier.py` - Intent classification service tests
-- `test_router.py` - Routing logic tests
-- `test_retrieval_service.py` - Vector store retrieval tests
-- `test_response_generator.py` - Response generation tests
-- `test_confidence_scorer.py` - Confidence scoring tests
-- `test_escalation_handler.py` - Escalation handling tests
-- `test_logger.py` - Logging service tests
-- `test_auth.py` - Authentication tests
-- `test_pipeline_integration.py` - Full pipeline integration tests
-- `test_timeout_handling.py` - Timeout handling tests
-- `test_structured_logging.py` - Structured logging tests
-- `conftest.py` - Pytest configuration and fixtures
+---
 
-## Project Structure
+## 🚀 Deployment
 
-```
-anz-conversational-ai-0/
-├── main.py                      # Streamlit app entry point
-├── config.py                    # Configuration management
-├── requirements.txt             # Python dependencies
-├── DEPLOYMENT.md                # Deployment guide
-├── IMPLEMENTATION_GUIDE.md      # Step-by-step implementation guide
-│
-├── services/                    # Pipeline services (async)
-│   ├── __init__.py
-│   ├── intent_classifier.py    # Step 1: Intent classification
-│   ├── router.py               # Step 2: Routing logic
-│   ├── retrieval_service.py    # Step 3: Vector store retrieval
-│   ├── response_generator.py   # Step 4: Response generation
-│   ├── confidence_scorer.py    # Step 5: Confidence scoring
-│   ├── escalation_handler.py   # Step 6: Escalation handling
-│   └── logger.py               # Step 7: Interaction logging
-│
-├── knowledge/                   # Knowledge base management
-│   ├── __init__.py
-│   ├── ingestor.py             # Web scraping & ingestion
-│   ├── vector_store_setup.py   # Vector store upload
-│   ├── synthetic_generator.py  # Synthetic document generation
-│   ├── cleaner.py              # Content cleaning utilities
-│   └── hierarchical_extractor.py
-│
-├── database/                    # Database schema and client
-│   ├── __init__.py
-│   ├── schema.sql              # Supabase schema
-│   ├── supabase_client.py      # Supabase client wrapper
-│   ├── run_migrations.py       # Migration runner
-│   └── migrations/             # SQL migration scripts
-│
-├── ui/                          # UI components (Streamlit)
-│   ├── __init__.py
-│   ├── auth.py                 # Authentication module
-│   ├── chat_interface.py       # Chat UI
-│   └── dashboard.py            # KPI dashboard
-│
-├── utils/                       # Utility modules
-│   ├── __init__.py
-│   ├── openai_client.py        # OpenAI client wrapper
-│   ├── logger.py               # Structured logging setup
-│   ├── constants.py            # Intent taxonomy, constants
-│   └── validators.py           # Data validation utilities
-│
-└── tests/                       # Comprehensive test suite
-    ├── __init__.py
-    ├── conftest.py             # Pytest fixtures and configuration
-    ├── test_intent_classifier.py
-    ├── test_router.py
-    ├── test_retrieval_service.py
-    ├── test_response_generator.py
-    ├── test_confidence_scorer.py
-    ├── test_escalation_handler.py
-    ├── test_logger.py
-    ├── test_auth.py
-    ├── test_pipeline_integration.py
-    ├── test_timeout_handling.py
-    └── test_structured_logging.py
+### Streamlit Cloud (Recommended - Free)
+1. Push code to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Deploy and add secrets
+4. **Done!** ⚡
+
+See [`QUICK_DEPLOY.md`](QUICK_DEPLOY.md) for step-by-step guide.
+
+### Render / Railway / Fly.io
+- Use provided `Dockerfile`
+- See [`DEPLOYMENT.md`](DEPLOYMENT.md) for details
+
+---
+
+## 📈 Safety & Escalation
+
+The system escalates when:
+
+```mermaid
+graph LR
+    A[Query] --> B{Intent Type?}
+    B -->|Human Only| E[Escalate]
+    B -->|Automatable| C{Confidence?}
+    C -->|≥0.68| D[Respond]
+    C -->|<0.68| E[Escalate]
+    B -->|Security/Fraud| E
+    B -->|Financial Advice| E
+    B -->|Account-Specific| E
 ```
 
-## Architecture
+**Escalation Triggers:**
+- Intent category: `HumanOnly`
+- Confidence score < `0.68`
+- Security/fraud requests
+- Account-specific queries
+- Financial advice requests
 
-- **Frontend**: Streamlit
-- **Backend**: Python (async/await)
-- **AI/ML**: OpenAI gpt-4o-mini, Vector Store, Chat Completions API
-- **Database**: Supabase PostgreSQL
-- **Logging**: Structured logging with structlog
+---
 
-## Pipeline Flow
+## 📚 Documentation
 
-1. **Intent Classification**: Classify user query into intent
-2. **Router**: Route based on intent category
-3. **Retrieval**: Retrieve relevant chunks from Vector Store
-4. **Response Generation**: Generate response with citations
-5. **Confidence Scoring**: Score response confidence
-6. **Escalation Handler**: Handle escalations if needed
-7. **Logging**: Log all interactions
+- [`QUICK_DEPLOY.md`](QUICK_DEPLOY.md) - Fast deployment guide
+- [`DEPLOYMENT.md`](DEPLOYMENT.md) - Complete deployment guide
+- [`IMPLEMENTATION_GUIDE.md`](IMPLEMENTATION_GUIDE.md) - Implementation details
+- [`PRD.md`](PRD.md) - Product Requirements Document
+- [`guides/MASTER_INDEX.md`](guides/MASTER_INDEX.md) - Task guides index
 
-## Safety & Escalation
+---
 
-The system escalates to human support when:
-- Intent category is HumanOnly
-- Confidence score < 0.68
-- Insufficient or conflicting evidence
-- Account-specific or security/fraud requests
-- Financial advice framing
-- Legal/hardship signals
-- Emotional distress
-- Explicit human request
+## ⚠️ Safety Notice
 
-## Metrics & Dashboard
+**ContactIQ does not provide financial advice and always escalates when uncertainty exists.**
 
-The KPI dashboard displays:
-- Overall usage metrics
-- Mode breakdown
-- Resolution metrics (containment/escalation rates)
-- Intent frequency distribution
-- Escalation analysis
-- Confidence metrics
-- Performance metrics
+---
 
-## Development
-
-### Documentation
-
-- **IMPLEMENTATION_GUIDE.md**: Step-by-step implementation instructions for all tasks
-- **guides/MASTER_INDEX.md**: Master index of all task guides
-- **guides/TASK_XX_*.md**: Detailed guides for each task (01-19)
-- **DEPLOYMENT.md**: Complete deployment guide with multiple platform options
-- **PRD.md**: Product Requirements Document
-- **DETAILED_PLAN.md**: Detailed technical implementation plan
-
-### Key Implementation Details
-
-- All services use **async/await** for non-blocking operations
-- **30-second timeout** for all API calls (configurable via `API_TIMEOUT`)
-- **Structured logging** with ERROR, WARN, INFO levels using structlog
-- **Retry logic** with exponential backoff for failed API calls
-- **Non-blocking logging** to Supabase with retry queue
-
-## Deployment
-
-See `DEPLOYMENT.md` for deployment instructions.
-
-## Known Limitations (MVP)
-
-This is an MVP version with the following limitations:
-
-- **No voice interactions**: Text-only interface
-- **No CRM integration**: Standalone system
-- **No personalized advice**: General information only
-- **Simple authentication**: Password-based (not production-ready OAuth)
-- **No proactive messaging**: Reactive responses only
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Configuration errors**: Verify all environment variables are set correctly in `.env`
-2. **Vector Store not found**: Ensure Vector Stores are created and IDs are correct
-3. **Database connection errors**: Check Supabase URL and API key
-4. **API timeout errors**: Increase `API_TIMEOUT` or check network connectivity
-5. **Import errors**: Ensure virtual environment is activated and dependencies installed
-
-### Getting Help
-
-- Check `DEPLOYMENT.md` for deployment issues
-- Review `IMPLEMENTATION_GUIDE.md` for implementation questions
-- Check test files in `tests/` directory for usage examples
-
-## License
+## 📝 License
 
 [Your License Here]
 
-## Support
+---
 
-For issues or questions, please [contact method].
+## 🔗 Links
 
-## Safety Notice
-
-**ContactIQ does not provide financial advice and should always escalate when uncertainty exists.**
+- **Repository:** https://github.com/rahulsapre1/anz-conversational-ai-0
+- **Deploy:** https://share.streamlit.io (Streamlit Cloud)
