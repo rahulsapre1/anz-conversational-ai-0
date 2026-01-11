@@ -1,11 +1,10 @@
 """
 Authentication module for ContactIQ.
 
-Implements simple password-based authentication at session start.
+Implements simple entry button at session start.
 """
 import streamlit as st
 import pandas as pd
-from config import Config
 from ui.tested_questions import get_tested_questions_data
 
 # ANZ Brand Colors
@@ -220,50 +219,91 @@ def _render_one_pager_case_study():
 
 def check_authentication():
     """
-    Check if user is authenticated, show password prompt if not.
+    Check if user is authenticated, show entry button if not.
     
     Returns:
-        bool: True if authenticated, False otherwise (and shows prompt)
+        bool: True if authenticated, False otherwise (and shows entry prompt)
     """
     if "authenticated" not in st.session_state:
         st.session_state.authenticated = False
     
     if not st.session_state.authenticated:
-        # Header with title on left, login on right
-        col_title, col_login = st.columns([2, 1])
-        
-        with col_title:
-            st.markdown(f"""
+        # Centered header with increased bottom margin
+        st.markdown(f"""
+        <div style='text-align: center; margin-bottom: 5rem;'>
             <div style='background: linear-gradient(135deg, {ANZ_PRIMARY_BLUE} 0%, {ANZ_SECONDARY_BLUE} 100%); 
-                        padding: 1.5rem; border-radius: 10px; margin-bottom: 1rem;'>
-                <h1 style='color: white; margin: 0; font-size: 2rem;'>💬 ContactIQ</h1>
-                <p style='color: rgba(255,255,255,0.9); margin: 0.5rem 0 0 0; font-size: 1.1rem;'>
+                        padding: 2rem; border-radius: 10px; display: inline-block; width: 100%; max-width: 600px;'>
+                <h1 style='color: white; margin: 0; font-size: 2.5rem;'>💬 ContactIQ</h1>
+                <p style='color: rgba(255,255,255,0.9); margin: 0.5rem 0 0 0; font-size: 1.2rem;'>
                     ANZ Conversational AI
                 </p>
             </div>
-            """, unsafe_allow_html=True)
+        </div>
+        """, unsafe_allow_html=True)
         
-        with col_login:
-            st.markdown("### 🔐 Login")
-            password = st.text_input(
-                "Password:",
-                type="password",
-                key="password_input",
-                label_visibility="visible"
-            )
-            
-            if st.button("Login", type="primary", use_container_width=True):
-                if password == Config.SESSION_PASSWORD:
-                    st.session_state.authenticated = True
-                    # Reset welcome flag so the welcome card shows after login
-                    st.session_state.welcome_shown = False
-                    st.rerun()
-                else:
-                    st.error("❌ Incorrect password. Please try again.")
+        # Horizontal banner-style entry element
+        st.markdown("<div style='height: 2rem;'></div>", unsafe_allow_html=True)
+        
+        # Style the banner button - MUST be before the button is rendered
+        st.markdown("""
+        <style>
+            /* Style the Enter ContactIQ banner - target all possible button variations */
+            button[kind="primary"],
+            button[data-testid="baseButton-secondary"],
+            div[data-testid="stButton"] > button,
+            div[data-testid="stButton"] button[kind="primary"],
+            button.stButton,
+            button.stButton[kind="primary"] {
+                width: 100% !important;
+                height: 5rem !important;
+                font-size: 1.8rem !important;
+                font-weight: 900 !important;
+                font-weight: bold !important;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+                padding: 1.5rem 2rem !important;
+                border-radius: 12px !important;
+                background: linear-gradient(135deg, #0052A5 0%, #00A0E3 100%) !important;
+                border: none !important;
+                box-shadow: 0 4px 15px rgba(0, 82, 165, 0.3) !important;
+                transition: all 0.3s ease !important;
+                cursor: pointer !important;
+                text-align: center !important;
+            }
+            /* Target button text content */
+            button[kind="primary"] *,
+            button[data-testid="baseButton-secondary"] *,
+            div[data-testid="stButton"] button * {
+                font-weight: 900 !important;
+                font-weight: bold !important;
+                font-size: 1.8rem !important;
+            }
+            button[kind="primary"]:hover,
+            button[data-testid="baseButton-secondary"]:hover,
+            div[data-testid="stButton"] > button:hover,
+            button.stButton:hover {
+                transform: translateY(-2px) !important;
+                box-shadow: 0 6px 20px rgba(0, 82, 165, 0.4) !important;
+            }
+        </style>
+        """, unsafe_allow_html=True)
+        
+        # Create a clickable banner using button but styled as a banner
+        banner_clicked = st.button(
+            "Enter ContactIQ  (click/tap here)",
+            type="primary",
+            use_container_width=True,
+            key="enter_button"
+        )
+        
+        if banner_clicked:
+            st.session_state.authenticated = True
+            # Reset welcome flag so the welcome card shows after entry
+            st.session_state.welcome_shown = False
+            st.rerun()
         
         st.markdown("---")
         
-        # One-pager case study (shown on the login screen)
+        # One-pager case study (shown on the entry screen)
         _render_one_pager_case_study()
         
         st.stop()
@@ -273,7 +313,7 @@ def check_authentication():
 
 def show_welcome_message():
     """
-    Show a one-time welcome card immediately after password login.
+    Show a one-time welcome card immediately after entering ContactIQ.
     
     Renders a dismissible card and blocks navigation until the user clicks OK,
     then routes them to the chat page.
